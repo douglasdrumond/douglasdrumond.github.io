@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "Café Linear"
 description: > # this means to ignore newlines until "email:"
-   Transformando café em software e matemática
+   F: Café ↦ Software
 
 email: douglas@cafelinear.com
 #blog logo
