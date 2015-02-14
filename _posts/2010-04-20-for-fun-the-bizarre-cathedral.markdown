@@ -7,6 +7,5 @@ tags:
 ---
 
 ![If software were
-coffee]({{site.url}}/assets/article_images/2010-04-20-for-fun-the-bizarre-cathedral/coffee.jpg)
-
+coffee]({{ "/assets/article_images/2010-04-20-for-fun-the-bizarre-cathedral/coffee.jpg" | prepend: site.url }} )
 _Thanks, Pah._
