@@ -24,7 +24,7 @@ baseurl: ""
 
 # social icons and sharing options
 social:
-  - icon:	twitter
+  - icon:	cltwitter
     url:	https://twitter.com/douglasdrumond
     desc: Follow me on twitter
     share_url: http://twitter.com/share
@@ -38,14 +38,14 @@ social:
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
-  - icon:	github
+  - icon:	clgithub
     url:	https://github.com/douglasdrumond
     desc:	Fork me on github
     share_url:
     share_title:
     share_link:
 
-  - icon:	google-plus
+  - icon:	clgoogle-plus
     url:	https://google.com/+DouglasDrumond
     desc:	Add me on google+
     share_url:
