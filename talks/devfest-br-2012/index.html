@@ -1,0 +1,397 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevFest Brasil 2012</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/devfest_logo.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <aside class="note">
+      <section>
+        <p><b>Agradecimentos!</b></p>
+      </section>
+    </aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>About me</h2>
+    </hgroup>
+    <article>
+      <ul class="build fade">
+        <li>Linux Technology Center - IBM</li>
+        <li>Instituto de Pesquisas Eldorado</li>
+        <li>Y-Max Consultoria em TI</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2 class="white"></h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/arquitetura.png" alt="Arquitetura" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2 class="white"></h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/arquitetura-framework.png" alt="Framework" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2 class="white"></h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/bp.png" alt="BP" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Agenda</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Primeiros passos</li>
+        <li>Pré-requisitos</li>
+        <li>Como obter o código</li>
+        <li>Compilando</li>
+        <li>Exemplo</li>
+        <li>Visão geral da árvore do Android</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2 class="white"></h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/bope-logo.png" alt="BOPE" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2 class="white"></h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/caveira-fofa-reduzida.png" alt="Caveira fofa" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Primeiros passos</h2>
+      <h3>Familiarizando</h3>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Use the Source, Luke</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/android-extension.png" alt="Android SDK Reference Search" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Use the Source, Luke</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/searching.png" alt="Searching with AD">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Use the Source, Luke</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/view-source-link.png" alt="View source link">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Use the Source, Luke</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/pm-source.png" alt="PackageManager source" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Enter the Matrix</h2>
+      <h3></h3>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>3 sites principais</h2>
+    </hgroup>
+    <article>
+      <ul class="build fade">
+        <li><a href="http://source.android.com">source.android.com</a></li>
+        <li><a href="http://b.android.com">b.android.com</a></li>
+        <li><a href="http://android-review.googlesource.com/">android-review.googlesource.com</a></li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Source</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/source.android.com.png" alt="source.android.com" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Bug tracker</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/android-bug-tracker.png" alt="Bug tracker" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Gerrit Code Review</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/gerrit.png" alt="Gerrit" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Gerrit Code Review</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/gerrit2.png" alt="Gerrit" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Gerrit Code Review</h2>
+    </hgroup>
+    <article class="centered">
+      <img src="images/gerrit3.png" alt="Gerrit" height="500">
+    </article>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide>
+    <aside class="note">
+      <section>
+        <ul>
+          <li>64 bits para Gingerbread ou mais novo</li>
+          <li>Java 5 até Froyo, 6 para Gingerbread em diante</li>
+          <li>Mac: sistema de arquivos case-sensitive</li>
+        </ul>
+      </section>
+    </aside>
+    <hgroup>
+      <h2>Pré-requisitos</h2>
+    </hgroup>
+    <article>
+      <ul class="build">
+        <li>Linux ou Mac</li>
+        <li>Python</li>
+        <li>Git</li>
+        <li>Java</li>
+        <li>Memória RAM</li>
+        <li>Muito espaço no HD</li>
+        <li>Paciência</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <aside class="note">
+      <section>
+        <pre>
+          repo sync
+
+          real    235m49.124s
+          user    19m39.553s
+          sys     12m4.377s
+        </pre>
+      </section>
+    </aside>
+    <hgroup>
+      <h2>Obtendo o código</h2>
+    </hgroup>
+    <article>
+      <ul class="build">
+        <li>
+          Baixar o utilitário repo
+          <ul>
+            <li>curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo &gt; ~/bin/repo</li>
+          </ul>
+        </li>
+        <li>repo init -u https://android.googlesource.com/platform/manifest [-b android-4.2.1_r1]</li>
+        <li>repo sync</li>
+        <li>café</li>
+      </ul>
+    </article>
+  </slide>
+
+
+  <slide class="segue dark nobackground">
+    <aside class="note">
+      <section>
+        repo init<br>
+        manifest.xml
+      </section>
+    </aside>
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Demo</h2>
+      <h3></h3>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <aside class="note">
+      <section>
+        <ul>
+          <li>full</li>
+          <li>full_maguro</li>
+          <li>full_panda</li>
+          <li>user</li>
+          <li>userdebug</li>
+          <li>eng</li>
+      </section>
+    </aside>
+    <hgroup>
+      <h2>Compilando</h2>
+    </hgroup>
+    <article>
+      <ul class="build">
+        <li>source build/envsetup.sh</li>
+        <li>lunch full-eng</li>
+        <li>make -j8</li>
+        <li>café</li>
+      </ul>
+    </article>
+  </slide>
+
+
+  <slide class="segue dark nobackground">
+    <aside class="note">
+      <section>
+        Mostrar no notebook como faria p/ incluir um app
+      </section>
+    </aside>
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Demo</h2>
+      <h3></h3>
+    </hgroup>
+  </slide>
+
+
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>&lt;Obrigado!&gt;</h2>
+      <p>douglas@drumond19.com</p>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+  <slide class="logoslide dark nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/google_developers_logo_white.png"></span>
+    </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36203188-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
