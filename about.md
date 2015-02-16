@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# About this blog
+## About this blog
 
 When I was a Math student, every day at 3pm I and my friends used to sit at the
 coffee room in Unicamp Math Institute (IMECC, in Portuguese it means Institute
@@ -33,7 +33,7 @@ So, time to blog again and here I’ll put all my thoughts related to programmin
 and app development, mostly Android, sometimes Mac (because of MacVim), and,
 probably rarely, Math.
 
-# About me
+## About me
 
 First, I love coffee.
 
