@@ -12,8 +12,8 @@ In this post I intend to spark this motivation through AI and sketch a method
 (and some variations) to solve optimization problems.
 
 It’s hard to define AI. We know what _artificial_ means, but what about
-_intelligence_ ? Russel and Norvig [[1]](#russel)<a name="back_russel"></a>
-presents us four approaches to AI: systems that think like humans, systems that
+_intelligence_? Russel and Norvig [[1]](#russel)<a name="back_russel"></a>
+present us four approaches to AI: systems that think like humans, systems that
 think rationally, systems that act like humans and systems that act rationally.
 Let’s focus on last one, systems that act rationally.  What that means? It
 means a rational agent acts so as to achieve the best outcome, i.e., find the
