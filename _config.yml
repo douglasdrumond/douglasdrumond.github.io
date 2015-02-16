@@ -11,7 +11,8 @@ email: douglas@cafelinear.com
 #blog logo
 logo: "/assets/images/logo-300.png"
 # blog cover
-cover: "/assets/images/14784796506_e5d956def4_o.jpg"
+#cover: "/assets/images/14784796506_e5d956def4_o.jpg"
+cover: "/assets/images/img_20150215_184300905.jpg"
 
 name: 'Douglas Drumond'
 author: 'Douglas Drumond'
