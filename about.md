@@ -27,13 +27,15 @@ I’m a domain addict, I own several domains because I couldn’t settle for a n
 I liked, even if it was my own name (I own douglasdrumond.com, but I let
 douglasdrumond.com.br slip, which is a pity, since I’m Brazilian). But I always
 liked Café Linear and, although it was originally in Portuguese, it can be used in
-English, like if it was a name for a coffee shop.
+English, like if it was a name for a coffee shop. And I love coffee.
 
 So, time to blog again and here I’ll put all my thoughts related to programming
 and app development, mostly Android, sometimes Mac (because of MacVim), and,
 probably rarely, Math.
 
 # About me
+
+First, I love coffee.
 
 I’m an Android developer at [Movile](http://www.movile.com). I used to work for 
 [Swipes](http://www.swipesapp.com/) in the beginning of Android app development 
