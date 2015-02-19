@@ -4,6 +4,7 @@ title:  "Problem solving, artificial intelligence and computational linear algeb
 date:   2010-02-25 07:23:28
 categories: 
 tags: 
+redirect_from: "/2010/02/problem-solving-artificial-intelligence-and-linear-algebra/"
 ---
 
 When students come to computer science, it’s hard to motivate them to learn

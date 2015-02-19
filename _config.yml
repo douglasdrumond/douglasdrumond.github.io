@@ -25,6 +25,7 @@ baseurl: ""
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # social icons and sharing options
 social:
