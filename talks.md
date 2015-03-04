@@ -22,6 +22,9 @@ separate sections below.
 
 ## Embedded
 
+<script async class="speakerdeck-embed" data-id="ec0deb778e27428485aa4f13ed68813a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+Programando para Android Wear – [GDG Talks @ Ci&T 2015-03-04](https://plus.google.com/104323881166104132817/posts/54d3WeRFUWn)
+
 <script async class="speakerdeck-embed" data-id="b4ad56b0028c0132492042912cd7a191" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 Android Wear & Google Glass — [MobCamp 2014](http://www.mobcamp.com.br/)
 
