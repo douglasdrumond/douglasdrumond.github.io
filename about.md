@@ -48,7 +48,7 @@ Institute](http://www.eldorado.org.br/en/) on low level stuff (Android
 platform, modem, C, C++, NDK and things like that), also a few months on iOS
 and, despite all the jokes I make at work, I like both.
 
-I’m the current maintainer for [MacVim](https://code.google.com/p/macvim/).
+I’m the current maintainer for [MacVim](https://github.com/macvim-dev/macvim).
 
 I graduated in Computer Science, but I have a secret love for Applied
 Mathematics (I almost majored in Applied Mathematics) and how to use both to
