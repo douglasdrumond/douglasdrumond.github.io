@@ -39,22 +39,22 @@ First, I love coffee. If I could choose another blog to magically make my own,
 it would be [I Love Coffee](http://ilovecoffee.jp). Go follow it, it’s nice.
 There’s an [English version](http://en.ilovecoffee.jp), too.
 
-I’m an Android developer at [Movile](http://www.movile.com). I used to work for 
-[Swipes](http://www.swipesapp.com/) in the beginning of Android app development 
-(that’s why I’m considered part of 
-[the team](http://www.swipesapp.com/thetheam.html)), but I’m no longer involved in
-day to day development.
+I’m an Android developer at [Movile](http://www.movile.com). I used to work for
+[Swipes](http://www.swipesapp.com/) in the beginning of Android app
+development, but I’m no longer involved in day to day development.
 
-Previously I worked on low level stuff (Android platform, modem, C, C++, NDK and
-things like that), also a few months on iOS and, despite all the jokes I make at
-work, I like both.
+Previously I worked at [Eldorado Research
+Institute](http://www.eldorado.org.br/en/) on low level stuff (Android
+platform, modem, C, C++, NDK and things like that), also a few months on iOS
+and, despite all the jokes I make at work, I like both.
 
 I’m the current maintainer for [MacVim](https://code.google.com/p/macvim/).
 
-I graduated in Computer Science, but I have a secret love for Applied Mathematics 
-(I almost majored in Applied Mathematics) and how to use both to solve problems. Due
-to that, I had a small gap in my mobile career when I opened a startup on
-Business Intelligence, before coming back to Android.
+I graduated in Computer Science, but I have a secret love for Applied
+Mathematics (I almost majored in Applied Mathematics) and how to use both to
+solve problems. Due to that, I had a small gap in my mobile career when
+I opened a startup on Business Intelligence, called Y-Max (from Yield
+Maximization), before returning to Android.
 
 I’m the founder and one of the organizers of 
 [Google Developer Group Campinas](http://www.gdg-campinas.org/).
