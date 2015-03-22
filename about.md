@@ -35,7 +35,9 @@ probably rarely, Math.
 
 ## About me
 
-First, I love coffee.
+First, I love coffee. If I could choose another blog to magically make my own,
+it would be [I Love Coffee](http://ilovecoffee.jp). Go follow it, it’s nice.
+There’s an [English version](http://en.ilovecoffee.jp), too.
 
 I’m an Android developer at [Movile](http://www.movile.com). I used to work for 
 [Swipes](http://www.swipesapp.com/) in the beginning of Android app development 
