@@ -16,7 +16,8 @@ for papers delivered direct to your inbox. This newsletter is provided by
 Chiu-Ki Chan ([site](http://www.sqisland.com/), [Google
 Plus](https://google.com/+ChiuKiChan) and
 [Twitter](https://twitter.com/chiuki)) and Cate Huston
-([site](http://www.catehuston.com/) and
+([site](http://www.catehuston.com/), [Google
+Plus](https://google.com/+CateHuston) and
 [Twitter](https://twitter.com/catehstn)). 
 
 For those who don't know them, let me give a brief introdution:
