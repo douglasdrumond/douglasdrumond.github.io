@@ -22,6 +22,9 @@ separate sections below.
 
 ## Embedded
 
+<iframe src="https://docs.google.com/presentation/d/1KzByJ3BS5UTLN8FCj7BwcMnEDE6NoovaUQRVo9TVzOw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+Desenvolvendo para Android Wear - [Movile Meetup – 2015-06-23](http://www.meetup.com/Movile-Meetup/events/223183266/)
+
 <script async class="speakerdeck-embed" data-id="ec0deb778e27428485aa4f13ed68813a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 Programando para Android Wear – [GDG Talks @ Ci&T 2015-03-04](https://plus.google.com/104323881166104132817/posts/54d3WeRFUWn)
 
