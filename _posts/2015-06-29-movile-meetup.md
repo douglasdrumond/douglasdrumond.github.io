@@ -23,7 +23,8 @@ half about programming. Wait, a programmer talking about design? Well, there
 are some design principles that everyone developing something user-facing needs
 to know and I could talk about that. Fortunately, Google licensed Android
 documentation as Creative Commons, so I could use the images (and credit them,
-of course) and I didn’t have to make my own artwork.
+of course) and I didn’t have to make my own artwork. See the presentation in
+the [talks page.]({{ "/talks" | prepend: site.url }})
 
 I was really excited about the talk and I think I could show my excitement.
 I tend to consider my talks bad, but from the reaction of the public, it wasn’t
