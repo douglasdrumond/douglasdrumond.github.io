@@ -22,6 +22,12 @@ separate sections below.
 
 ## Embedded
 
+<iframe
+src="https://docs.google.com/presentation/d/1dXTgyG6UW7EPEt2LgFL-O1sCls4IVrhecZDWPbVyf_U/embed?start=false&loop=false&delayms=3000"
+frameborder="0" width="640" height="389" allowfullscreen="true"
+mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+RxJava - [The Developers Conference 2015](http://www.thedevelopersconference.com.br/tdc/2015/saopaulo/trilha-android)
+
 <iframe src="https://docs.google.com/presentation/d/1KzByJ3BS5UTLN8FCj7BwcMnEDE6NoovaUQRVo9TVzOw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 Desenvolvendo para Android Wear - [Movile Meetup – 2015-06-23](http://www.meetup.com/Movile-Meetup/events/223183266/)
 
