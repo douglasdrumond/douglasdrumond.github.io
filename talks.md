@@ -14,7 +14,7 @@ separate sections below.
 ## HTML browseable talks
 
 [Dentro do Robozinho Verde (e como torná-lo do jeito que quiser)]
-(flisol-campinas-2013/#2) — Presented at [FLISOL Campinas 2013](http://www.flisolcampinas.net/)
+(flisol-campinas-2013/#2) — Presented at FLISOL Campinas 2013
 
 
 [Dentro do Robozinho Verde (e como torná-lo da cor que quiser)]
