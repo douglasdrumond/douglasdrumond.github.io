@@ -22,6 +22,13 @@ separate sections below.
 
 ## Embedded
 
+<script async class="speakerdeck-embed"
+data-id="34f86b74e9304fca8302b0b603c8335c" data-ratio="1.77777777777778"
+src="//speakerdeck.com/assets/embed.js"></script>
+RxJava - [Android Dev Conference
+2015](http://androidconference.imasters.com.br/) and [QCon
+RJ](http://qconrio.com/presentation/programacao-funcional-reativa-no-android-com-rxjava/rxandroid)
+
 <iframe
 src="https://docs.google.com/presentation/d/1dXTgyG6UW7EPEt2LgFL-O1sCls4IVrhecZDWPbVyf_U/embed?start=false&loop=false&delayms=3000"
 frameborder="0" width="640" height="389" allowfullscreen="true"
