@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Apps
-permalink: /apps/
+title: Portfolio
+permalink: /portfolio/
+redirect_from: "/apps/"
 ---
 
 # Android platform
