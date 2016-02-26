@@ -4,12 +4,23 @@ title: Apps
 permalink: /apps/
 ---
 
+# Android platform
+
+Since 2010 I've been working with Android. When I was employed by Eldorado
+Research Institute, I worked as a contractor for Motorola Mobility (before
+Google buying it), having worked on low cost phones such as [Motorola Spice](http://www.gsmarena.com/motorola_spice_xt300-3540.php), high end phones like [Motorola Atrix](http://www.gsmarena.com/motorola_atrix-3709.php) and on the first Android tablet with Honeycomb (Android 3.0), [Motorola XOOM](http://www.gsmarena.com/motorola_xoom_mz604-3833.php).
+
+# Low level libraries
+
+After leaving Motorola project, still at Eldorado Institute, I worked for
+a university that deployed tablets for its students running a custom version of
+Android developed at the institute. I was on the team that developed the DRM
+library used by them.
+
 # Apps I developed or had some reasonable participation:
 
-Since 2010 I've been working with Android. At first, I was employed at Eldorado
-Research Institute and worked on platform code, not apps. Later I moved to app
-development and at my current employer, Movile, it's basically what I do all
-day.
+Later, I moved to app development. I developed apps either as side project or
+at my employers.
 
 Here's the list:
 
