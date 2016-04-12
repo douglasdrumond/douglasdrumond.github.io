@@ -39,16 +39,18 @@ First, I love coffee. If I could choose another blog to magically make my own,
 it would be [I Love Coffee](http://ilovecoffee.jp). Go follow it, it’s nice.
 There’s an [English version](http://en.ilovecoffee.jp), too.
 
-I’m an Android developer at [Movile](http://www.movile.com). I used to work for
+I’m an Android developer at [Mokriya](http://mokriya.com). I used to work for
 [Swipes](http://www.swipesapp.com/) in the beginning of Android app
 development, but I’m no longer involved in day to day development.
 
-Previously I worked at [Eldorado Research
+Previously I worked at [Movile](http://www.movile.com), the largest mobile
+company in Latin America. Before that, I was working on [Eldorado Research
 Institute](http://www.eldorado.org.br/en/) on low level stuff (Android
 platform, modem, C, C++, NDK and things like that), also a few months on iOS
-and, despite all the jokes I make at work, I like both.
+and, despite all the jokes I make at work, I like both. When I had to
+specialize in something, I chose Android.
 
-I’m the current maintainer for [MacVim](https://github.com/macvim-dev/macvim).
+I was the maintainer for [MacVim](https://github.com/macvim-dev/macvim).
 
 I graduated in Computer Science, but I have a secret love for Applied
 Mathematics (I almost majored in Applied Mathematics) and how to use both to
@@ -63,7 +65,4 @@ I practice karate, kendō, <del>shodō</del> (not taking classes anymore, just
 practicing at home), go and I’m learning Japanese language.
 
 _Disclaimer_: Views expressed here are my own and do not represent those of
-Movile, Swipes, GDG Campinas, the Little Green Robot or the Invisible Ninja
-that follow me all day long. In fact, disclaimers are stupid and offer no legal
-protection, I don’t know why I’m writing this. I guess it’s just another
-opportunity to write a bad joke.
+Mokriya, Movile, Swipes, GDG Campinas or anyone else.
