@@ -13,12 +13,11 @@ separate sections below.
 
 ## HTML browseable talks
 
-[Dentro do Robozinho Verde (e como torná-lo do jeito que quiser)]
-(flisol-campinas-2013/#2) — Presented at FLISOL Campinas 2013
+<a href="flisol-campinas-2013/#2">Dentro do Robozinho Verde (e como torná-lo do
+jeito que quiser)</a> – Presented at FLISOL Campinas 2013
 
-
-[Dentro do Robozinho Verde (e como torná-lo da cor que quiser)]
-(devfest-br-2012/#2) — Presented at DevFest Brasil 2012
+<a href="devfest-br-2012/#2">Dentro do Robozinho Verde (e como torná-lo da
+cor que quiser)</a> – Presented at DevFest Brasil 2012
 
 ## Embedded
 
