@@ -21,6 +21,10 @@ cor que quiser)</a> – Presented at DevFest Brasil 2012
 
 ## Embedded
 
+<script async class="speakerdeck-embed" data-id="aea726a7a6634705875330d17627aeca" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+Primeiros Passos com Google Fit – [3 Anos de Android Meetup – GDG São Paulo](http://www.eventick.com.br/3-anos-de-android-meetup/)
+
+
 <script async class="speakerdeck-embed"
 data-id="34f86b74e9304fca8302b0b603c8335c" data-ratio="1.77777777777778"
 src="//speakerdeck.com/assets/embed.js"></script>
