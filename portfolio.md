@@ -31,7 +31,7 @@ Here's the list:
 * [UOL Copa](https://play.google.com/store/apps/details?id=br.org.eldorado.uolcopa)  
   App developed for the World Cup in Brazil (also for UOL)
 
-* [99motos](http://www.99motos.com/)  
+* 99motos (no longer available)  
   99motos is a courier calling app, like an Uber for courier. I was one of the
   developers of the first version. The current version on market has a very
   different interface, though (after the company was acquired).
@@ -40,8 +40,8 @@ Here's the list:
   Developed first Android version of Swipes, a To Do list app focused on quick
   management of tasks and ease of use.
 
-* [Vivo Receitas da Dona Benta](https://play.google.com/store/apps/details?id=com.movile.android.learning.donabenta)  
-  [Vivo Saudável com Dr.  Drauzio](https://play.google.com/store/apps/details?id=com.movile.android.learning.drauziovarella)  
+* Vivo Receitas da Dona Benta (no longer available)  
+  Vivo Saudável com Dr.  Drauzio (no longer available)  
   [Vivo Sucesso com Max Gehringer](https://play.google.com/store/apps/details?id=com.movile.android.learning.maxgehringer)  
   Apps developed in partnership with Vivo, the largest carrier in Brazil, for
   content delivery based on some topics (recipes with the most famous recipe
@@ -51,11 +51,9 @@ Here's the list:
 * [Vivo +apps](https://play.google.com/store/apps/details?id=com.movile.android.appsvivo)  
   App selection and recommendation from friends.
 
-* [Amei, Amiga](https://play.google.com/store/apps/details?id=com.movile.beauty)  
+* Amei, Amiga (no longer available)  
   Beauty app with mobile commerce.
 
-* [Meu Show](https://play.google.com/store/apps/details?id=com.movile.vivomeushow)  
+* Meu show (no longer available)  
   Music contest via mobile app.
-
-
 
