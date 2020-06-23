@@ -28,7 +28,7 @@ twitter_username: douglasdrumz
 github_username:  douglasdrumz
 
 # Build settings
-theme: minima
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
