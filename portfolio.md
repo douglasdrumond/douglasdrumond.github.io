@@ -3,6 +3,7 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 redirect_from: "/apps/"
+background: /assets/images/cover.jpg
 ---
 
 # Android platform

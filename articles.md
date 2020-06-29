@@ -2,6 +2,7 @@
 layout: page
 title: Articles
 permalink: /articles/
+background: /assets/images/cover.jpg
 ---
 
 _This is an index of the posts that I’d probably like to revisit some day, since

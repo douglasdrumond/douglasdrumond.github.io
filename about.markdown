@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+background: /assets/images/cover.jpg
 ---
 
 ## About this blog

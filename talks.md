@@ -2,6 +2,7 @@
 layout: page
 title: Talks
 permalink: /talks/
+background: /assets/images/cover.jpg
 ---
 
 _All my talks are in Portuguese for now._
