@@ -4,6 +4,7 @@ title:  "Eigenclass"
 date:   2010-04-03 17:33:11
 categories: 
 tags: 
+background: /assets/images/cover.jpg
 ---
 
 In Ruby, there’s the concept of eigenclasses, or singleton classes. These are

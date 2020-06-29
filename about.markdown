@@ -2,11 +2,12 @@
 layout: page
 title: About
 permalink: /about/
+background: /assets/images/cover.jpg
 ---
 
 ## About this blog
 
-When I was a Math student, every day at 3pm I and my friends used to sit at the
+When I was a Math student, every day at 3pm my friends and I used to sit at the
 coffee room in Unicamp Math Institute (IMECC, in Portuguese it means Institute
 for Math, Statistics and Scientific Computation) to drink coffee, discuss
 Mathematics and whatever came to mind. Usually the topic was related to Linear
@@ -35,9 +36,11 @@ probably rarely, Math.
 
 ## About me
 
-First, I love coffee. If I could choose another blog to magically make my own,
-it would be [I Love Coffee](http://ilovecoffee.jp). Go follow it, it’s nice.
-There’s an [English version](http://en.ilovecoffee.jp), too.
+I'm married to an [amazing wife](https://twitter.com/letochie) who's always
+supporting me in whatever I do.
+
+I love coffee, [photography](https://www.flickr.com/photos/douglasdrumz) and
+[motorcycles](https://www.youtube.com/channel/UCwiTtgqY4Bbpjoa1Dqxj3Ng).
 
 I’m a tech lead at [Pipefy](https://www.pipefy.com/). I used to work for company
 from different sizes and fields, from 3-person startups to big companies like IBM,
@@ -45,14 +48,15 @@ from consulting agencies to companies with their own product. What I really like
 is the startup life, and that's why I joined Pipefy and enjoy my job.
 
 I graduated in Computer Science, but I have a secret love for Applied
-Mathematics (I almost majored in Applied Mathematics) and how to use both to
-solve problems. Due to that, I had a small gap in my mobile career when
-I opened a startup on Business Intelligence, called Y-Max (from Yield
-Maximization), before returning to Android.
+Mathematics (I almost majored in Applied Mathematics, finishing 85% of the course)
+and how to use both to solve problems. Due to that, I had a small gap in my
+mobile career when I opened a startup on Business Intelligence, called Y-Max
+(from Yield Maximization), before returning to Android.
 
 I’m the founder of [Google Developer Group Campinas](http://www.gdg-campinas.org/), and
 used to organize events, meetups, etc. But I left it to much more capable people and
-they're doing an amazing job there.
+they're doing an amazing job there. I'm one of the admins of the largest online Android
+community in Brazil, [Android Dev BR](https://androiddevbr.org/).
 
 _Disclaimer_: Views expressed here are my own and do not represent those of my current or
 past employers, or anyone else, except when noted.

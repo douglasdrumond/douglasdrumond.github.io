@@ -3,7 +3,10 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 redirect_from: "/apps/"
+background: /assets/images/cover.jpg
 ---
+
+_This is an outdated list that covers my work up to 2016_
 
 # Android platform
 

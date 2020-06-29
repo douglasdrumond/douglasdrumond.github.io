@@ -4,6 +4,7 @@ title: "Waza Opening"
 description: ""
 category: "events"
 tags: ["Ruby"]
+background: /assets/images/cover.jpg
 ---
 
 [Waza](https://waza.heroku.com/2013) is an event promoted by

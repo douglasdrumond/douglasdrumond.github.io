@@ -2,9 +2,12 @@
 layout: page
 title: Talks
 permalink: /talks/
+background: /assets/images/cover.jpg
 ---
 
-_All my talks are in Portuguese for now._
+_This is an outdated list, it's been a while I don't give any talks._
+
+_All my talks are in Portuguese._
 
 Some talks are in HTML and you should see them as regular pages in your browser.
 Most of them are slides in SpeakerDeck site and can be embedded here. To avoid the

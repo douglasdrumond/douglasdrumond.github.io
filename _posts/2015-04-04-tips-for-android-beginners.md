@@ -5,6 +5,7 @@ date: "2015-04-04"
 categories: ""
 tags: [""]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 A while ago someone asked on

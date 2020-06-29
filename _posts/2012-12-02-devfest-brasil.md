@@ -5,6 +5,7 @@ date: "2012-12-2"
 categories: "events"
 tags: ["Android"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 Last Friday I went to [DevFest Brasil _(in

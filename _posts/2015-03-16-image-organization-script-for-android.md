@@ -5,6 +5,7 @@ date: "2015-03-16"
 categories: "Open Source"
 tags: ["Open Source"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 I just released [Androidify](https://github.com/douglasdrumond/androidify),

@@ -4,6 +4,7 @@ title:  "For fun: the Bizarre Cathedral"
 date:   2010-04-20 02:06:17
 categories: 
 tags: 
+background: /assets/images/cover.jpg
 ---
 
 ![If software were
