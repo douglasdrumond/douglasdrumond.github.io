@@ -6,6 +6,8 @@ redirect_from: "/apps/"
 background: /assets/images/cover.jpg
 ---
 
+_This is an outdated list that covers my work up to 2016_
+
 # Android platform
 
 Since 2010 I've been working with Android. When I was employed by Eldorado
