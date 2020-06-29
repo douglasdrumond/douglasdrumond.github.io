@@ -4,6 +4,7 @@ title:  "Hello World!"
 date:   2010-02-23 05:24:04
 categories: 
 tags:
+background: /assets/images/cover.jpg
 ---
 
 _Edit: In 2010 I and Daniel Cariello, one of my best friends, set up a blog

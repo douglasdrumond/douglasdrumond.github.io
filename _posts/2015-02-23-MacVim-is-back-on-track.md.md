@@ -5,6 +5,7 @@ date: "2015-02-23"
 category: "open-source"
 tags: ["MacVim", "Open source"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 It’s no secret I’m a big fan of Vim. Although I can use it in the terminal, I like

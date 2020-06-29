@@ -5,6 +5,7 @@ date: "2012-11-8"
 categories: ""
 tags: ["git"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 Recently I had to put a folder from my app repository into a separate

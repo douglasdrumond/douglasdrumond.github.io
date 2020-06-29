@@ -5,6 +5,7 @@ date: "2012-11-14"
 categories: "events"
 tags: ["hackathon"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 Last weekend (Nov 10–11), Evernote held the second edition of Evernote

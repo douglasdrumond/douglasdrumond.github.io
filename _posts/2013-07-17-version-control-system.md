@@ -5,6 +5,7 @@ date: "2013-07-17"
 categories: ""
 tags: ["git"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 A while ago, Fábio Akita from [AkitaOnRails.com](http://www.akitaonrails.com)

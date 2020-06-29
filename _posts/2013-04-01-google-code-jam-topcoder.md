@@ -4,6 +4,7 @@ title: "Google Code Jam, Topcoder e outras competições"
 description: ""
 category: "events"
 tags: ["Google Code Jam", "Competições"]
+background: /assets/images/cover.jpg
 ---
 
 _For English language readers: in Brazil, programming competitions are not

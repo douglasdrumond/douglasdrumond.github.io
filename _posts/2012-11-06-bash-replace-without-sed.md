@@ -5,6 +5,7 @@ date: "2012-11-6"
 categories: ""
 tags: ["bash"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 Bash has built-in substitution. For simple tasks it’s easier than piping through sed:

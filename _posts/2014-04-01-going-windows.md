@@ -5,6 +5,7 @@ date: "2014-04-01"
 category: "off-topic"
 tags: ["April Fool’s"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 I’m learning to program for Windows Phone and loving it. Soon I’ll exchange my

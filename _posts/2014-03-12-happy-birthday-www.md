@@ -5,6 +5,7 @@ date: "2014-03-12"
 categories: ""
 tags: [""]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 25 years ago, Sir Tim Berners-Lee created the World Wide Web, read about it on

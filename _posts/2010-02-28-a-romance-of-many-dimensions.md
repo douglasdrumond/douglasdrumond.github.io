@@ -4,6 +4,7 @@ title:  "A romance of many dimensions"
 date:   2010-02-28 15:22:37
 categories: 
 tags: 
+background: /assets/images/cover.jpg
 ---
 
 _Editor’s note:This is a guest post from Luciana Takata._

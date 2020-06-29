@@ -5,6 +5,7 @@ date: "2015-05-19"
 categories: ""
 tags: [""]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 **TL;DR:** Technically Speaking is hosting a webinar on LAtINiTY conference and you

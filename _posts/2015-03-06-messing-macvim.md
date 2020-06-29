@@ -5,6 +5,7 @@ date: "2015-03-06"
 category: "open-source"
 tags: ["MacVim", "Open source"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 I published a new version of MacVim on last week Monday and was quite happy

@@ -5,6 +5,7 @@ date: "2013-04-11"
 categories: "events"
 tags: ["events"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 ## What is DevFestW?

@@ -5,6 +5,7 @@ date: "2013-04-28"
 categories: "events"
 tags: ["events"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 Yesterday I presented 4 talks at FLISOL Campinas and I uploaded three of them

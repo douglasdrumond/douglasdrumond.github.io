@@ -5,6 +5,7 @@ date: "2015-06-29"
 categories: ""
 tags: [""]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 Movile has a new initiative called [Movile

@@ -4,6 +4,7 @@ title:  "Engineering Paradise"
 date:   2010-02-24 02:23:01
 categories: 
 tags: 
+background: /assets/images/cover.jpg
 ---
 
 _Edit: this is another restored old post._

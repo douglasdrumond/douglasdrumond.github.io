@@ -4,6 +4,7 @@ title: "[Off topic] Migrating to Windows"
 description: ""
 category: "off-topic"
 tags: ["April Fool’s"]
+background: /assets/images/cover.jpg
 ---
 
 I got myself into Unix (or Unix-like) world back in 1999 with Conectiva Red Hat

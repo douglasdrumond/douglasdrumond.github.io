@@ -5,6 +5,7 @@ date: "2013-07-20"
 categories: ""
 tags: ["git"]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 Proceeding with my sequence of posts about version control systems, I’ll

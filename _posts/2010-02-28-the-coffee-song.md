@@ -4,6 +4,7 @@ title:  "The Coffee Song"
 date:   2010-02-28 15:30:54
 categories: 
 tags: 
+background: /assets/images/cover.jpg
 ---
 
 Frank Steinhoff suggested this Sinatra’s song. It’s about coffee and Brazil and it would have arise in a coffee talk at IMECC’s coffee room.

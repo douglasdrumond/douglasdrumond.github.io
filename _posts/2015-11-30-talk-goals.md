@@ -5,6 +5,7 @@ date: "2015-11-30"
 categories: ""
 tags: [""]
 author: "Douglas Drumond"
+background: /assets/images/cover.jpg
 ---
 
 I love developer communities. I'm an introvert and in developer communities
