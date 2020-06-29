@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Version Control Systems - Café Linear
+    
+  </title>
+
+  <meta name="description" content="A while ago, Fábio Akita from AkitaOnRails.com launched the campaign “Beginners’s Friday” intended to help the new generation of developers coming today. I’m...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://www.cafelinear.com/2013/07/17/version-control-system.html">
+  <link rel="alternate" type="application/rss+xml" title="Café Linear" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Café Linear</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/talks">Talks</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/assets/images/cover.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Version Control Systems</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">Douglas Drumond</a>
+              on July 17, 2013 &middot; <span class="reading-time" title="Estimated read time">
+  
+   5 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>A while ago, Fábio Akita from <a href="http://www.akitaonrails.com">AkitaOnRails.com</a>
+launched the campaign “Beginners’s Friday” intended to help the new generation
+of developers coming today. I’m totally buying into this idea and this is the
+first post I’m doing in that direction with version control systems.</p>
+
+<h2 id="version-control-systems">Version Control Systems</h2>
+
+<p>What is a version control system? In the context of software development,
+a version control, revision control or source control system is a software
+designed to control changes to computer programs (as well as documents, sites
+and virtually whatever you want). Gone are the days of copying and pasting
+files and changing the name “index.php,” “index-2.php,” “index-now-works.php,”
+“index-now-it-really-works.php” and so on. In fact, those days should have
+never existed in the first place, since revision control systems are hanging
+around for a really long time (well, they’re older than me, as we’ll see
+below).</p>
+
+<h2 id="motivation-for-version-control-systems">Motivation for version control systems</h2>
+
+<p>In software development, requirement changes, code evolve, bugs are introduced,
+bugs are solved, bugs come back (these are called regression bugs), ideas come
+and go. Writing code is pretty much like writing texts. Sometimes it’s writing
+an article, sometimes it’s writing a book, but, as in writing, we revise, clean
+up, rewrite parts and change ideas. A lot. If code was written exactly how it
+meant to be, requirements never changed and software never evolved after
+publishing, source control wouldn’t be necessary. But what if you want to go
+back to some older idea that now really makes sense? Or discover a bug and need
+to find when it began? There’s an really easy-looking way to do this that
+doesn’t require further software, but it’s cumbersome and really error prone
+(and it’s not easy to manage after all, so it just looks easy). It’s the
+<em>Copy, Paste, Rename</em> method. You can copy the file, paste it elsewhere
+and rename it to reflect the version somehow, maybe with an increasing number.
+The other way is using a version control system, which does this automagically.</p>
+
+<h2 id="brief-history-of-version-control-systems">Brief history of version control systems</h2>
+
+<p>Back in the Triassic age of computation, in 1972, a proprietary software called
+<a href="https://en.wikipedia.org/wiki/Source_Code_Control_System">SCSS</a> was developed
+at Bell Labs for managing program source code and text files. Later, in the
+Jurassic age of computation, 1982 (I was born in the Cretaceous age, 1983)
+a software called <a href="https://en.wikipedia.org/wiki/Revision_Control_System">RCS</a>
+(for Revision Control System) came to life. I never used them, so I won’t talk
+about them.</p>
+
+<p>In 1990, CVS launched (in fact, CVS started as a bunch of shell scripts in
+1986), but it had (and still have) some limitations that led to development of
+Subversion, also known as SVN, in 2000, to replace it. Subversion is still in
+wide use today.</p>
+
+<p>Until 2005 Linus Torvalds used BitKeeper to track changes in Linux source code.
+BitKeeper is a proprietary software, but they licensed it for free for using in
+Linux kernel as long as kernel mantainers didn’t try to develop a competing
+software or didn’t try to circumvent some restrictions. After a developer
+trying to develop a way to deal with BitKeeper metadata in order to support
+more operations, BitKeeper decided to not license it anymore, so an alternative
+was necessary. Linus announced he’d be switching VCS software and started
+development of Git. At same time, Matt Mackall started developing Mercurial. In
+the end, Linux kernel migrated to Git, but a lot of other developers also use
+Mercurial, both were well accepted by the community.</p>
+
+<p>Both Git and Mercurial share a common characteristic that is different from
+previous VCS: they’re decentralized, while the previous are centralized version
+control systems. By centralization I mean there’s a central blessed server
+which everybody must connect into to download the source files, upload their
+modification and do other tasks such as listing the change history of a file.
+Git and Mercurial, on the other hand, download all history together with the
+source files and provide ways to work locally without connecting to the central
+server. In fact, the concept of central server in Git and Mercurial is just
+political, not technical. One can copy and upload to another developer as well,
+they don’t need to synchronize through a server.</p>
+
+<p>In later posts, I’ll clarify these concepts with examples. Using my own Git
+workflow, I’ll dig into some details and explain how Git works.</p>
+
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/events/2013/04/28/flisol-campinas.html" data-toggle="tooltip" data-placement="top" title="FLISOL Campinas - Uploaded talks">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/2013/07/20/my-git-workflow.html" data-toggle="tooltip" data-placement="top" title="My Git Workflow">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:my first name @ cafelinear.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/douglasdrumz">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/douglasdrumz">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://instagram.com/cafelinear">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy;  2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  
+
+</body>
+
+</html>

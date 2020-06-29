@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Migrating and pruning repos - Café Linear
+    
+  </title>
+
+  <meta name="description" content="Recently I had to put a folder from my app repository into a separate repository on its own. The easiest way was just git init a new repo, copy the directory...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://www.cafelinear.com/2012/11/08/migrating-and-pruning-repos.html">
+  <link rel="alternate" type="application/rss+xml" title="Café Linear" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Café Linear</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/talks">Talks</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/assets/images/cover.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Migrating and pruning repos</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">Douglas Drumond</a>
+              on November 08, 2012 &middot; <span class="reading-time" title="Estimated read time">
+  
+   3 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>Recently I had to put a folder from my app repository into a separate
+repository on its own. The easiest way was just <code class="highlighter-rouge">git init</code> a new
+repo, copy the directory and <code class="highlighter-rouge">git commit</code> it, but I would lose
+all history up until the move. After fiddling with git and <a href="http://www.stackoverflow.com/" title="Stack Overflow">Stack
+Overflow</a>, I found the
+solution.</p>
+
+<p>Suppose the structure is like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>All-in-one repo:
+* server
+    * code.go
+    * code2.go
+* iOS
+    * code.m
+    * code.h
+* Android
+    * src
+        * com
+            * cafelinear
+                * myapp
+                    * Code.java
+                    * Code2.java
+</code></pre></div></div>
+
+<p>We want to move the server code into its own repo, so, final result will
+be like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Mobile repo:
+* iOS
+    * code.m
+    * code.h
+* Android
+    * src
+        * com
+            * cafelinear
+                * myapp
+                    * Code.java
+                    * Code2.java
+
+Server repo:
+* code.go
+* code2.go
+</code></pre></div></div>
+
+<p>First, clone the original repository to the new one (the one that will
+keep just the desired folder) and <code class="highlighter-rouge">cd</code> into it:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git clone /path/to/full/repo.git server
+<span class="nb">cd </span>server</code></pre></figure>
+
+<p>Since this will be a new repo, remove the remote:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git remote rm origin</code></pre></figure>
+
+<p>Remove any tags you don’t want. Mine had a pattern, all started with v
+(such as v-0.0.1) for all mobile apps. Server code had different tags,
+making it easier for me:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git tag | <span class="nb">grep</span> <span class="se">\^</span>v | xargs git tag <span class="nt">-d</span></code></pre></figure>
+
+<p>Now, the magic:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git filter-branch <span class="nt">--tag-name-filter</span> <span class="nb">cat</span> <span class="nt">--prune-empty</span> <span class="nt">--subdirectory-filter</span> server <span class="nt">--</span> <span class="nt">--all</span></code></pre></figure>
+
+<p>What?</p>
+
+<p><code class="highlighter-rouge">git filter-branch</code> is used to (guess what?) filter branches (clap
+clap clap). It modifies revision history by rewriting the branches
+in the last parameter, in this case <code class="highlighter-rouge">--all</code>. Since we passed
+<code class="highlighter-rouge">subdirectory-filter</code>, it will consider this directory as the root of
+the new repo (effectively removing all others). Some filters generate
+empty commits, <code class="highlighter-rouge">--prune-empty</code> get rid of them. To update the tags to
+point to equivalent commits (they’re not exactly the same since some
+parents are different, so changing sha1), use <code class="highlighter-rouge">--tag-name-filter cat</code>
+(<code class="highlighter-rouge">--tag-name-filter</code> asks for a command, in this case, <code class="highlighter-rouge">cat</code>).</p>
+
+<p>We got the DeLorean, travelled back in time and rewrote history, but
+left a dirt directory for us. iOS and Android folders are still there,
+although as untracked files, let’s get rid of them with:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git add <span class="nb">.</span> <span class="c">#to let git be aware of them</span>
+git reset <span class="nt">--hard</span> <span class="c">#to tell them go away</span></code></pre></figure>
+
+<p>Delete old refs:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git <span class="k">for</span><span class="nt">-each-ref</span> <span class="nt">--format</span><span class="o">=</span><span class="s2">"%(refname)"</span> refs/original/ | xargs <span class="nt">-n</span> 1 git update-ref <span class="nt">-d</span></code></pre></figure>
+
+<p>Now force git garbage collector to clean everything:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git reflog expire <span class="nt">--expire</span><span class="o">=</span>now <span class="nt">--all</span>
+git gc <span class="nt">--aggressive</span> <span class="nt">--prune</span><span class="o">=</span>now</code></pre></figure>
+
+<p>Now add your new remote and push to it:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git remote add origin /path/to/new/remote
+git push <span class="nt">-u</span> origin master</code></pre></figure>
+
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2012/11/06/bash-replace-without-sed.html" data-toggle="tooltip" data-placement="top" title="Replacing in bash without sed">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/events/2012/11/14/evernote-hackathon-brazil.html" data-toggle="tooltip" data-placement="top" title="Evernote Hackathon Brazil">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:my first name @ cafelinear.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/douglasdrumz">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/douglasdrumz">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://instagram.com/cafelinear">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy;  2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  
+
+</body>
+
+</html>
