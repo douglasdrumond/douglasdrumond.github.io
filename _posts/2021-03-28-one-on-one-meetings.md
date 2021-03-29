@@ -65,3 +65,5 @@ There are several tools that can assist in your one-on-one meeting. You can keep
 ## Conclusion
 
 In the office, it's easier to have water cooler chats and serendipitous encounters where you can start building relationships with the team. In a remote environment, we need to rely on other methods to build those connections. One-on-one meetings are one of those ways and it's highly associated with the effectiveness of a manager by their employees. There's no exact formula for a successful meeting, but some simple rules make it more fruitful. Engage the team and see a boost in productivity and morale. Trust me, I know what I'm saying.
+
+_Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Charles Deluvio</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>_
