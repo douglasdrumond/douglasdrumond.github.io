@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://www.cafelinear.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.cafelinear.com/" rel="alternate" type="text/html" /><updated>2022-01-12T12:50:24-03:00</updated><id>https://www.cafelinear.com/feed.xml</id><title type="html">Café Linear</title><subtitle>F: Coffee ↦ Software</subtitle><author><name>Douglas Drumond Kayama</name></author><entry><title type="html">Extreme Ownership</title><link href="https://www.cafelinear.com/2022/01/12/extreme-ownership.html" rel="alternate" type="text/html" title="Extreme Ownership" /><published>2022-01-12T12:45:29-03:00</published><updated>2022-01-12T12:45:29-03:00</updated><id>https://www.cafelinear.com/2022/01/12/extreme-ownership</id><content type="html" xml:base="https://www.cafelinear.com/2022/01/12/extreme-ownership.html">&lt;h1 id=&quot;extreme-ownership&quot;&gt;Extreme Ownership&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://www.cafelinear.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.cafelinear.com/" rel="alternate" type="text/html" /><updated>2022-01-13T23:28:22-03:00</updated><id>https://www.cafelinear.com/feed.xml</id><title type="html">Café Linear</title><subtitle>F: Coffee ↦ Software</subtitle><author><name>Douglas Drumond Kayama</name></author><entry><title type="html">Opportunity Solution Tree</title><link href="https://www.cafelinear.com/2022/01/13/opportunity-solution-tree.html" rel="alternate" type="text/html" title="Opportunity Solution Tree" /><published>2022-01-13T23:26:29-03:00</published><updated>2022-01-13T23:26:29-03:00</updated><id>https://www.cafelinear.com/2022/01/13/opportunity-solution-tree</id><content type="html" xml:base="https://www.cafelinear.com/2022/01/13/opportunity-solution-tree.html">&lt;h1 id=&quot;opportunity-solution-tree&quot;&gt;Opportunity Solution Tree&lt;/h1&gt;
+
+&lt;p&gt;Have you ever tried to brainstorm ideas to find what to work on next? And you
+ended up with too many ideas that you had to aggressively trim down or, worse,
+you solved the wrong problem? Opportunity Solution Tree may help you avoid
+that.&lt;/p&gt;
+
+&lt;p&gt;Opportunity Solution Tree (let’s shorten it to OST) is a visual way to
+represent how the solutions connect to the desired outcome in a way that helps
+you focus on solving the right problem.&lt;/p&gt;
+
+&lt;p&gt;You can build an OST in 4 steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Identify the outcome, e.g., a metric you want to improve. Example: improve
+engagement on Twitter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find opportunities related to your desired outcome. Example: build
+relationships with other creators.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Brainstorm the solutions with one condition: the solutions should always be
+linked to one of the opportunities from the previous step. Example: comment
+on other people’s tweets. An example of what not to do: start another
+account in another social network.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Define experiments to validate your hypothesis. Example: engage with at
+least 3 other creators per day for two weeks and compare how received likes,
+retweets and followers changed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Notice that in step 2 you may find more than one opportunity, thus in step 3
+you create solutions for several opportunities, increase the options to
+multi-track, i.e., act on more than one opportunity at a time. You don’t fixate
+on one opportunity. However, you’re always connected to your goal.&lt;/p&gt;
+
+&lt;p&gt;Reframing the ideation process using the OST framework allow you to find
+solutions without going off course or creating too much noise. Give it a try.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@halacious?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Hal Gatewood&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/diagram?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Douglas Drumond Kayama</name></author><summary type="html">Opportunity Solution Tree</summary></entry><entry><title type="html">Extreme Ownership</title><link href="https://www.cafelinear.com/2022/01/12/extreme-ownership.html" rel="alternate" type="text/html" title="Extreme Ownership" /><published>2022-01-12T12:45:29-03:00</published><updated>2022-01-12T12:45:29-03:00</updated><id>https://www.cafelinear.com/2022/01/12/extreme-ownership</id><content type="html" xml:base="https://www.cafelinear.com/2022/01/12/extreme-ownership.html">&lt;h1 id=&quot;extreme-ownership&quot;&gt;Extreme Ownership&lt;/h1&gt;
 
 &lt;p&gt;When I first got a leadership role, I asked a friend for tips to learn and do
 my job better. He referred me to a book, Extreme Ownership, by Jocko Willink
