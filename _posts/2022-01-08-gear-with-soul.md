@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Gear with sould"
+title:  "Gear with soul"
 date:   2022-01-08 23:12:29 -0300
 categories: 
 background: /assets/article_images/2022-01-08-gear-with-soul/le-khang-AwqIjJuGy9I-unsplash.jpg
