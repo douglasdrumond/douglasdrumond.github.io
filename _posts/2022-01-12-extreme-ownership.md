@@ -7,8 +7,6 @@ background: /assets/article_images/2022-01-12-extreme-ownership/specna-arms-we11
 
 ---
 
-# Extreme Ownership
-
 When I first got a leadership role, I asked a friend for tips to learn and do
 my job better. He referred me to a book, Extreme Ownership, by Jocko Willink
 and Leif Babin.

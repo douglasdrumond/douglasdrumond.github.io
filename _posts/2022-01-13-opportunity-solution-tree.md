@@ -6,8 +6,6 @@ categories:
 background: /assets/article_images/2022-01-13-opportunity-solution-tree/hal-gatewood-o2305170alM-unsplash.jpeg
 ---
 
-# Opportunity Solution Tree
-
 Have you ever tried to brainstorm ideas to find what to work on next? And you
 ended up with too many ideas that you had to aggressively trim down or, worse,
 you solved the wrong problem? Opportunity Solution Tree may help you avoid
