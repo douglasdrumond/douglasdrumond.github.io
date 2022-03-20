@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Tips for Android beginners - Café Linear
+    
+  </title>
+
+  <meta name="description" content="A while ago someone asked on Quora how to learn Android development. The person had knowledge of Java, but none of XML. I suppose the fear of XML came from t...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://www.cafelinear.com/2015/04/04/tips-for-android-beginners.html">
+  <link rel="alternate" type="application/rss+xml" title="Café Linear" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Café Linear</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/assets/images/cover.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Tips for Android beginners</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">Douglas Drumond</a>
+              on April 04, 2015 &middot; <span class="reading-time" title="Estimated read time">
+  
+   4 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>A while ago someone asked on
+<a href="https://www.quora.com/What-would-be-the-best-path-for-learning-Android-app-development-I-have-a-good-knowledge-of-Java-but-no-understanding-of-XML/">Quora</a>
+how to learn Android development. The person had knowledge of Java, but none of
+XML. I suppose the fear of XML came from the fact that is well known that
+Android uses a lot of XML. I started with a quick clarification on XML syntax
+and that’s the only required knowledge of XML. The parsing is done
+automatically by the Android system or the build tools. Unless, of course, the
+person is writing a XML parser or using one (e.g., parsing a response from
+a server).</p>
+
+<p>Here is my answer:</p>
+
+<p>If you’re afraid of XML because layouts and resources are specified in XML in
+Android, here’s everything you need to know:</p>
+
+<ul>
+  <li>Syntax is a lot similar to HTML.</li>
+  <li>Everything is case-sensitive: <code class="highlighter-rouge">&lt;application&gt;</code> is different from
+<code class="highlighter-rouge">&lt;Application&gt;</code>, so pay attention (most of Android tags are camel cased, but
+<code class="highlighter-rouge">&lt;fragment&gt;</code> is all lower, for example).</li>
+  <li>Attributes must be quoted <code class="highlighter-rouge">&lt;⋯ android:background="#FFFFFF"&gt;</code> and not 
+<code class="highlighter-rouge">&lt;⋯ android:background=#FFFFFF&gt;</code></li>
+  <li>Tags can’t be interleaved: <code class="highlighter-rouge">&lt;aaa&gt;&lt;bbb&gt;&lt;/bbb&gt;&lt;/aaa&gt;</code> is valid,
+<code class="highlighter-rouge">&lt;aaa&gt;&lt;bbb&gt;&lt;/aaa&gt;&lt;/bbb&gt;</code> is not.</li>
+  <li>Tags must be closed: <code class="highlighter-rouge">&lt;aaa&gt;</code> needs <code class="highlighter-rouge">&lt;/aaa&gt;</code></li>
+  <li>or it must be single tag: <code class="highlighter-rouge">&lt;aaa /&gt;</code></li>
+  <li>Namespaces in attributes come before colon: <code class="highlighter-rouge">&lt;⋯ android:id="⋯"&gt;</code> (this is
+using attribute id from android namespace</li>
+</ul>
+
+<p>Of course, if you’re developing a parser, or you’re writing XML extensively,
+you need a lot more. This is just to get started in Android. Now you’re set to
+go.</p>
+
+<p>There are a lot of books teaching Android. I learned back in 2010 from this
+book: 
+<a href="http://www.amazon.com.br/gp/product/1118102274/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1118102274&amp;linkCode=as2&amp;tag=caflin-20">Professional Android 4 Application Development</a><img src="http://ir-br.amazon-adsystem.com/e/ir?t=caflin-20&amp;l=as2&amp;o=33&amp;a=1118102274" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+(although it was Android 2 that time) and also
+from experimenting on. Some people find this book a little terse, I prefer
+books like that, that goes straight to the point instead of wasting paper and
+my time telling a lot of things unrelated or just to make the text dumb proof.
+Recently I got a copy of 
+<a href="http://www.amazon.com.br/gp/product/0321804333/ref=as_li_tf_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321804333&amp;linkCode=as2&amp;tag=caflin-20">Android Programming: The Big Nerd Ranch Guide</a><img src="http://ir-br.amazon-adsystem.com/e/ir?t=caflin-20&amp;l=as2&amp;o=33&amp;a=0321804333" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+and it’s nice too. If you manage to finish the book, congratulations.</p>
+
+<p>Later you can read <a href="http://www.amazon.com.br/gp/product/B00BJOO6YW/ref=as_li_tf_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00BJOO6YW&amp;linkCode=as2&amp;tag=caflin-20">Android
+Design Patterns: Interaction Design Solutions for Developers</a><img src="http://ir-br.amazon-adsystem.com/e/ir?t=caflin-20&amp;l=as2&amp;o=33&amp;a=B00BJOO6YW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> for interaction design and <a href="http://www.amazon.com.br/gp/product/0321886739/ref=as_li_tf_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321886739&amp;linkCode=as2&amp;tag=caflin-20">Android
+User Interface Design: Turning Ideas and Sketches Into Beautifully Designed
+Apps</a><img src="http://ir-br.amazon-adsystem.com/e/ir?t=caflin-20&amp;l=as2&amp;o=33&amp;a=0321886739" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> for UI.</p>
+
+<p>But if you don’t want to spend any money, don’t worry. The best source is still
+<a href="http://developer.android.com/">Android Developers</a> site. Start here: <a href="https://developer.android.com/training/index.html">Getting
+Started</a> and also read here:
+<a href="https://developer.android.com/guide/index.html">Introduction to Android</a>.  You
+need nothing else.</p>
+
+<p>When stuck, Google it. Don’t be the person that asks for help in the forums without searching before. If you’re stuck, look into Android developers group, Stack Overflow, Android developers Google+ community, your local group (for instance, in Brazil we have androidbrasil-dev and Stack Overflow in Portuguese). A note about Stack Overflow: don’t just copy an answer, try to understand it. If you’re still stuck, post your question, but tell which paths you already tried, be polite, patient and write in good English. I’m tired of reading “idk wat to do, app crash, help me” and I can bet most of other readers are tired too.</p>
+
+<p>And, the most useful advice in this answer: practice, practice, practice.</p>
+
+<p><em>Note: When I wrote this answer on Quora, <a href="https://www.udacity.com/course/ud853">Android
+Fundamentals</a> course on Udacity wasn’t
+available. But I cannot write about Android resources nowadays without
+recommending it, it’s quite nice.</em></p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/events/2015/03/16/gdg-talks.html" data-toggle="tooltip" data-placement="top" title="GDG Talks #1">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/2015/05/19/technically-speaking.html" data-toggle="tooltip" data-placement="top" title="Technically Speaking hangout on LAtINiTY conference">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:my first name @ cafelinear.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/douglasdrumz">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/douglasdrumz">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://instagram.com/cafelinear">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Douglas Drumond Kayama 2022</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  
+
+</body>
+
+</html>

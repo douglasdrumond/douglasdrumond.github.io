@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    Posts - Café Linear
+    Messing MacVim - Café Linear
     
   </title>
 
-  <meta name="description" content="F: Coffee ↦ Software">
+  <meta name="description" content="I published a new version of MacVim on last week Monday and was quite happy with it. It was early morning, I published it at 7:30 AM (UTC-3) and went to work...">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://www.cafelinear.com/posts/page2/">
+  <link rel="canonical" href="https://www.cafelinear.com/open-source/2015/03/06/messing-macvim.html">
   <link rel="alternate" type="application/rss+xml" title="Café Linear" href="/feed.xml">
 
 </head>
@@ -54,15 +54,22 @@
 
   <!-- Page Header -->
 
-<header class="masthead" style="background-image: url('/img/bg-post.jpg')">
+<header class="masthead" style="background-image: url('/assets/images/cover.jpg')">
   
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>Posts</h1>
+          <div class="post-heading">
+            <h1>Messing MacVim</h1>
             
+            <span class="meta">Posted by
+              <a href="#">Douglas Drumond</a>
+              on March 06, 2015 &middot; <span class="reading-time" title="Estimated read time">
+  
+   3 mins  read </span>
+
+            </span>
           </div>
         </div>
       </div>
@@ -73,136 +80,63 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        
+        <p>I published a new version of MacVim on last week Monday and was quite happy
+with it. It was early morning, I published it at 7:30 AM (UTC-3) and went to
+work. Of course, being an avid user of Vim, the first thing I did at work was
+updating my copy of MacVim.</p>
 
-<article class="post-preview">
-  <a href="/2021/03/28/one-on-one-meetings.html">
-    <h2 class="post-title">One-on-one meetings</h2>
-    
-    <h3 class="post-subtitle">You can’t simply gain trust by saying “trust me, I know what I’m saying”, you...</h3>
-    
-  </a>
-  <p class="post-meta">Posted by
-    
-    Douglas Drumond Kayama
-    
-    on March 28, 2021 &middot; <span class="reading-time" title="Estimated read time">
-  
-   7 mins  read </span>
+<p>Then things went awry. MacVim crashed at launch (of course, it didn’t occur at
+home). E-mails started popping on my inbox. Starting without a <code class="highlighter-rouge">.vimrc</code> was
+fine, so it was a problem with plugins.  Probably I had compiled it against
+wrong version of Ruby (I use RVM and install several Ruby versions, but MacVim
+must be compiled against system Ruby), but I was quite sure I had issued a <code class="highlighter-rouge">rvm
+use system</code> before. When I came back home, I tried to investigate a little
+further and, as I suspected, it was Ruby (it crashed when I used Command-T
+plugin). But how? Well, I was so tired that I went to bed and decided to look
+at the issue later.</p>
 
-  </p>
-</article>
+<p>At Movile, my project is on a tight deadline, so, every time I got home, I was
+so tired that I couldn’t focus. I tried, but postponed looking at the issue
+(also, sometimes I tried but hit a dead end). Until, finally, last weekend
+I decided to solve this matter. But first, my Mac was so slow and with a lot of
+garbage installed that, instead of deleting each app and some files, I backed
+up what was important and did something I was used to when I was a Windows
+user: formatting the computer and reinstalling the OS.</p>
 
-<hr>
+<p>With a new OS, lots of disk space (even after installing some apps, I went from 10
+ GB free to 80 GB), it was time to fix MacVim. I recompiled and ran it to
+ collect logs and, guess what? It worked flawlessly, even with Command-T.
+ I hadn’t installed RVM (still haven’t) and MacVim used system Ruby (some day
+ earlier, I made sure I was compiling after <code class="highlighter-rouge">rvm use system</code>, but it didn’t
+ work, it just got me some logs in Library/Logs/DiagnosticReports). I uploaded
+ the build, marked as pre-release and went to work. MacVim worked flawlessly
+ again, even on my work machine. People who complained about the bug sent me
+ feedback telling that everything was fine now.</p>
 
+<p>So, even setting RVM to use system Ruby, MacVim was compiled against the wrong
+ version of Ruby.</p>
 
+<p>Lesson learned: be careful and doubt everything. I sincerely apologize for
+ being careless in my first release. I felt the pain as a user too, I upgraded
+ and downgraded (as other users had to) because of my own carelessness.</p>
 
-<article class="post-preview">
-  <a href="/2015/06/29/movile-meetup.html">
-    <h2 class="post-title">Movile Meetup</h2>
-    
-    <h3 class="post-subtitle">Movile has a new initiative called Movile Meetups. Every once in a while someone either...</h3>
-    
-  </a>
-  <p class="post-meta">Posted by
-    
-    Douglas Drumond
-    
-    on June 29, 2015 &middot; <span class="reading-time" title="Estimated read time">
-  
-   2 mins  read </span>
-
-  </p>
-</article>
-
-<hr>
+<p>Another lesson learned: MacVim community is awesome.</p>
 
 
+        <hr>
 
-<article class="post-preview">
-  <a href="/2015/05/19/technically-speaking.html">
-    <h2 class="post-title">Technically Speaking hangout on LAtINiTY conference</h2>
-    
-    <h3 class="post-subtitle">TL;DR: Technically Speaking is hosting a webinar on LAtINiTY conference and you should watch. Signup...</h3>
-    
-  </a>
-  <p class="post-meta">Posted by
-    
-    Douglas Drumond
-    
-    on May 19, 2015 &middot; <span class="reading-time" title="Estimated read time">
-  
-   2 mins  read </span>
+        <div class="clearfix">
 
-  </p>
-</article>
+          
+          <a class="btn btn-primary float-left" href="/open-source/2015/02/23/MacVim-is-back-on-track.md.html" data-toggle="tooltip" data-placement="top" title="MacVim is back on track">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/events/2015/03/16/gdg-talks.html" data-toggle="tooltip" data-placement="top" title="GDG Talks #1">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
 
-<hr>
-
-
-
-<article class="post-preview">
-  <a href="/2015/04/04/tips-for-android-beginners.html">
-    <h2 class="post-title">Tips for Android beginners</h2>
-    
-    <h3 class="post-subtitle">A while ago someone asked on Quora how to learn Android development. The person had...</h3>
-    
-  </a>
-  <p class="post-meta">Posted by
-    
-    Douglas Drumond
-    
-    on April 04, 2015 &middot; <span class="reading-time" title="Estimated read time">
-  
-   4 mins  read </span>
-
-  </p>
-</article>
-
-<hr>
-
-
-
-<article class="post-preview">
-  <a href="/events/2015/03/16/gdg-talks.html">
-    <h2 class="post-title">GDG Talks #1</h2>
-    
-    <h3 class="post-subtitle">Usually every month we have an informal meeting at GDG Campinas, where we gather and...</h3>
-    
-  </a>
-  <p class="post-meta">Posted by
-    
-    Douglas Drumond
-    
-    on March 16, 2015 &middot; <span class="reading-time" title="Estimated read time">
-  
-   2 mins  read </span>
-
-  </p>
-</article>
-
-<hr>
-
-
-
-<!-- Pager -->
-
-
-<div class="clearfix">
-
-  
-  <a class="btn btn-primary float-left" href="/posts/">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
-  
-
-  
-  <a class="btn btn-primary float-right" href="/posts/page3/">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
-  
-
-</div>
-
-
-
+        </div>
 
       </div>
     </div>
