@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Migrating and pruning repos | Café Linear</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Recently I had to put a folder from my app repository into a separate repository on its own. The easiest way was just git init a new repo, copy the directory and git commit it, but I would lose all history up until the move. After fiddling with git and Stack Overflow, I found the solution.
+Suppose the structure is like this:
+All-in-one repo: * server * code.go * code2.go * iOS * code.">
+    <meta name="generator" content="Hugo 0.101.0" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Migrating and pruning repos" />
+<meta property="og:description" content="Recently I had to put a folder from my app repository into a separate repository on its own. The easiest way was just git init a new repo, copy the directory and git commit it, but I would lose all history up until the move. After fiddling with git and Stack Overflow, I found the solution.
+Suppose the structure is like this:
+All-in-one repo: * server * code.go * code2.go * iOS * code." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cafelinear.com/post/2012-11-08-migrating-and-pruning-repos/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2012-11-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2012-11-08T00:00:00+00:00" />
+
+<meta itemprop="name" content="Migrating and pruning repos">
+<meta itemprop="description" content="Recently I had to put a folder from my app repository into a separate repository on its own. The easiest way was just git init a new repo, copy the directory and git commit it, but I would lose all history up until the move. After fiddling with git and Stack Overflow, I found the solution.
+Suppose the structure is like this:
+All-in-one repo: * server * code.go * code2.go * iOS * code."><meta itemprop="datePublished" content="2012-11-08T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2012-11-08T00:00:00+00:00" />
+<meta itemprop="wordCount" content="427">
+<meta itemprop="keywords" content="git," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Migrating and pruning repos"/>
+<meta name="twitter:description" content="Recently I had to put a folder from my app repository into a separate repository on its own. The easiest way was just git init a new repo, copy the directory and git commit it, but I would lose all history up until the move. After fiddling with git and Stack Overflow, I found the solution.
+Suppose the structure is like this:
+All-in-one repo: * server * code.go * code2.go * iOS * code."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('https://www.cafelinear.com/assets/images/cover.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Café Linear
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Migrating and pruning repos</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Migrating and pruning repos</h1>
+      
+      <p class="tracked">
+        By <strong>Douglas Drumond</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2012-11-08T00:00:00Z">November 8, 2012</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Recently I had to put a folder from my app repository into a separate
+repository on its own. The easiest way was just <code>git init</code> a new
+repo, copy the directory and <code>git commit</code> it, but I would lose
+all history up until the move. After fiddling with git and <a href="http://www.stackoverflow.com/" title="Stack Overflow">Stack
+Overflow</a>, I found the
+solution.</p>
+<p>Suppose the structure is like this:</p>
+<pre><code>All-in-one repo:
+* server
+    * code.go
+    * code2.go
+* iOS
+    * code.m
+    * code.h
+* Android
+    * src
+        * com
+            * cafelinear
+                * myapp
+                    * Code.java
+                    * Code2.java
+</code></pre>
+<p>We want to move the server code into its own repo, so, final result will
+be like this:</p>
+<pre><code>Mobile repo:
+* iOS
+    * code.m
+    * code.h
+* Android
+    * src
+        * com
+            * cafelinear
+                * myapp
+                    * Code.java
+                    * Code2.java
+
+Server repo:
+* code.go
+* code2.go
+</code></pre>
+<p>First, clone the original repository to the new one (the one that will
+keep just the desired folder) and <code>cd</code> into it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone /path/to/full/repo.git server
+</span></span><span style="display:flex;"><span>cd server</span></span></code></pre></div>
+<p>Since this will be a new repo, remove the remote:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote rm origin</span></span></code></pre></div>
+<p>Remove any tags you don’t want. Mine had a pattern, all started with v
+(such as v-0.0.1) for all mobile apps. Server code had different tags,
+making it easier for me:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git tag | grep <span style="color:#ae81ff">\^</span>v | xargs git tag -d</span></span></code></pre></div>
+<p>Now, the magic:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git filter-branch --tag-name-filter cat --prune-empty --subdirectory-filter server -- --all</span></span></code></pre></div>
+<p>What?</p>
+<p><code>git filter-branch</code> is used to (guess what?) filter branches (clap
+clap clap). It modifies revision history by rewriting the branches
+in the last parameter, in this case <code>--all</code>. Since we passed
+<code>subdirectory-filter</code>, it will consider this directory as the root of
+the new repo (effectively removing all others). Some filters generate
+empty commits, <code>--prune-empty</code> get rid of them. To update the tags to
+point to equivalent commits (they&rsquo;re not exactly the same since some
+parents are different, so changing sha1), use <code>--tag-name-filter cat</code>
+(<code>--tag-name-filter</code> asks for a command, in this case, <code>cat</code>).</p>
+<p>We got the DeLorean, travelled back in time and rewrote history, but
+left a dirt directory for us. iOS and Android folders are still there,
+although as untracked files, let&rsquo;s get rid of them with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add . <span style="color:#75715e">#to let git be aware of them</span>
+</span></span><span style="display:flex;"><span>git reset --hard <span style="color:#75715e">#to tell them go away</span></span></span></code></pre></div>
+<p>Delete old refs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git <span style="color:#66d9ef">for</span>-each-ref --format<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;%(refname)&#34;</span> refs/original/ | xargs -n <span style="color:#ae81ff">1</span> git update-ref -d</span></span></code></pre></div>
+<p>Now force git garbage collector to clean everything:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git reflog expire --expire<span style="color:#f92672">=</span>now --all
+</span></span><span style="display:flex;"><span>git gc --aggressive --prune<span style="color:#f92672">=</span>now</span></span></code></pre></div>
+<p>Now add your new remote and push to it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin /path/to/new/remote
+</span></span><span style="display:flex;"><span>git push -u origin master</span></span></code></pre></div>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/git" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">git</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.cafelinear.com" >
+    &copy;  Café Linear 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
