@@ -42,7 +42,7 @@ I'm married to an [amazing wife](https://twitter.com/letochie) who's always
 supporting me in whatever I do.
 
 I love coffee, [photography](https://www.flickr.com/photos/douglasdrumz) and
-[motorcycles](https://www.instagram.com/michikomoto).
+[motorcycles](https://www.instagram.com/dkmichi).
 
 I’m a manager at [Pipefy](https://www.pipefy.com/). I used to be a software
 developer, I started doing web development back when we used to be called
