@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Google Code Jam, Topcoder e outras competições | Café Linear</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="For English language readers: in Brazil, programming competitions are not widespread, so some questions arose last week about Google Code Jam. In order to answer them, I wrote an e-mail that I’m now changing into a blog post.
+Motivação Google Code Jam completa 10 anos em 2013. Numa das listas que participo, surgiram algumas dúvidas sobre o Google Code Jam e competições de programação em geral. Depois de escrever uma resposta completa, eu havia pensado em transformar em post para manter a referência online e, coincidentemente, me sugeriram isso na lista também.">
+    <meta name="generator" content="Hugo 0.104.3" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Google Code Jam, Topcoder e outras competições" />
+<meta property="og:description" content="For English language readers: in Brazil, programming competitions are not widespread, so some questions arose last week about Google Code Jam. In order to answer them, I wrote an e-mail that I’m now changing into a blog post.
+Motivação Google Code Jam completa 10 anos em 2013. Numa das listas que participo, surgiram algumas dúvidas sobre o Google Code Jam e competições de programação em geral. Depois de escrever uma resposta completa, eu havia pensado em transformar em post para manter a referência online e, coincidentemente, me sugeriram isso na lista também." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cafelinear.com/post/2013-04-01-google-code-jam-topcoder/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2013-04-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-04-01T00:00:00+00:00" />
+
+<meta itemprop="name" content="Google Code Jam, Topcoder e outras competições">
+<meta itemprop="description" content="For English language readers: in Brazil, programming competitions are not widespread, so some questions arose last week about Google Code Jam. In order to answer them, I wrote an e-mail that I’m now changing into a blog post.
+Motivação Google Code Jam completa 10 anos em 2013. Numa das listas que participo, surgiram algumas dúvidas sobre o Google Code Jam e competições de programação em geral. Depois de escrever uma resposta completa, eu havia pensado em transformar em post para manter a referência online e, coincidentemente, me sugeriram isso na lista também."><meta itemprop="datePublished" content="2013-04-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2013-04-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1445">
+<meta itemprop="keywords" content="Google Code Jam,Competições," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Google Code Jam, Topcoder e outras competições"/>
+<meta name="twitter:description" content="For English language readers: in Brazil, programming competitions are not widespread, so some questions arose last week about Google Code Jam. In order to answer them, I wrote an e-mail that I’m now changing into a blog post.
+Motivação Google Code Jam completa 10 anos em 2013. Numa das listas que participo, surgiram algumas dúvidas sobre o Google Code Jam e competições de programação em geral. Depois de escrever uma resposta completa, eu havia pensado em transformar em post para manter a referência online e, coincidentemente, me sugeriram isso na lista também."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('https://www.cafelinear.com/assets/images/cover.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Café Linear
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    <a href="https://twitter.com/douglasdrumond" target="_blank" class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://github.com/douglasdrumond" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.linkedin.com/in/douglasdrumond" target="_blank" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://instagram.com/_douglasdrumond" target="_blank" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Google Code Jam, Topcoder e outras competições</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://twitter.com/share?url=https://www.cafelinear.com/post/2013-04-01-google-code-jam-topcoder/&amp;text=Google%20Code%20Jam,%20Topcoder%20e%20outras%20competi%c3%a7%c3%b5es" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+        
+      </a>
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.cafelinear.com/post/2013-04-01-google-code-jam-topcoder/&amp;title=Google%20Code%20Jam,%20Topcoder%20e%20outras%20competi%c3%a7%c3%b5es" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Google Code Jam, Topcoder e outras competições</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2013-04-01T00:00:00Z">April 1, 2013</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><em>For English language readers: in Brazil, programming competitions are not
+widespread, so some questions arose last week about Google Code Jam. In order
+to answer them, I wrote an e-mail that I’m now changing into a blog post.</em></p>
+<h2 id="motivação">Motivação</h2>
+<p><a href="https://code.google.com/codejam">Google Code Jam</a> completa 10 anos em 2013.
+Numa das listas que participo, surgiram algumas dúvidas sobre o Google Code Jam
+e competições de programação em geral. Depois de escrever uma resposta
+completa, eu havia pensado em transformar em post para manter a referência
+online e, coincidentemente, me sugeriram isso na lista também. Portanto, segue
+quase sem edição, o e-mail enviado.</p>
+<h2 id="como-funciona">Como funciona</h2>
+<p><a href="https://code.google.com/codejam">Google Code Jam</a>,
+<a href="http://olimpiada.ic.unicamp.br/">OBI</a>, <a href="http://www.ioinformatics.org/">IOI</a>,
+<a href="http://maratona.ime.usp.br/">Maratona de Programação</a>,
+<a href="http://community.topcoder.com/tc">TopCoder</a> seguem o mesmo estilo.
+É apresentado um problema, geralmente com uma história para descontrair,
+a descrição da entrada e o formato da saída. O problema geralmente requer
+alguma criatividade para resolver e a dificuldade não está no uso de
+ferramentas, mas na lógica do algoritmo a implementar. O que eu quero dizer com
+isso é que basta saber a sintaxe de uma linguagem, não precisa conhecer todas
+as bibliotecas e frameworks. Eventualmente conhecer uma biblioteca de estrutura
+de dados é útil. Por exemplo, melhor usar a STL do que implementar hash na mão.</p>
+<p>A descrição do problema geralmente é direta (apesar da história para deixar
+mais agradável), mas envolve um pouco de interpretação. Por exemplo, não vai
+aparecer “implemente o algoritmo de caminhos mínimos”, mas vai aparecer algo
+como “Joãozinho adora andar de bicicleta, mas a bicicleta dele não tem
+corrente. Ele quer visitar o máximo de pontos turísticos da cidade, mas só
+consegue se mover de pontos mais altos para pontos mais baixos. Dada uma lista
+de pontos turísticos, qual conecta com qual, a altitude de cada um e o ponto de
+origem, seu problema é fornecer a Joãozinho a rota a seguir de forma que ele
+consiga visitar o máximo de pontos turísticos possível.”</p>
+<p>Na descrição do problema costuma aparecer já o significado das variáveis
+a serem utilizadas. Por exemplo: “dada uma lista de N pontos turísticos e sua
+respectiva altitude H e M ligações entre pontos turísticos X Y, significando
+que o ponto X e o ponto Y estão conectados por um caminho direto…” Daí já
+sabemos que, no restante do problema, N se refere a quantidade de pontos
+turísticos, H a altitude, etc. Geralmente é usado depois na descrição da
+entrada e nos limites do problema.</p>
+<p>A descrição da entrada diz exatamente o formato fornecido. Com isso, não
+precisa se preocupar com validações. Continuando no exemplo do Joãozinho, se
+o enunciado disser que a entrada será composta por dois inteiros N M indicando
+o número de pontos e o número de ligações, seguidos de N altitudes e M pares
+X Y, você pode ter certeza que a entrada será exatamente assim, não precisa
+validar se o usuário vai digitar uma letra onde era número, ou passar menos ou
+mais pontos, etc. Se houver uma string e a descrição disser que serão 200
+caracteres, pode declarar feliz em C um char bla[201] (string em
+C é null-terminated, por isso o 1) que não vai ocorrer buffer overflow.
+O objetivo é avaliar seu algoritmo, não é produzir um programa comercial.
+Também é apresentado um exemplo de entrada para clarificar a descrição feita.</p>
+<p>Após, vem uma descrição da saída, indicando o que o formato que o programa deve
+responder. Siga esse formato EXATAMENTE. Se a descrição disser para colocar
+Result #n, onde n é o número da instância em execução, coloque Result #n
+(Result #1, Result #2, etc). Não coloque Result 1 ou Result number 1 ou
+qualquer outra coisa porque não vai passar. Se disser para colocar um número
+com duas casas decimais, coloque duas casas. Se disser para colocar uma quebra
+de linha após alguma coisa, coloque a quebra de linha. Pense em correção
+automática e computador é burro. Considere que sua saída será comparada com
+o gabarito via diff. Nem sempre é verdade (há problemas mais complexos que
+podem exigir uma comparação mais inteligente, mas não precisa se preocupar com
+isso, siga a regra do diff e seja feliz). Se o gabarito diz &ldquo;result&rdquo;, sua saída
+diz ”resultado”, o que um diff vai dizer? São diferentes, portanto, está
+errado. Aproveitando, veja o exemplo fornecido e siga EXATAMENTE, incluindo
+maiúsculas e minúsculas.</p>
+<p>No final, é adicionado o limite para todas as variáveis. Por exemplo, 0 &lt;= N &lt;=
+10000. Com isso, você já sabe que não terá mais que 10000 pontos. Se seu
+programa vai armazenar esses pontos num vetor, por exemplo, você já sabe que
+pode declarar um vetor de 10000 posições. Aproveitando, fica a dica: se puder
+usar alocação estática, use alocação estática. Quando eu participei da OBI, eu
+poderia ter sido o 6º colocado (em vez de 13º) porque fiz um algoritmo correto
+para um problema, mas usei alocação dinâmica, não alocava corretamente para
+próxima instância e operava com lixo de memória. Se eu tivesse deixado tudo
+estático, teria acertado mais um problema e teria pontuação equivalente ao
+competidor que foi o 6º. Os limites apresentados também são úteis para
+determinar o algoritmo usado. Por exemplo, se você tem certeza que são poucos
+itens, pode resolver algo na força bruta (por exemplo, gerando todas as
+permutações e escolhendo a melhor). Se são muitos, você já sabe que vai
+precisar de um algoritmo eficiente. Geralmente a escolha dos limites é feita de
+forma que a linguagem não faça diferença. Por exemplo, Ruby é mais lento que C.
+Isso quer dizer que daria, por exemplo, para passar um algoritmo
+O(n<!-- raw HTML omitted -->3<!-- raw HTML omitted -->) em C, mas só O(n<!-- raw HTML omitted -->2<!-- raw HTML omitted -->) em Ruby? Não, geralmente eles
+colocam um limite tal que, continuando nesse exemplo, O(n<!-- raw HTML omitted -->3<!-- raw HTML omitted -->) seja
+lento para todas as linguagens e O(n<!-- raw HTML omitted -->2<!-- raw HTML omitted -->) seja aceitável para todas as
+linguagens.</p>
+<p>A diferença entre as competições é o limite de idade, organização, etc. A OBI,
+por exemplo, é para ensino médio. A Maratona é em equipes de 3. Google Code Jam
+é individual (a maioria é), e por aí vai. Uma diferença para GCJ é a escolha de
+linguagens. A maioria das competições limita a linguagem a poucas. Na minha
+época de OBI, por exemplo, era apenas C, C++ ou Pascal. Podia resolver
+problemas diferentes em linguagens diferentes, mas cada problema deveria ser
+resolvido em uma linguagem apenas. Já a Maratona de Programação aceita Java.
+GCJ é mais liberal: você pode resolver em qualquer linguagem que tenha um
+compilador/interpretador gratuito disponível. Vale usar a linguagem do Matlab,
+por exemplo, desde que use somente as funcionalidades compatíveis com Octave.
+Não existe uma versão gratuita do Mathematica, então não pode usá-lo. Vale C,
+Pascal, Ruby, Python, até Brainfuck (sim, existe quem resolva o GCJ em
+Brainfuck).</p>
+<h2 id="exemplo-de-problema">Exemplo de problema</h2>
+<p>Um exemplo de problema (nunca cairia pois é trivialmente trivial
+e estupidamente estúpido):</p>
+<p>Joãozinho quer ajudar seu pai a fazer a contabilidade da loja. Para isso,
+Joãozinho quer usar o computador como uma calculadora, mas ele não tem nenhum
+aplicativo disponível. Sua função é ajudar Joãozinho a criar uma calculadora.
+Como Joãzinho processa apenas dois itens por vez, sua calculadora só precisa
+somar 2 números por vez.</p>
+<h3 id="entrada">Entrada</h3>
+<p>A entrada será composta por N pares X Y correspondo aos números a serem
+somados. O programa é finalizado quando X = Y = 0.</p>
+<h3 id="saída">Saída</h3>
+<p>A saída deverá apresentar Caso #n: Z, onde n é o número do caso de teste
+começando em 1 e Z o resultado da soma, seguido de uma quebra de linha.</p>
+<h3 id="limites">Limites</h3>
+<pre><code>0 &lt;= N &lt;= 1000000
+0 &lt;= X,Y &lt;= 100
+</code></pre>
+<h3 id="exemplo-de-entrada">Exemplo de entrada:</h3>
+<pre><code>2 3
+4 5
+2 0
+1 1000
+0 0
+</code></pre>
+<h3 id="exemplo-de-saída">Exemplo de saída:</h3>
+<pre><code>Caso #1: 5
+Caso #2: 9
+Caso #3: 2
+Caso #4: 1001
+</code></pre>
+<p>Agora, um exemplo de solução para o problema acima, em C:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> x, y, i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span>(scanf(<span style="color:#e6db74">&#34;%d %d&#34;</span>, <span style="color:#f92672">&amp;</span>x, <span style="color:#f92672">&amp;</span>y) <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">&amp;&amp;</span> (x <span style="color:#f92672">||</span> y))
+</span></span><span style="display:flex;"><span>        printf(<span style="color:#e6db74">&#34;Caso #%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, i<span style="color:#f92672">++</span>, x <span style="color:#f92672">+</span> y);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h2 id="preparação">Preparação</h2>
+<p>O que é importante para se dar bem? Conhecer bem estrutura de dados (saber
+quando usar árvore, pilha, grafo, hash, etc) e conhecer bem algoritmos
+clássicos (árvore geradora mínima, dijkstra, busca em largura, etc) e técnicas
+de programação (algoritmos gulosos, programação dinâmica, etc). Saber quando
+usar cada um e saber combiná-los. Um site bom para se preparar é o
+<a href="http://www.topcoder.com/tc">Topcoder</a>. Possui fórum com competidores,
+tutoriais, pode-se pesquisar códigos de outros competidores, etc. Também
+recomendo a leitura desse
+<a href="http://contest-wiki.csc.kth.se/index.php/How_to_get_better%3F">artigo</a>.</p>
+<h2 id="conclusão">Conclusão</h2>
+<p>Mesmo quem não gosta de competir, deveria acostumar a resolver problemas
+algorítmicos difíceis em um curto espaço de tempo, muito útil para conseguir
+emprego nas empresas top. Quer trabalhar no Google? Ou Facebook? É com esse
+tipo de problema que vocês vão se deparar nas entrevistas.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/Google-Code-Jam" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Google Code Jam</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/Competi%C3%A7%C3%B5es" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Competições</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.cafelinear.com" >
+    &copy;  Café Linear 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    <a href="https://twitter.com/douglasdrumond" target="_blank" class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://github.com/douglasdrumond" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.linkedin.com/in/douglasdrumond" target="_blank" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://instagram.com/_douglasdrumond" target="_blank" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
