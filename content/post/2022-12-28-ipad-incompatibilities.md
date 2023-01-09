@@ -1,4 +1,5 @@
 ---
+featured_image: /assets/article_images/2022-12-28-ipad-incompatibilities/daniel-romero-Z4_kN9ybLf4-unsplash.jpg
 categories: null
 date: "2022-12-28T23:41:03-03:00"
 title: "iPad Incompatibilities: Unintuitive Volume Buttons"
