@@ -51,3 +51,5 @@ I recommend that you get used to which way will increase or decrease the volume
 regardless of the orientation and take extra care when rotating the iPad 180º.
 Apple, please, fix this for us.
 
+_Photo by <a href="https://unsplash.com/@rmrdnl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Romero</a> on <a href="https://unsplash.com/wallpapers/iphone/ipad-pro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>_
+
