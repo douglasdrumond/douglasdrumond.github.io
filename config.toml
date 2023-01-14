@@ -6,6 +6,11 @@ title = "Café Linear"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
 [[params.ananke_socials]]
+name = "mastodon"
+url = "https://mastodon.acm.org/@douglas"
+rel = "me"
+
+[[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/douglasdrumond"
 
@@ -20,3 +25,7 @@ url = "https://www.linkedin.com/in/douglasdrumond"
 [[params.ananke_socials]]
 name = "instagram"
 url = "https://instagram.com/_douglasdrumond"
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://instagram.com/cafelinear"
