@@ -1,5 +1,5 @@
 ---
-title: "Café Linear"
+title: "Douglas Drumond Kayama"
 
 description: "f: Coffee → (Writings, Software)"
 #description: "F: Coffee ↦ (Writings, Software)"
@@ -8,5 +8,5 @@ theme_version: '2.8.2'
 featured_image: 'assets/images/cover.jpg'
 
 ---
-Linear dump of my nonlinear brain.
+My thoughts on software engineering, data/Math/Statistics, and product development
 
