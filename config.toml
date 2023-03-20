@@ -1,7 +1,7 @@
-baseURL = "https://www.cafelinear.com"
+baseURL = "https://www.douglasdrumond.com"
 disablePathToLower = "true"
 languageCode = "en-us"
-title = "Café Linear"
+title = "Douglas Drumond Kayama"
 
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
@@ -28,4 +28,4 @@ url = "https://instagram.com/_douglasdrumond"
 
 [[params.ananke_socials]]
 name = "instagram"
-url = "https://instagram.com/cafelinear"
+url = "https://instagram.com/douglasdrumond.tech"
