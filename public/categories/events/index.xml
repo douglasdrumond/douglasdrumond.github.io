@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>events on Douglas Drumond Kayama</title>
-    <link>https://www.douglasdrumond.tech/categories/events/</link>
+    <link>https://douglasdrumond.tech/categories/events/</link>
     <description>Recent content in events on Douglas Drumond Kayama</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.douglasdrumond.tech/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://douglasdrumond.tech/categories/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GDG Talks #1</title>
-      <link>https://www.douglasdrumond.tech/post/2015-03-16-gdg-talks/</link>
+      <link>https://douglasdrumond.tech/post/2015-03-16-gdg-talks/</link>
       <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2015-03-16-gdg-talks/</guid>
+      <guid>https://douglasdrumond.tech/post/2015-03-16-gdg-talks/</guid>
       <description>Usually every month we have an informal meeting at GDG Campinas, where we gather and discuss whatever comes to mind (most of the time it’s Android, the preferred topic for most of the attendees), but this month we decided to do something different.
 Organized by Karuan Bertoluci, this month meeting was a series of three talks hosted at Ci&amp;amp;T, which provided the venue and some beverage and food.
 After Karuan opened the event, I gave the first talk on Android Wear.</description>
@@ -20,10 +20,10 @@ After Karuan opened the event, I gave the first talk on Android Wear.</descripti
     
     <item>
       <title>FLISOL Campinas - Uploaded talks</title>
-      <link>https://www.douglasdrumond.tech/post/2013-04-28-flisol-campinas/</link>
+      <link>https://douglasdrumond.tech/post/2013-04-28-flisol-campinas/</link>
       <pubDate>Sun, 28 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2013-04-28-flisol-campinas/</guid>
+      <guid>https://douglasdrumond.tech/post/2013-04-28-flisol-campinas/</guid>
       <description>Yesterday I presented 4 talks at FLISOL Campinas and I uploaded three of them online. The event was in Portuguese, so is the rest of this post.
 Ontem apresentei 4 palestras no FLISOL Campinas. Subi 3 palestras online, uma em HTML5 aqui nesse mesmo site, as outras no SlideShare.
 Palestras apresentadas Android Faixa Branca Essa foi uma palestra de introdução ao Android, apresentando conceitos básicos e um exemplo de aplicativo.</description>
@@ -31,10 +31,10 @@ Palestras apresentadas Android Faixa Branca Essa foi uma palestra de introduçã
     
     <item>
       <title>DevFestW Campinas</title>
-      <link>https://www.douglasdrumond.tech/post/2013-04-11-devfestw-campinas/</link>
+      <link>https://douglasdrumond.tech/post/2013-04-11-devfestw-campinas/</link>
       <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2013-04-11-devfestw-campinas/</guid>
+      <guid>https://douglasdrumond.tech/post/2013-04-11-devfestw-campinas/</guid>
       <description>What is DevFestW? Quoting the main site:
 DevFestW is a series of community-led events that have technical sessions centered around Google developer technologies and platforms. DevFestW is focused specifically on bringing together women in the local developer community to teach, learn, code and network.
 DevFestW Campinas DevFestWs were supposed to be held in March, but we had to postpone ours to yesterday (April 10th) because of some problems with location. Finally, we got a lot of support from Dextraining to promote the event, from food to location, to video cameras to record the event, so we decided to do it even so late.</description>
@@ -42,58 +42,58 @@ DevFestW Campinas DevFestWs were supposed to be held in March, but we had to pos
     
     <item>
       <title>Google Code Jam, Topcoder e outras competições</title>
-      <link>https://www.douglasdrumond.tech/post/2013-04-01-google-code-jam-topcoder/</link>
+      <link>https://douglasdrumond.tech/post/2013-04-01-google-code-jam-topcoder/</link>
       <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2013-04-01-google-code-jam-topcoder/</guid>
+      <guid>https://douglasdrumond.tech/post/2013-04-01-google-code-jam-topcoder/</guid>
       <description>For English language readers: in Brazil, programming competitions are not widespread, so some questions arose last week about Google Code Jam. In order to answer them, I wrote an e-mail that I’m now changing into a blog post.
 Motivação Google Code Jam completa 10 anos em 2013. Numa das listas que participo, surgiram algumas dúvidas sobre o Google Code Jam e competições de programação em geral. Depois de escrever uma resposta completa, eu havia pensado em transformar em post para manter a referência online e, coincidentemente, me sugeriram isso na lista também.</description>
     </item>
     
     <item>
       <title>Waza Opening</title>
-      <link>https://www.douglasdrumond.tech/post/2013-03-01-waza-opening/</link>
+      <link>https://douglasdrumond.tech/post/2013-03-01-waza-opening/</link>
       <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2013-03-01-waza-opening/</guid>
+      <guid>https://douglasdrumond.tech/post/2013-03-01-waza-opening/</guid>
       <description>Waza is an event promoted by Heroku, a PaaS company. In Ruby language world there is this tendency to name things after Japanese words (Ruby itself came from Japan, thanks to Matsumoto Yukihiro, a.k.a. Matz), although I have no idea if this influenced Heroku somehow. Heroku itself I don’t think it’s a Japanese word (at least I couldn’t find it in any dictionary I looked at). On the other hand, waza is a Japanese word meanining technique, so it makes perfect sense to name an event focused on technical knowledge after this word.</description>
     </item>
     
     <item>
       <title>Thoughts on DevFest Brasil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-12-02-devfest-brasil/</link>
+      <link>https://douglasdrumond.tech/post/2012-12-02-devfest-brasil/</link>
       <pubDate>Sun, 02 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2012-12-02-devfest-brasil/</guid>
+      <guid>https://douglasdrumond.tech/post/2012-12-02-devfest-brasil/</guid>
       <description>Last Friday I went to DevFest Brasil (in Portuguese). Since Google won’t promote Google Developer Day anymore, the Google Developer Groups (former GTUG, Google Technology User Groups) are promoting DevFest. So, these events, instead of being backed up by a big company, are from community to community. I recognize the hassle that is promoting these, and I think the people from GDG-SP (São Paulo), GDG-BH (Belo Horizonte) and GDG-GO (Goiás) did a great job nonetheless.</description>
     </item>
     
     <item>
       <title>My talk from DevFest Brasil is online</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-30-slides/</link>
+      <link>https://douglasdrumond.tech/post/2012-11-30-slides/</link>
       <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2012-11-30-slides/</guid>
+      <guid>https://douglasdrumond.tech/post/2012-11-30-slides/</guid>
       <description>I just uploaded the slides of my talk in DevFest Brasil. See link on this page (if you’re on desktop, it should be on the right, if you’re on a smartphone, it’s at the bottom). It’s exactly as I presented. Later today or tomorrow I’ll add some presenter notes or some screenshots of the hands-on part.
 Edit: just see the talks page</description>
     </item>
     
     <item>
       <title>I’ll talk in DevFest Brasil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-24-devfest/</link>
+      <link>https://douglasdrumond.tech/post/2012-11-24-devfest/</link>
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2012-11-24-devfest/</guid>
+      <guid>https://douglasdrumond.tech/post/2012-11-24-devfest/</guid>
       <description>This year we won’t have Google Developer Day. Instead, Google Developer Groups are organizing their own events called DevFest. These are pretty much like Google Developer Day with some extras. For instance, in GDDs, we didn’t have codelabs with hands on, just 1h (approx) long talks about a variety of topics Google related.
 One other thing that changed are the speakers. On GDD, all were Google Employees or invited by Google.</description>
     </item>
     
     <item>
       <title>Evernote Hackathon Brazil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-14-evernote-hackathon-brazil/</link>
+      <link>https://douglasdrumond.tech/post/2012-11-14-evernote-hackathon-brazil/</link>
       <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://www.douglasdrumond.tech/post/2012-11-14-evernote-hackathon-brazil/</guid>
+      <guid>https://douglasdrumond.tech/post/2012-11-14-evernote-hackathon-brazil/</guid>
       <description>Last weekend (Nov 10–11), Evernote held the second edition of Evernote Hackathon Brazil. It was my first 24H hackathon and it was very exciting. I had participated in two hackathons before, but the doors were shut down at night.
 The trip The hackathon was held in São Paulo city at Academia Wayra, a startup incubator located in a very cool building with a nice view. It was the first time Pinheiros river looked nice.</description>
     </item>
