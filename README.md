@@ -1,3 +1,7 @@
+Just use `main`
+
+# DEPRECATED
+
 Move to `sources` branch
 ```
 git checkout sources
