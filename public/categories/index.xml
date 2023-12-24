@@ -5,25 +5,22 @@
     <link>https://www.douglasdrumond.tech/categories/</link>
     <description>Recent content in Categories on Douglas Drumond Kayama</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.douglasdrumond.tech/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-GB</language>
+    <lastBuildDate>Mon, 16 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.douglasdrumond.tech/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>events</title>
       <link>https://www.douglasdrumond.tech/categories/events/</link>
       <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.douglasdrumond.tech/categories/events/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>open-source</title>
       <link>https://www.douglasdrumond.tech/categories/open-source/</link>
       <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://www.douglasdrumond.tech/categories/open-source/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

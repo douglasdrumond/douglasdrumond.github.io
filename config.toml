@@ -1,9 +1,23 @@
 baseURL = "https://www.douglasdrumond.tech"
 disablePathToLower = "true"
-languageCode = "en-us"
 title = "Douglas Drumond Kayama"
-
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+
+# languageCode = "en-us"
+defaultContentLanguage = "en"
+[languages]
+    [languages.en]
+        contentDir = "content/en"
+        disabled = false
+        languageCode = "en-GB"
+        languageDirection = "ltr"
+        weight = 1
+    [languages.pt]
+        contentDir = "content/pt"
+        disabled = false
+        languageCode = "pt-BR"
+        languageDirection = "ltr"
+        weight = 2
 
 [[params.ananke_socials]]
 name = "mastodon"

@@ -10,10 +10,6 @@ tags:
 title: Google Code Jam, Topcoder e outras competições
 ---
 
-_For English language readers: in Brazil, programming competitions are not
-widespread, so some questions arose last week about Google Code Jam. In order
-to answer them, I wrote an e-mail that I’m now changing into a blog post._
-
 ## Motivação
 
 [Google Code Jam](https://code.google.com/codejam) completa 10 anos em 2013.
@@ -184,7 +180,7 @@ usar cada um e saber combiná-los. Um site bom para se preparar é o
 [Topcoder](http://www.topcoder.com/tc). Possui fórum com competidores,
 tutoriais, pode-se pesquisar códigos de outros competidores, etc. Também
 recomendo a leitura desse
-[artigo](http://contest-wiki.csc.kth.se/index.php/How_to_get_better%3F).
+artigo (<em>obs: havia um link externo que hoje está fora do ar</em>).
 
 ## Conclusão
 

@@ -8,18 +8,12 @@ tags:
 title: FLISOL Campinas - Uploaded talks
 ---
 
-Yesterday I presented 4 talks at FLISOL Campinas and I uploaded three of them
-online. The event was in Portuguese, so is the rest of this post.
-
-
-Ontem apresentei 4 palestras no [FLISOL
-Campinas](http://www.flisolcampinas.net/). Subi 3 palestras online, uma em
-HTML5 aqui nesse mesmo site, as outras no SlideShare.
+Ontem apresentei 4 palestras no FLISOL Campinas. Subi 3 palestras online, uma
+em HTML5 aqui nesse mesmo site, as outras no SlideShare.
 
 ## Palestras apresentadas
 
 ### [Android Faixa Branca](https://speakerdeck.com/douglasdrumond/flisol-android-faixa-branca-iniciando-no-android)
-
 Essa foi uma palestra de introdução ao Android, apresentando conceitos básicos
 e um exemplo de aplicativo.
 
@@ -35,11 +29,10 @@ programadores implementarem as ideias já vindas dos designers.
 ### [Por dentro do Android](/talks/flisol-campinas-2013/)
 
 Android é um sistema de código aberto e temos diversas versões alternativas,
-como [CyanogenMod](http://www.cyanogenmod.com/), [MIUI](http://en.miui.com/)
-e a antiga [ShadowModBR](https://code.google.com/p/shadowmodbr/). Nessa
-palestra apresentei o básico do código-fonte do Android, dando uma visão geral
-da árvore de código e o que é necessário para começar e apresentei como
-adicionar um aplicativo como app de sistema.
+como CyanogenMod, MIUI e a antiga ShadowModBR. Nessa palestra apresentei
+o básico do código-fonte do Android, dando uma visão geral da árvore de código
+e o que é necessário para começar e apresentei como adicionar um aplicativo
+como app de sistema.
 
 ### Layouts Flexíveis no Android
 

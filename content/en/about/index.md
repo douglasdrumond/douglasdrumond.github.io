@@ -31,7 +31,9 @@ domain, though.
 I’m a domain addict, I own several domains because I couldn’t settle for a name
 I liked, not even when it was my own name. But I always liked Café Linear and,
 although it doesn't make sense in either language (lit. it means "linear
-coffee"), it sounds like a name for a coffee shop. And I love coffee.
+coffee"), it sounds like a name for a coffee shop. And I love coffee. That's how
+I got the first domain for this blog and it stayed up for a while. Later, I decided
+to use my own name and changed the domain, but I kept this as historical record.
 
 So, time to blog again and here I’ll put all my thoughts related to management
 and software engineering.
@@ -44,15 +46,18 @@ supporting me in whatever I do.
 I love coffee, [photography](https://www.flickr.com/photos/douglasdrumz) and
 [motorcycles](https://www.instagram.com/dkmichi).
 
-I’m a manager at [Pipefy](https://www.pipefy.com/). I used to be a software
-developer, I started doing web development back when we used to be called
-webmasters and take care of everything, from database to server configuration
-to the code itself. Later I moved to mobile and did a lot of Android
-development.
+I'm an engineering manager, developer and instructor.I started doing web
+development back when we used to be called webmasters and take care of
+everything, from database to server configuration to the code itself. Later
+I moved to mobile and did a lot of Android development.
 
-I graduated in Computer Science, but I have a secret love for Applied
-Mathematics (I almost majored in Applied Mathematics, finishing 85% of the
-course) and how to use both to solve problems.
+I graduated in Computer Science from Unicamp (Brazil), but I have a secret love
+for Applied Mathematics (I almost majored in Applied Mathematics, finishing 85%
+of the course) and how to use both to solve problems. I have an MBA degree in
+Business Analytics and Big Data from FGV (Getulio Vargas Foundation, Brazil).
+I'm also an MSc student in Computer Science with Artificial Intelligence at
+University of York, UK.
 
 _Disclaimer_: Views expressed here are my own and do not represent those of my
 current or past employers, or anyone else, except when noted.
+

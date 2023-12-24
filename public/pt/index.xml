@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Douglas Drumond Kayama</title>
+    <link>https://www.douglasdrumond.tech/pt/</link>
+    <description>Recent content on Douglas Drumond Kayama</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Sun, 28 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.douglasdrumond.tech/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FLISOL Campinas - Uploaded talks</title>
+      <link>https://www.douglasdrumond.tech/pt/post/2013-04-28-flisol-campinas/</link>
+      <pubDate>Sun, 28 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.douglasdrumond.tech/pt/post/2013-04-28-flisol-campinas/</guid>
+      <description>Ontem apresentei 4 palestras no FLISOL Campinas. Subi 3 palestras online, uma em HTML5 aqui nesse mesmo site, as outras no SlideShare.
+Palestras apresentadas Android Faixa Branca Essa foi uma palestra de introdução ao Android, apresentando conceitos básicos e um exemplo de aplicativo.
+Embelezando o Android Palestra com exemplos de técnicas de interface no Android. Mostra um exemplo de criação de botões em XML, background e um exemplo de componente (SlidingMenu).</description>
+    </item>
+    <item>
+      <title>Google Code Jam, Topcoder e outras competições</title>
+      <link>https://www.douglasdrumond.tech/pt/post/2013-04-01-google-code-jam-topcoder/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.douglasdrumond.tech/pt/post/2013-04-01-google-code-jam-topcoder/</guid>
+      <description>Motivação Google Code Jam completa 10 anos em 2013. Numa das listas que participo, surgiram algumas dúvidas sobre o Google Code Jam e competições de programação em geral. Depois de escrever uma resposta completa, eu havia pensado em transformar em post para manter a referência online e, coincidentemente, me sugeriram isso na lista também. Portanto, segue quase sem edição, o e-mail enviado.
+Como funciona Google Code Jam, OBI, IOI, Maratona de Programação, TopCoder seguem o mesmo estilo.</description>
+    </item>
+    <item>
+      <title>Sobre</title>
+      <link>https://www.douglasdrumond.tech/pt/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.douglasdrumond.tech/pt/sobre/</guid>
+      <description>Este blog Quando eu era estudante de Matemática, todos os dias às 15h, meus amigos e eu costumávamos nos sentar na sala de café do Instituto de Matemática, Estatística e Computação Científica da Unicamp (IMECC) para beber café, discutir Matemática e qualquer outra coisa que viesse à mente. Geralmente, o tópico estava relacionado à Álgebra Linear, às vezes à Álgebra Superior, Análise e, dependendo de quem estava lá, Ciência da Computação.</description>
+    </item>
+  </channel>
+</rss>
