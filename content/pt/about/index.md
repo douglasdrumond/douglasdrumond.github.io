@@ -33,7 +33,8 @@ Sou viciado em domínios, possuo vários porque nunca consegui me decidir por um
 nome que eu gostasse, nem mesmo quando era o meu próprio nome. Mas eu sempre
 gostei de Café Linear e, embora não faça sentido em nenhum dos idiomas, soa
 como um nome para uma cafeteria. E eu amo café. Depois, decidi usar meu próprio
-nome como domínio, mas mantive esse texto como registro histórico.
+nome como domínio, mas mantive esse texto como registro histórico. Atualmente, é o
+nome da minha empresa e o antigo domínio do blog é o domínio da empresa.
 
 Então, hora de blogar novamente e aqui colocarei todos os meus pensamentos
 relacionados à gestão, ciência da computação, matemática e estatística.

@@ -34,6 +34,8 @@ although it doesn't make sense in either language (lit. it means "linear
 coffee"), it sounds like a name for a coffee shop. And I love coffee. That's how
 I got the first domain for this blog and it stayed up for a while. Later, I decided
 to use my own name and changed the domain, but I kept this as historical record.
+Now, it's the name of my own business. And my old blog domain is the domain of
+my business.
 
 So, time to blog again and here I’ll put all my thoughts related to management
 and software engineering.
@@ -46,7 +48,7 @@ supporting me in whatever I do.
 I love coffee, [photography](https://www.flickr.com/photos/douglasdrumz) and
 [motorcycles](https://www.instagram.com/dkmichi).
 
-I'm an engineering manager, developer and instructor.I started doing web
+I'm an engineering manager, developer and instructor. I started doing web
 development back when we used to be called webmasters and take care of
 everything, from database to server configuration to the code itself. Later
 I moved to mobile and did a lot of Android development.
