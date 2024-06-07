@@ -53,6 +53,6 @@ Uma pergunta que pode ter passado pela sua mente: por que passar por todo esse t
 
 Um bom método deve atender às suas preferências e melhorar seu aprendizado. Alguns acham que estudar com fichas físicas é agradável e benéfico para a memória. Essa abordagem permite que você se envolva mais profundamente com o material, resumindo e refletindo sobre o que aprendeu. Enquanto as ferramentas digitais oferecem conveniência, a experiência tátil de registrar informações no papel pode melhorar sua compreensão e retenção. Escolha um método que esteja alinhado com seu estilo de aprendizado e objetivos.
 
-_Photo by [Niklas Luhmann Archiv](https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_1_NB_7-7g9b_V) licensed under Creative Commons: CC-BY-NC-SA-4.0_
+_Foto por [Niklas Luhmann Archiv](https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_1_NB_7-7g9b_V) licenciada sob Creative Commons: CC-BY-NC-SA-4.0_
 
-[^1]: Zettelkasten. (2024, March 25). In Wikipedia. https://en.wikipedia.org/wiki/Zettelkasten 
+[^1]: Zettelkasten. (25 de março de 2024). Em Wikipedia. https://en.wikipedia.org/wiki/Zettelkasten
