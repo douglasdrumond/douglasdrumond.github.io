@@ -11,7 +11,7 @@ If you search the internet for the term, you will find many references, most of 
 
 ## Clearing a misconception
 
-If you do some research, you may find that Zettelkasten started with Niklas Luhmann, a German sociologist. That’s not correct, many authors and researchers have used some variation of the system before. Antonin Sertillanges, Walter Benjamin, Roland Barthes and others have used a similar system [^1]. However, Luhmann was so prolific in his writing and built a system with ninety thousand cards that many associate Zettelkasten with him. However, the purpose of this text is to show an easy implementation of the system, not to teach history. Zettelkasten is just the German word for slipbox, nothing more. Nobody claimed inventing a method with this name. However, given Luhmann was German, conventionally we use Zettelkasten to refer to his method of note taking and organisation.
+If you do some research, you may find that Zettelkasten started with Niklas Luhmann, a German sociologist. That’s not correct, many authors and researchers have used some variation of the system before. Antonin Sertillanges, Walter Benjamin, Roland Barthes and others have used a similar system [^1]. However, Luhmann was so prolific in his writing and built a system with ninety thousand cards that many associate Zettelkasten with him. Nevertheless, the purpose of this text is to show an easy implementation of the system, not to teach history. Zettelkasten is just the German word for slipbox, nothing more. Nobody claimed to invent a method with this name. Still, given Luhmann was German, we conventionally use Zettelkasten to refer to his note-taking method and organisation.
 
 ## The method
 
