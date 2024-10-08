@@ -16,7 +16,7 @@ Quando eu era estudante de Matemática, todos os dias às 15h, meus amigos e eu
 costumávamos nos sentar na sala de café do Instituto de Matemática, Estatística
 e Computação Científica da Unicamp (IMECC) para beber café, discutir Matemática
 e qualquer outra coisa que viesse à mente. Geralmente, o tópico estava
-relacionado à Álgebra Linear, às vezes à Álgebra Superior, Análise e,
+relacionado a Álgebra Linear, às vezes a Álgebra Superior, Análise e,
 dependendo de quem estava lá, Ciência da Computação.
 
 Depois que mudei de curso para Ciência da Computação, continuei a perambular
@@ -41,7 +41,7 @@ relacionados à gestão, ciência da computação, matemática e estatística.
 
 ## Sobre mim
 
-Sou casado com uma [esposa incrível](https://twitter.com/letochie) que sempre
+Sou casado com uma [esposa incrível](https://www.linkedin.com/in/leticia-kayama-drumond-b28a6712/) que sempre
 me apoia em tudo o que faço.
 
 Adoro café, [fotografia](https://www.flickr.com/photos/douglasdrumz) e

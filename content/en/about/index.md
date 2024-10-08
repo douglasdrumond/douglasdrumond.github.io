@@ -42,7 +42,7 @@ and software engineering.
 
 ## Me
 
-I'm married to an [amazing wife](https://twitter.com/letochie) who's always
+I'm married to an [amazing wife](https://www.linkedin.com/in/leticia-kayama-drumond-b28a6712/) who's always
 supporting me in whatever I do.
 
 I love coffee, [photography](https://www.flickr.com/photos/douglasdrumz) and
