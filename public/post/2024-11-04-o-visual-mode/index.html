@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Using `o` in visual mode to change direction of selection | Douglas Drumond Kayama</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="If you select some lines or characters with V or v and want to change
+the direction of expansion of the selection, type o.
+For example, suppose you have the following text:
+Holmes was certainly not a difficult man to live with. He was quiet in his
+ways, and his habits were regular.
+It was rare for him to be up after ten at night, and he had invariably
+breakfasted and gone out before I rose in the morning.
+Sometimes he spent his day at the chemical laboratory, sometimes in the
+dissecting-rooms, and occasionally in long walks, which appeared to take him
+into the lowest portions of the City.
+Nothing could exceed his energy when the working fit was upon him; but now and
+again a reaction would seize him, and for days on end he would lie upon the
+sofa in the sitting-room, hardly uttering a word or moving a muscle from
+morning to night.
+On these occasions I have noticed such a dreamy, vacant expression in his eyes,
+that I might have suspected him of being addicted to the use of some narcotic,
+had not the temperance and cleanliness of his whole life forbidden such a
+notion.
+Suppose your cursor is in the line starting with Sometimes. You pressed V
+and started selecting down with j. Then you realised you should have started
+from the line It was rare two lines above your initial choice. If you press
+k to move up, you deselect what you had selected. However, you can type o,
+the cursor changes to the beginning of selection and now when you type k,
+you expand the selection upwards.">
+    <meta name="generator" content="Hugo 0.136.5">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/post/2024-11-04-o-visual-mode/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/post/2024-11-04-o-visual-mode/">
+  <meta property="og:site_name" content="Douglas Drumond Kayama">
+  <meta property="og:title" content="Using `o` in visual mode to change direction of selection">
+  <meta property="og:description" content="If you select some lines or characters with V or v and want to change the direction of expansion of the selection, type o.
+For example, suppose you have the following text:
+Holmes was certainly not a difficult man to live with. He was quiet in his ways, and his habits were regular. It was rare for him to be up after ten at night, and he had invariably breakfasted and gone out before I rose in the morning. Sometimes he spent his day at the chemical laboratory, sometimes in the dissecting-rooms, and occasionally in long walks, which appeared to take him into the lowest portions of the City. Nothing could exceed his energy when the working fit was upon him; but now and again a reaction would seize him, and for days on end he would lie upon the sofa in the sitting-room, hardly uttering a word or moving a muscle from morning to night. On these occasions I have noticed such a dreamy, vacant expression in his eyes, that I might have suspected him of being addicted to the use of some narcotic, had not the temperance and cleanliness of his whole life forbidden such a notion. Suppose your cursor is in the line starting with Sometimes. You pressed V and started selecting down with j. Then you realised you should have started from the line It was rare two lines above your initial choice. If you press k to move up, you deselect what you had selected. However, you can type o, the cursor changes to the beginning of selection and now when you type k, you expand the selection upwards.">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-11-04T12:09:56-03:00">
+    <meta property="article:modified_time" content="2024-11-04T12:09:56-03:00">
+    <meta property="article:tag" content="Vim">
+    <meta property="article:tag" content="Neovim">
+    <meta property="article:tag" content="Vi">
+    <meta property="article:tag" content="Tips">
+    <meta property="article:tag" content="TIL">
+
+  <meta itemprop="name" content="Using `o` in visual mode to change direction of selection">
+  <meta itemprop="description" content="If you select some lines or characters with V or v and want to change the direction of expansion of the selection, type o.
+For example, suppose you have the following text:
+Holmes was certainly not a difficult man to live with. He was quiet in his ways, and his habits were regular. It was rare for him to be up after ten at night, and he had invariably breakfasted and gone out before I rose in the morning. Sometimes he spent his day at the chemical laboratory, sometimes in the dissecting-rooms, and occasionally in long walks, which appeared to take him into the lowest portions of the City. Nothing could exceed his energy when the working fit was upon him; but now and again a reaction would seize him, and for days on end he would lie upon the sofa in the sitting-room, hardly uttering a word or moving a muscle from morning to night. On these occasions I have noticed such a dreamy, vacant expression in his eyes, that I might have suspected him of being addicted to the use of some narcotic, had not the temperance and cleanliness of his whole life forbidden such a notion. Suppose your cursor is in the line starting with Sometimes. You pressed V and started selecting down with j. Then you realised you should have started from the line It was rare two lines above your initial choice. If you press k to move up, you deselect what you had selected. However, you can type o, the cursor changes to the beginning of selection and now when you type k, you expand the selection upwards.">
+  <meta itemprop="datePublished" content="2024-11-04T12:09:56-03:00">
+  <meta itemprop="dateModified" content="2024-11-04T12:09:56-03:00">
+  <meta itemprop="wordCount" content="278">
+  <meta itemprop="keywords" content="Vim,Neovim,Vi,Tips,TIL">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Using `o` in visual mode to change direction of selection">
+  <meta name="twitter:description" content="If you select some lines or characters with V or v and want to change the direction of expansion of the selection, type o.
+For example, suppose you have the following text:
+Holmes was certainly not a difficult man to live with. He was quiet in his ways, and his habits were regular. It was rare for him to be up after ten at night, and he had invariably breakfasted and gone out before I rose in the morning. Sometimes he spent his day at the chemical laboratory, sometimes in the dissecting-rooms, and occasionally in long walks, which appeared to take him into the lowest portions of the City. Nothing could exceed his energy when the working fit was upon him; but now and again a reaction would seize him, and for days on end he would lie upon the sofa in the sitting-room, hardly uttering a word or moving a muscle from morning to night. On these occasions I have noticed such a dreamy, vacant expression in his eyes, that I might have suspected him of being addicted to the use of some narcotic, had not the temperance and cleanliness of his whole life forbidden such a notion. Suppose your cursor is in the line starting with Sometimes. You pressed V and started selecting down with j. Then you realised you should have started from the line It was rare two lines above your initial choice. If you press k to move up, you deselect what you had selected. However, you can type o, the cursor changes to the beginning of selection and now when you type k, you expand the selection upwards.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/assets/article_images/2024-11-04-some-vim-tips/wq-tattoo.webp');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Douglas Drumond Kayama
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Using `o` in visual mode to change direction of selection</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Using `o` in visual mode to change direction of selection</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-11-04T12:09:56-03:00">November 4, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>If you select some lines or characters with <code>V</code> or <code>v</code> and want to change
+the direction of expansion of the selection, type <code>o</code>.</p>
+<p>For example, suppose you have the following text:</p>
+<pre tabindex="0"><code>Holmes was certainly not a difficult man to live with. He was quiet in his
+ways, and his habits were regular.
+It was rare for him to be up after ten at night, and he had invariably
+breakfasted and gone out before I rose in the morning.
+Sometimes he spent his day at the chemical laboratory, sometimes in the
+dissecting-rooms, and occasionally in long walks, which appeared to take him
+into the lowest portions of the City.
+Nothing could exceed his energy when the working fit was upon him; but now and
+again a reaction would seize him, and for days on end he would lie upon the
+sofa in the sitting-room, hardly uttering a word or moving a muscle from
+morning to night.
+On these occasions I have noticed such a dreamy, vacant expression in his eyes,
+that I might have suspected him of being addicted to the use of some narcotic,
+had not the temperance and cleanliness of his whole life forbidden such a
+notion.
+</code></pre><p>Suppose your cursor is in the line starting with <em>Sometimes</em>. You pressed <code>V</code>
+and started selecting down with <code>j</code>. Then you realised you should have started
+from the line <em>It was rare</em> two lines above your initial choice. If you press
+<code>k</code> to move up, you deselect what you had selected. However, you can type <code>o</code>,
+the cursor changes to the beginning of selection and now when you type <code>k</code>,
+you expand the selection upwards.</p>
+<p><em>Photo by the author</em></p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/vim/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Vim</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/neovim/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Neovim</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/vi/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Vi</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/tips/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Tips</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/TIL/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">TIL</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-g-capital/">Changing capitalisation of words</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-g-ctrl-a/">Counting with `g` followed by increment/decrement</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-g-line-movement/">Line movement with `g`</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-vim-norm-command/">The `:normal` command in Vim</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-gv/">Use `gv` to reselect</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-vim-ctrl-v/">Using `ctrl-v` to type control characters</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-g-format/">Using `gq` or `gw` to format text</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-vim-g-and-v/">Vim `:g` and :`v`</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/2024-11-04-some-vim-tips/">Some Vim tips</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Douglas Drumond Kayama 2024 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

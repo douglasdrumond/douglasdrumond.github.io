@@ -1,7 +1,8 @@
 baseURL = "https://www.douglasdrumond.tech"
 disablePathToLower = "true"
 title = "Douglas Drumond Kayama"
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+#theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = "ananke"
 
 # languageCode = "en-us"
 defaultContentLanguage = "en"

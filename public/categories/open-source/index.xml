@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>open-source on Douglas Drumond Kayama</title>
-    <link>https://www.douglasdrumond.tech/categories/open-source/</link>
-    <description>Recent content in open-source on Douglas Drumond Kayama</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Open-Source on Douglas Drumond Kayama</title>
+    <link>http://localhost:1313/categories/open-source/</link>
+    <description>Recent content in Open-Source on Douglas Drumond Kayama</description>
+    <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Fri, 06 Mar 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.douglasdrumond.tech/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Messing MacVim</title>
-      <link>https://www.douglasdrumond.tech/post/2015-03-06-messing-macvim/</link>
+      <link>http://localhost:1313/post/2015-03-06-messing-macvim/</link>
       <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-03-06-messing-macvim/</guid>
-      <description>I published a new version of MacVim on last week Monday and was quite happy with it. It was early morning, I published it at 7:30 AM (UTC-3) and went to work. Of course, being an avid user of Vim, the first thing I did at work was updating my copy of MacVim.
-Then things went awry. MacVim crashed at launch (of course, it didn’t occur at home). E-mails started popping on my inbox.</description>
+      <guid>http://localhost:1313/post/2015-03-06-messing-macvim/</guid>
+      <description>&lt;p&gt;I published a new version of MacVim on last week Monday and was quite happy&#xA;with it. It was early morning, I published it at 7:30 AM (UTC-3) and went to&#xA;work. Of course, being an avid user of Vim, the first thing I did at work was&#xA;updating my copy of MacVim.&lt;/p&gt;&#xA;&lt;p&gt;Then things went awry. MacVim crashed at launch (of course, it didn’t occur at&#xA;home). E-mails started popping on my inbox. Starting without a &lt;code&gt;.vimrc&lt;/code&gt; was&#xA;fine, so it was a problem with plugins.  Probably I had compiled it against&#xA;wrong version of Ruby (I use RVM and install several Ruby versions, but MacVim&#xA;must be compiled against system Ruby), but I was quite sure I had issued a &lt;code&gt;rvm use system&lt;/code&gt; before. When I came back home, I tried to investigate a little&#xA;further and, as I suspected, it was Ruby (it crashed when I used Command-T&#xA;plugin). But how? Well, I was so tired that I went to bed and decided to look&#xA;at the issue later.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MacVim is back on track</title>
-      <link>https://www.douglasdrumond.tech/post/2015-02-23-MacVim-is-back-on-track.md/</link>
+      <link>http://localhost:1313/post/2015-02-23-MacVim-is-back-on-track.md/</link>
       <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-02-23-MacVim-is-back-on-track.md/</guid>
-      <description>It’s no secret I’m a big fan of Vim. Although I can use it in the terminal, I like to have a nice UI to look at and when I’m on a Mac (e.g., at work), I use MacVim. I have no words to thank the amazing job behind both Vim and MacVim and I always wanted to contribute back.
-I’ve been building MacVim for older versions of Mac since 2012 and since Björn has been busy, I’m maintaining it now.</description>
+      <guid>http://localhost:1313/post/2015-02-23-MacVim-is-back-on-track.md/</guid>
+      <description>&lt;p&gt;It’s no secret I’m a big fan of Vim. Although I can use it in the terminal, I like&#xA;to have a nice UI to look at and when I’m on a Mac (e.g., at work), I use MacVim. I&#xA;have no words to thank the amazing job behind both &lt;a href=&#34;http://www.vim.org&#34;&gt;Vim&lt;/a&gt; and&#xA;&lt;a href=&#34;https://code.google.com/p/macvim&#34;&gt;MacVim&lt;/a&gt; and I always&#xA;wanted to contribute back.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been building MacVim for older versions of Mac since 2012 and since Björn has&#xA;been busy, I’m maintaining it now.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
