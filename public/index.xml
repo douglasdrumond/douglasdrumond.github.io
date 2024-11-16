@@ -2,332 +2,332 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Douglas Drumond Kayama</title>
-    <link>https://www.douglasdrumond.tech/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Douglas Drumond Kayama</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Mon, 04 Nov 2024 12:09:56 -0300</lastBuildDate>
-    <atom:link href="https://www.douglasdrumond.tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>`:read` the output of a command into the current buffer</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-16-vim-read-command-output/</link>
+      <link>http://localhost:1313/post/2024-11-16-vim-read-command-output/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-16-vim-read-command-output/</guid>
+      <guid>http://localhost:1313/post/2024-11-16-vim-read-command-output/</guid>
       <description>&lt;p&gt;If you want to use the output of a command inside your file, you don&amp;rsquo;t need&#xA;to exit Vim, run the command, copy the output, return to Vim and paste the&#xA;contents. You can use &lt;code&gt;:read&lt;/code&gt; (or abbreviated to &lt;code&gt;:r&lt;/code&gt;) and run a command&#xA;with &lt;code&gt;!&lt;/code&gt;. For example, &lt;code&gt;:r !ls -a&lt;/code&gt; will insert the output of &lt;code&gt;ls -a&lt;/code&gt; at&#xA;the current cursor position.&lt;/p&gt;&#xA;&lt;p&gt;You can also insert the content of another file with &lt;code&gt;:r&lt;/code&gt;, except this time&#xA;you don&amp;rsquo;t use &lt;code&gt;!&lt;/code&gt;, just the file name. For example, &lt;code&gt;:r second_file&lt;/code&gt; will&#xA;insert the content of &lt;code&gt;second_file&lt;/code&gt; at the current cursor position.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Changing capitalisation of words</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-g-capital/</link>
+      <link>http://localhost:1313/post/2024-11-04-g-capital/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-g-capital/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-g-capital/</guid>
       <description>&lt;p&gt;In Vim, while in normal mode, if you type &lt;code&gt;~&lt;/code&gt;, the capitalisation of the&#xA;letter under the cursor changes and the cursor is advanced to the right.&lt;/p&gt;&#xA;&lt;p&gt;You can also change the capitalisation of multiple letters at the same time&#xA;with &lt;code&gt;g&lt;/code&gt; command. Type &lt;code&gt;gU&lt;/code&gt; and a movement to make every letter corresponding&#xA;to the movement to become uppercase. &lt;code&gt;gu&lt;/code&gt; makes it lowercase and &lt;code&gt;g~&lt;/code&gt; toggles&#xA;the case. You can repeat the last character to affect the whole line (&lt;code&gt;guu&lt;/code&gt;,&#xA;&lt;code&gt;gUU&lt;/code&gt;, &lt;code&gt;g~~&lt;/code&gt;).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Counting with `g` followed by increment/decrement</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-g-ctrl-a/</link>
+      <link>http://localhost:1313/post/2024-11-04-g-ctrl-a/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-g-ctrl-a/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-g-ctrl-a/</guid>
       <description>&lt;p&gt;In Vim, you can type &lt;code&gt;ctrl-a&lt;/code&gt; or &lt;code&gt;ctrl-x&lt;/code&gt; to increment or decrement the next&#xA;number in the line. For example, suppose you have the following line:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. Do something&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you put the cursor on number one and type &lt;code&gt;ctrl-a&lt;/code&gt; repeated times, you notice&#xA;the number will increase to 2, 3, etc. Similarly, if you type &lt;code&gt;ctrl-x&lt;/code&gt;, it will decrease&#xA;going into negative numbers if you do it enough times.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s say you want to create a numbered list. You have a list of people:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Line movement with `g`</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-g-line-movement/</link>
+      <link>http://localhost:1313/post/2024-11-04-g-line-movement/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-g-line-movement/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-g-line-movement/</guid>
       <description>&lt;p&gt;If you have a long line in Vim, Vim wraps that line visually at window length.&#xA;It&amp;rsquo;s not a hard wrap, no newline character is inserted. Since it&amp;rsquo;s only one&#xA;line, if you try moving up or down with &lt;code&gt;j&lt;/code&gt; and &lt;code&gt;k&lt;/code&gt;, you&amp;rsquo;ll notice that the&#xA;cursor moves up or down the group of lines (visually) corresponding to one line&#xA;in the file. The same happens when you type &lt;code&gt;0&lt;/code&gt; or &lt;code&gt;^&lt;/code&gt; to go to the beginning&#xA;of the line and &lt;code&gt;$&lt;/code&gt; to go to the end.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The `:normal` command in Vim</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-vim-norm-command/</link>
+      <link>http://localhost:1313/post/2024-11-04-vim-norm-command/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-vim-norm-command/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-vim-norm-command/</guid>
       <description>&lt;p&gt;You can use &lt;code&gt;:normal&lt;/code&gt; (or the abbreviated form, &lt;code&gt;:norm&lt;/code&gt;) in Vim to execute&#xA;a normal command on a range of lines.&lt;/p&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:%norm I1. &amp;lt;cr&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here, &lt;code&gt;&amp;lt;cr&amp;gt;&lt;/code&gt; means &amp;lsquo;press enter key&amp;rsquo;. Also, notice the space after the dot.&lt;/p&gt;&#xA;&lt;p&gt;That command will act on all line (&lt;code&gt;%&lt;/code&gt;) and insert at the beginning of the line (&lt;code&gt;I&lt;/code&gt;)&#xA;the number 1 followed by a dot, followed by a space.&lt;/p&gt;&#xA;&lt;p&gt;After pressing enter, the command is executed and Vim returns to normal mode.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use `gv` to reselect</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-gv/</link>
+      <link>http://localhost:1313/post/2024-11-04-gv/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-gv/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-gv/</guid>
       <description>&lt;p&gt;If you selected part of the text, then did something else, then decided&#xA;to select the same text again, instead of using &lt;code&gt;v&lt;/code&gt; or &lt;code&gt;V&lt;/code&gt; and redoing the&#xA;selection, you can type &lt;code&gt;gv&lt;/code&gt; in normal mode to reselect the previous text.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Photo by the author&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using `ctrl-v` to type control characters</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-vim-ctrl-v/</link>
+      <link>http://localhost:1313/post/2024-11-04-vim-ctrl-v/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-vim-ctrl-v/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-vim-ctrl-v/</guid>
       <description>&lt;p&gt;When in command-line mode in Vim, for example, when typing Ex commands, you can&#xA;use &lt;code&gt;ctrl-v&lt;/code&gt; to type control characters. Usually, if you type the control&#xA;character, Vim will execute it. For example, if you simply press enter, you&amp;rsquo;re&#xA;going to execute whatever you have typed so far in command-line mode. But&#xA;if you type &lt;code&gt;ctrl-v&lt;/code&gt; followed by enter, you will see a &lt;code&gt;^M&lt;/code&gt; inserted and&#xA;Vim will treat it as if you typed the enter character instead.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using `gq` or `gw` to format text</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-g-format/</link>
+      <link>http://localhost:1313/post/2024-11-04-g-format/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-g-format/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-g-format/</guid>
       <description>&lt;p&gt;If you type a really long line in Vim, Vim soft-wraps it at the end of the&#xA;window, but in the file it&amp;rsquo;s still one line. If you type &lt;code&gt;gq&lt;/code&gt; or &lt;code&gt;gw&lt;/code&gt; followed&#xA;by a movement, Vim formats the text based on the movement you selected. For&#xA;instance, &lt;code&gt;gwip&lt;/code&gt; will format the paragraph under the cursor (&lt;code&gt;gw&lt;/code&gt; inside &lt;code&gt;i&lt;/code&gt;&#xA;paragraph &lt;code&gt;p&lt;/code&gt;), &lt;code&gt;gwG&lt;/code&gt; will format from the cursor to the end of the file (&lt;code&gt;G&lt;/code&gt;).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using `o` in visual mode to change direction of selection</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-o-visual-mode/</link>
+      <link>http://localhost:1313/post/2024-11-04-o-visual-mode/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-o-visual-mode/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-o-visual-mode/</guid>
       <description>&lt;p&gt;If you select some lines or characters with &lt;code&gt;V&lt;/code&gt; or &lt;code&gt;v&lt;/code&gt; and want to change&#xA;the direction of expansion of the selection, type &lt;code&gt;o&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For example, suppose you have the following text:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Holmes was certainly not a difficult man to live with. He was quiet in his&#xA;ways, and his habits were regular.&#xA;It was rare for him to be up after ten at night, and he had invariably&#xA;breakfasted and gone out before I rose in the morning.&#xA;Sometimes he spent his day at the chemical laboratory, sometimes in the&#xA;dissecting-rooms, and occasionally in long walks, which appeared to take him&#xA;into the lowest portions of the City.&#xA;Nothing could exceed his energy when the working fit was upon him; but now and&#xA;again a reaction would seize him, and for days on end he would lie upon the&#xA;sofa in the sitting-room, hardly uttering a word or moving a muscle from&#xA;morning to night.&#xA;On these occasions I have noticed such a dreamy, vacant expression in his eyes,&#xA;that I might have suspected him of being addicted to the use of some narcotic,&#xA;had not the temperance and cleanliness of his whole life forbidden such a&#xA;notion.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Suppose your cursor is in the line starting with &lt;em&gt;Sometimes&lt;/em&gt;. You pressed &lt;code&gt;V&lt;/code&gt;&#xA;and started selecting down with &lt;code&gt;j&lt;/code&gt;. Then you realised you should have started&#xA;from the line &lt;em&gt;It was rare&lt;/em&gt; two lines above your initial choice. If you press&#xA;&lt;code&gt;k&lt;/code&gt; to move up, you deselect what you had selected. However, you can type &lt;code&gt;o&lt;/code&gt;,&#xA;the cursor changes to the beginning of selection and now when you type &lt;code&gt;k&lt;/code&gt;,&#xA;you expand the selection upwards.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vim `:g` and :`v`</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-vim-g-and-v/</link>
+      <link>http://localhost:1313/post/2024-11-04-vim-g-and-v/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-vim-g-and-v/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-vim-g-and-v/</guid>
       <description>&lt;p&gt;If you want to execute a command on all lines matching a pattern, you&#xA;can use the Ex command &lt;code&gt;:g&lt;/code&gt;. For example, if you want to delete all&#xA;blank lines, you can do&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:g/^\s*$/d&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It will get all lines that matches this: from the beginning (&lt;code&gt;^&lt;/code&gt;), it may&#xA;contain 0 or more whitespace (&lt;code&gt;\s*&lt;/code&gt;) until the end of line (&lt;code&gt;$&lt;/code&gt;). In other&#xA;words, if the line is empty or contain only whitespace.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Some Vim tips</title>
-      <link>https://www.douglasdrumond.tech/post/2024-11-04-some-vim-tips/</link>
+      <link>http://localhost:1313/post/2024-11-04-some-vim-tips/</link>
       <pubDate>Mon, 04 Nov 2024 12:09:50 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-11-04-some-vim-tips/</guid>
+      <guid>http://localhost:1313/post/2024-11-04-some-vim-tips/</guid>
       <description>&lt;p&gt;I decided to compile a list of Vim tips as &lt;em&gt;TIL&lt;/em&gt; (Today I learnt), although&#xA;most of these tips I already knew. The following posts will follow a TIL&#xA;format.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Photo by the author&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zettelkasten</title>
-      <link>https://www.douglasdrumond.tech/post/2024-06-07-zettelkasten/</link>
+      <link>http://localhost:1313/post/2024-06-07-zettelkasten/</link>
       <pubDate>Fri, 07 Jun 2024 16:29:56 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2024-06-07-zettelkasten/</guid>
+      <guid>http://localhost:1313/post/2024-06-07-zettelkasten/</guid>
       <description>&lt;p&gt;Do you struggle to learn different topics or keep different subjects in your head while you are working on some project? Well, me too. I have ADHD. I have multiple interests. When I hyperfocus on one of my interests, time flies. But usually, I need to learn different subjects and make them work together on a project. And I bet you need that, too. How can you solve it? One technique I use for studying different topics and making them work together is the Zettelkasten method. And you will learn how to leverage it to improve your learning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vim was a big part of my life</title>
-      <link>https://www.douglasdrumond.tech/post/2023-08-20-a-sad-email/</link>
+      <link>http://localhost:1313/post/2023-08-20-a-sad-email/</link>
       <pubDate>Sun, 20 Aug 2023 03:47:29 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2023-08-20-a-sad-email/</guid>
+      <guid>http://localhost:1313/post/2023-08-20-a-sad-email/</guid>
       <description>&lt;p&gt;&lt;code&gt;:e a-sad-email.md&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;I opened MacVim to tell a personal story.&lt;/p&gt;&#xA;&lt;p&gt;The year was 1998, I was 15. I told my dad I wanted to go to a certification&#xA;program. It&amp;rsquo;s something familiar in Brazil; you have high school courses and&#xA;earn a certificate in parallel. I was inclined to study Chemistry (I really&#xA;enjoyed the subject back then), but someone had suggested Informatics, and it&#xA;looked promising. One problem: I didn&amp;rsquo;t have a computer and had no money to buy&#xA;one. My dad said: &amp;ldquo;choose that one; we&amp;rsquo;ll figure it out.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>iPad Incompatibilities: Unintuitive Volume Buttons</title>
-      <link>https://www.douglasdrumond.tech/post/2022-12-28-ipad-incompatibilities/</link>
+      <link>http://localhost:1313/post/2022-12-28-ipad-incompatibilities/</link>
       <pubDate>Wed, 28 Dec 2022 23:41:03 -0300</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2022-12-28-ipad-incompatibilities/</guid>
+      <guid>http://localhost:1313/post/2022-12-28-ipad-incompatibilities/</guid>
       <description>&lt;p&gt;The iPad is a useful tool. I have two, the ginormous 12.9” iPad Pro and an iPad&#xA;mini, and I enjoy both. Each has its use case.&lt;/p&gt;&#xA;&lt;p&gt;The Pro is used for consuming videos, photo editing, reading photography&#xA;magazines and books, writing, and other activities that benefit from a large&#xA;screen and, sometimes, a calibrated screen, such as when you enable the&#xA;reference mode in settings.&lt;/p&gt;&#xA;&lt;p&gt;The mini is used for quick consumption here and there. I occasionally watch&#xA;videos on it, read books on Apple Books or even on the Kindle app, browse news,&#xA;read my feeds, etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to boost your creativity</title>
-      <link>https://www.douglasdrumond.tech/post/2022-02-07-how-to-boost-your-creativity/</link>
+      <link>http://localhost:1313/post/2022-02-07-how-to-boost-your-creativity/</link>
       <pubDate>Mon, 07 Feb 2022 21:38:29 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2022-02-07-how-to-boost-your-creativity/</guid>
+      <guid>http://localhost:1313/post/2022-02-07-how-to-boost-your-creativity/</guid>
       <description>&lt;p&gt;A friend of mine shared with me two talks on different processes leading to creativity. A &lt;a href=&#34;https://www.youtube.com/watch?v=_K4YcaU5uqU&#34;&gt;2016 TEDx talk&lt;/a&gt; by futurist Stephan Schwartz and a &lt;a href=&#34;https://www.youtube.com/watch?v=yjYrxcGSWX4&#34;&gt;2019 TED talk&lt;/a&gt; by author Tim Harford. While Stephan Schwartz presents a process divided into six steps to induce creativity, Tim Harford shows a different method, much more diverse in approach. Comparing both processes, they seem conflicting; however, when analysing more closely, they complement each other.&lt;/p&gt;&#xA;&lt;p&gt;Schwartz argues that by looking at the diaries of other creative genii from the past, such as Leonardo da Vinci, Michelangelo, Picasso, Einstein, Pauli, Planck, etc., to understand how they managed to produce so much stuff, we can distil it to a six-step process:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Opportunity Solution Tree</title>
-      <link>https://www.douglasdrumond.tech/post/2022-01-13-opportunity-solution-tree/</link>
+      <link>http://localhost:1313/post/2022-01-13-opportunity-solution-tree/</link>
       <pubDate>Thu, 13 Jan 2022 23:26:29 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2022-01-13-opportunity-solution-tree/</guid>
+      <guid>http://localhost:1313/post/2022-01-13-opportunity-solution-tree/</guid>
       <description>&lt;p&gt;Have you ever tried to brainstorm ideas to find what to work on next? And you&#xA;ended up with too many ideas that you had to aggressively trim down or, worse,&#xA;you solved the wrong problem? Opportunity Solution Tree may help you avoid&#xA;that.&lt;/p&gt;&#xA;&lt;p&gt;Opportunity Solution Tree (let&amp;rsquo;s shorten it to OST) is a visual way to&#xA;represent how the solutions connect to the desired outcome in a way that helps&#xA;you focus on solving the right problem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Extreme Ownership</title>
-      <link>https://www.douglasdrumond.tech/post/2022-01-12-extreme-ownership/</link>
+      <link>http://localhost:1313/post/2022-01-12-extreme-ownership/</link>
       <pubDate>Wed, 12 Jan 2022 12:45:29 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2022-01-12-extreme-ownership/</guid>
+      <guid>http://localhost:1313/post/2022-01-12-extreme-ownership/</guid>
       <description>&lt;p&gt;When I first got a leadership role, I asked a friend for tips to learn and do&#xA;my job better. He referred me to a book, Extreme Ownership, by Jocko Willink&#xA;and Leif Babin.&lt;/p&gt;&#xA;&lt;p&gt;The book’s main idea is to take ownership of everything you do (or don’t do),&#xA;especially for a leader. If a team fails, the leader should step up and&#xA;assume the failure instead of blaming the team.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gear with soul</title>
-      <link>https://www.douglasdrumond.tech/post/2022-01-08-gear-with-soul/</link>
+      <link>http://localhost:1313/post/2022-01-08-gear-with-soul/</link>
       <pubDate>Sat, 08 Jan 2022 23:12:29 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2022-01-08-gear-with-soul/</guid>
+      <guid>http://localhost:1313/post/2022-01-08-gear-with-soul/</guid>
       <description>&lt;p&gt;Does gear have a soul?&lt;/p&gt;&#xA;&lt;p&gt;Recently I watched a YouTube video from Ted Vieira, a well-known photographer among the Fujifilm community, titled Gear With Soul? He shows a magazine by KEH Camera with the tagline &amp;ldquo;Gear with soul for people with vision&amp;rdquo; and spends the video showing photos and talking about that.&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s also an old video from DigitalRev TV where Kai Wong discusses what makes a Leica M unique. And the very last line is &amp;ldquo;it got soul.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Working through change</title>
-      <link>https://www.douglasdrumond.tech/post/2022-01-05-working-through-change/</link>
+      <link>http://localhost:1313/post/2022-01-05-working-through-change/</link>
       <pubDate>Wed, 05 Jan 2022 23:12:29 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2022-01-05-working-through-change/</guid>
+      <guid>http://localhost:1313/post/2022-01-05-working-through-change/</guid>
       <description>&lt;p&gt;&lt;em&gt;“It’s not the strongest of the species that survives, nor the most intelligent; it is the most adaptable to change.”&lt;/em&gt; This quote is often misattributed to Charles Darwin (it first appeared in a speech by Leon C. Megginson in 1963).&lt;/p&gt;&#xA;&lt;p&gt;That quote refers to the evolution of the species, but we can bring it to the corporate environment, especially in the startup world. Companies pivot. Companies fail. Companies merge and get acquired—the culture of the company changes. For better or for worse, but it won’t stay the same. Some people can’t accept that. It’s ok to dislike the change and move to another company. People have different preferences and are suited to different environments. But if you’re resilient and can bear with the change, it can be an excellent opportunity to grow in your career.&lt;/p&gt;</description>
     </item>
     <item>
       <title>One-on-one meetings</title>
-      <link>https://www.douglasdrumond.tech/post/2021-03-28-one-on-one-meetings/</link>
+      <link>http://localhost:1313/post/2021-03-28-one-on-one-meetings/</link>
       <pubDate>Sun, 28 Mar 2021 21:38:29 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2021-03-28-one-on-one-meetings/</guid>
+      <guid>http://localhost:1313/post/2021-03-28-one-on-one-meetings/</guid>
       <description>&lt;p&gt;You can&amp;rsquo;t simply gain trust by saying “trust me, I know what I&amp;rsquo;m saying”, you have to earn it. Let&amp;rsquo;s start discussing trust and then how to conduct one-on-one meetings to earn that trust.&lt;/p&gt;&#xA;&lt;h2 id=&#34;trust&#34;&gt;Trust&lt;/h2&gt;&#xA;&lt;p&gt;In &lt;a href=&#34;https://fs.blog/2021/01/mistrust/&#34;&gt;The High Price of Mistrust&lt;/a&gt;, a book titled Bowling Alone, by Robert Putnam, is discussed and there are two parts I&amp;rsquo;d like to quote as they relate to remote management:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“One key lesson we can derive from Bowling Alone is that the less we trust each other—something which is both a cause and consequence of declining community engagement—the more it costs us.”&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movile Meetup</title>
-      <link>https://www.douglasdrumond.tech/post/2015-06-29-movile-meetup/</link>
+      <link>http://localhost:1313/post/2015-06-29-movile-meetup/</link>
       <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-06-29-movile-meetup/</guid>
+      <guid>http://localhost:1313/post/2015-06-29-movile-meetup/</guid>
       <description>&lt;p&gt;Movile has a new initiative called &lt;a href=&#34;www.meetup.com/Movile-Meetup/&#34;&gt;Movile&#xA;Meetups&lt;/a&gt;. Every once in a while someone either&#xA;from Movile or outside (for now, we had only two talks and both were from&#xA;Movile employees) presents something and it’s open for the local community to&#xA;participate, not only Movile employees. The talk usually lasts for forty&#xA;minutes, then there’s a Q&amp;amp;A session and finally we go to the Recharging Area&#xA;(our kitchen) to eat pizza, drink beer and soda and talk to each other.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Technically Speaking hangout on LAtINiTY conference</title>
-      <link>https://www.douglasdrumond.tech/post/2015-05-19-technically-speaking/</link>
+      <link>http://localhost:1313/post/2015-05-19-technically-speaking/</link>
       <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-05-19-technically-speaking/</guid>
+      <guid>http://localhost:1313/post/2015-05-19-technically-speaking/</guid>
       <description>&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Technically Speaking is hosting a webinar on LAtINiTY conference and you&#xA;should watch. &lt;a href=&#34;http://dd19.tk/ts-webinar-latinity&#34;&gt;Signup here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Do you know &lt;a href=&#34;http://www.techspeak.email/&#34;&gt;&lt;em&gt;Technically Speaking&lt;/em&gt;&lt;/a&gt;? It&amp;rsquo;s a great&#xA;newsletter with tips to improve your tech talks, inspirational videos and call&#xA;for papers delivered direct to your inbox. This newsletter is provided by&#xA;Chiu-Ki Chan (&lt;a href=&#34;http://www.sqisland.com/&#34;&gt;site&lt;/a&gt;, &lt;a href=&#34;https://google.com/+ChiuKiChan&#34;&gt;Google&#xA;Plus&lt;/a&gt; and&#xA;&lt;a href=&#34;https://twitter.com/chiuki&#34;&gt;Twitter&lt;/a&gt;) and Cate Huston&#xA;(&lt;a href=&#34;http://www.catehuston.com/&#34;&gt;site&lt;/a&gt;, &lt;a href=&#34;https://google.com/+CateHuston&#34;&gt;Google&#xA;Plus&lt;/a&gt; and&#xA;&lt;a href=&#34;https://twitter.com/catehstn&#34;&gt;Twitter&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;For those who don&amp;rsquo;t know them, let me give a brief introdution:&lt;/p&gt;&#xA;&lt;p&gt;Chiu-Ki was a software engineer at Google for 6+ years, later worked at two&#xA;startups and now has her own mobile development company. Also, she&amp;rsquo;s a &lt;a href=&#34;https://developers.google.com/experts/people/chiu-ki-chan&#34;&gt;GDE&#xA;(Google Developer Expert) on&#xA;Android&lt;/a&gt; and if&#xA;you&amp;rsquo;re interested in Android, check her &lt;a href=&#34;http://chiuki.github.io/&#34;&gt;talks&lt;/a&gt;,&#xA;&lt;a href=&#34;http://blog.sqisland.com/&#34;&gt;blog&lt;/a&gt; and&#xA;&lt;a href=&#34;http://www.pluralsight.com/author/chiuki-chan&#34;&gt;courses&lt;/a&gt;. She&amp;rsquo;s also an&#xA;organizer of &lt;a href=&#34;https://developers.google.com/groups/chapter/110545238773247324753/&#34;&gt;GDG&#xA;Boulder&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tips for Android beginners</title>
-      <link>https://www.douglasdrumond.tech/post/2015-04-04-tips-for-android-beginners/</link>
+      <link>http://localhost:1313/post/2015-04-04-tips-for-android-beginners/</link>
       <pubDate>Sat, 04 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-04-04-tips-for-android-beginners/</guid>
+      <guid>http://localhost:1313/post/2015-04-04-tips-for-android-beginners/</guid>
       <description>&lt;p&gt;A while ago someone asked on&#xA;&lt;a href=&#34;https://www.quora.com/What-would-be-the-best-path-for-learning-Android-app-development-I-have-a-good-knowledge-of-Java-but-no-understanding-of-XML/&#34;&gt;Quora&lt;/a&gt;&#xA;how to learn Android development. The person had knowledge of Java, but none of&#xA;XML. I suppose the fear of XML came from the fact that is well known that&#xA;Android uses a lot of XML. I started with a quick clarification on XML syntax&#xA;and that&amp;rsquo;s the only required knowledge of XML. The parsing is done&#xA;automatically by the Android system or the build tools. Unless, of course, the&#xA;person is writing a XML parser or using one (e.g., parsing a response from&#xA;a server).&lt;/p&gt;</description>
     </item>
     <item>
       <title>GDG Talks #1</title>
-      <link>https://www.douglasdrumond.tech/post/2015-03-16-gdg-talks/</link>
+      <link>http://localhost:1313/post/2015-03-16-gdg-talks/</link>
       <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-03-16-gdg-talks/</guid>
+      <guid>http://localhost:1313/post/2015-03-16-gdg-talks/</guid>
       <description>&lt;p&gt;Usually every month we have an informal meeting at GDG Campinas, where we gather&#xA;and discuss whatever comes to mind (most of the time it’s Android, the&#xA;preferred topic for most of the attendees), but this month we decided to do&#xA;something different.&lt;/p&gt;&#xA;&lt;p&gt;Organized by &lt;a href=&#34;https://twitter.com/karuanbertoluci&#34;&gt;Karuan Bertoluci&lt;/a&gt;, this&#xA;month meeting was a series of three talks hosted at&#xA;&lt;a href=&#34;http://www.ciandt.com/us-en/&#34;&gt;Ci&amp;amp;T&lt;/a&gt;, which provided the venue and some&#xA;beverage and food.&lt;/p&gt;&#xA;&lt;p&gt;After Karuan &lt;a href=&#34;https://www.youtube.com/watch?v=RRUbb2xtmv8&#34;&gt;opened&lt;/a&gt; the event,&#xA;I gave the first talk on Android Wear. You can watch it &lt;a href=&#34;https://www.youtube.com/watch?v=GWjVfn5zdPM&#34;&gt;on&#xA;YouTube&lt;/a&gt; and download the slides&#xA;from &lt;a href=&#34;https://speakerdeck.com/douglasdrumond/android-wear&#34;&gt;Speaker Deck&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Messing MacVim</title>
-      <link>https://www.douglasdrumond.tech/post/2015-03-06-messing-macvim/</link>
+      <link>http://localhost:1313/post/2015-03-06-messing-macvim/</link>
       <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-03-06-messing-macvim/</guid>
+      <guid>http://localhost:1313/post/2015-03-06-messing-macvim/</guid>
       <description>&lt;p&gt;I published a new version of MacVim on last week Monday and was quite happy&#xA;with it. It was early morning, I published it at 7:30 AM (UTC-3) and went to&#xA;work. Of course, being an avid user of Vim, the first thing I did at work was&#xA;updating my copy of MacVim.&lt;/p&gt;&#xA;&lt;p&gt;Then things went awry. MacVim crashed at launch (of course, it didn’t occur at&#xA;home). E-mails started popping on my inbox. Starting without a &lt;code&gt;.vimrc&lt;/code&gt; was&#xA;fine, so it was a problem with plugins.  Probably I had compiled it against&#xA;wrong version of Ruby (I use RVM and install several Ruby versions, but MacVim&#xA;must be compiled against system Ruby), but I was quite sure I had issued a &lt;code&gt;rvm use system&lt;/code&gt; before. When I came back home, I tried to investigate a little&#xA;further and, as I suspected, it was Ruby (it crashed when I used Command-T&#xA;plugin). But how? Well, I was so tired that I went to bed and decided to look&#xA;at the issue later.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MacVim is back on track</title>
-      <link>https://www.douglasdrumond.tech/post/2015-02-23-MacVim-is-back-on-track.md/</link>
+      <link>http://localhost:1313/post/2015-02-23-MacVim-is-back-on-track.md/</link>
       <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-02-23-MacVim-is-back-on-track.md/</guid>
+      <guid>http://localhost:1313/post/2015-02-23-MacVim-is-back-on-track.md/</guid>
       <description>&lt;p&gt;It’s no secret I’m a big fan of Vim. Although I can use it in the terminal, I like&#xA;to have a nice UI to look at and when I’m on a Mac (e.g., at work), I use MacVim. I&#xA;have no words to thank the amazing job behind both &lt;a href=&#34;http://www.vim.org&#34;&gt;Vim&lt;/a&gt; and&#xA;&lt;a href=&#34;https://code.google.com/p/macvim&#34;&gt;MacVim&lt;/a&gt; and I always&#xA;wanted to contribute back.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been building MacVim for older versions of Mac since 2012 and since Björn has&#xA;been busy, I’m maintaining it now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3.11</title>
-      <link>https://www.douglasdrumond.tech/post/2014-03-12-3-11/</link>
+      <link>http://localhost:1313/post/2014-03-12-3-11/</link>
       <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2014-03-12-3-11/</guid>
+      <guid>http://localhost:1313/post/2014-03-12-3-11/</guid>
       <description>&lt;p&gt;Three years ago, on March 11th, a tsunami hit the east coast of Japan killing&#xA;19000 people and leaving many others homeless. Still today many of them can’t&#xA;return to their home due to radiation near Fukushima disaster. Yahoo!Japan had&#xA;a great initiative, donating 10 yen for each search for “3.11”&lt;/p&gt;&#xA;&lt;p&gt;See the announcement:&#xA;&lt;a href=&#34;http://promo.search.yahoo.co.jp/searchfor311/&#34;&gt;http://promo.search.yahoo.co.jp/searchfor311/&lt;/a&gt;&#xA;and the video below:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Happy Birthday, WWW</title>
-      <link>https://www.douglasdrumond.tech/post/2014-03-12-happy-birthday-www/</link>
+      <link>http://localhost:1313/post/2014-03-12-happy-birthday-www/</link>
       <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2014-03-12-happy-birthday-www/</guid>
+      <guid>http://localhost:1313/post/2014-03-12-happy-birthday-www/</guid>
       <description>&lt;p&gt;25 years ago, Sir Tim Berners-Lee created the World Wide Web, read about it on&#xA;&lt;a href=&#34;http://www.computerhistory.org/atchm/happy-25th-birthday-to-the-world-wide-web/&#34;&gt;Computer History&#xA;Museum&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Seeing the pictures makes me nostalgic. I used WindowMaker when I started using&#xA;Linux in 1999 and it’s inspired by NeXTSTEP.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Update:&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Another legendary Tim made a nice post:&#xA;&lt;a href=&#34;https://www.tbray.org/ongoing/When/201x/2014/03/11/The-Web-is-25&#34;&gt;https://www.tbray.org/ongoing/When/201x/2014/03/11/The-Web-is-25&lt;/a&gt;&#xA;(that’s Tim Bray, co-creator of XML).&lt;/p&gt;&#xA;&lt;p&gt;Also, celebrate at &lt;a href=&#34;http://www.webat25.org/&#34;&gt;http://www.webat25.org/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding Android Open Source Project</title>
-      <link>https://www.douglasdrumond.tech/post/2014-02-27-understanding-aosp/</link>
+      <link>http://localhost:1313/post/2014-02-27-understanding-aosp/</link>
       <pubDate>Thu, 27 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2014-02-27-understanding-aosp/</guid>
+      <guid>http://localhost:1313/post/2014-02-27-understanding-aosp/</guid>
       <description>&lt;p&gt;A while ago someone asked on&#xA;&lt;a href=&#34;http://www.quora.com/Android-OS/What-are-some-good-ways-to-understand-the-Android-Open-Source-Project-source-code&#34;&gt;Quora&lt;/a&gt;&#xA;about some good ways to understand the AOSP. Although I don’t work with Android&#xA;internals anymore, it was fun looking back into AOSP and finding some sources&#xA;(no pun intended). Here’s my answer (edited for this blog):&lt;/p&gt;&#xA;&lt;p&gt;Obviously, first go to &lt;a href=&#34;http://source.android.com/&#34;&gt;AOSP site&lt;/a&gt; and follow the&#xA;instructions to download the source.&lt;/p&gt;&#xA;&lt;p&gt;Although outdated, take a look at &lt;a href=&#34;http://www.kandroid.org/online-pdk/guide/index.html&#34;&gt;Android Platform Developer’s&#xA;Guide&lt;/a&gt; (it’s a copy of the&#xA;old PDK, removed from Android site now). You can also check the source for&#xA;older tags, such as gingerbread, probably under docs there are instructions on&#xA;how to build the documentation. But don’t blindly follow them. Sometimes I find&#xA;it easier starting from where things started instead of diving into what’s the&#xA;current state.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Setup</title>
-      <link>https://www.douglasdrumond.tech/post/2014-02-23-the-setup/</link>
+      <link>http://localhost:1313/post/2014-02-23-the-setup/</link>
       <pubDate>Sun, 23 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2014-02-23-the-setup/</guid>
+      <guid>http://localhost:1313/post/2014-02-23-the-setup/</guid>
       <description>&lt;p&gt;&lt;em&gt;There are a lot of posts about how someone uses their computer to get the job&#xA;done. One of my favorite sites that compiles a list of posts like that is &lt;a href=&#34;http://usesthis.com/&#34;&gt;The&#xA;Setup&lt;/a&gt;. As I like to keep track of what I use, I’m doing&#xA;my own The Setup-like post to open this blog.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-are-you-and-what-do-you-do&#34;&gt;Who are you, and what do you do?&lt;/h2&gt;&#xA;&lt;p&gt;I’m &lt;a href=&#34;http://google.com/+DouglasDrumond&#34;&gt;Douglas Drumond&lt;/a&gt;, Android developer at&#xA;&lt;a href=&#34;http://www.movile.com/&#34;&gt;Movile&lt;/a&gt; and organizer of &lt;a href=&#34;http://www.gdg-campinas.org/&#34;&gt;GDG&#xA;Campinas&lt;/a&gt;. I blog here about anything and on&#xA;&lt;a href=&#34;http://www.robotodojo.com/&#34;&gt;Roboto Dojo&lt;/a&gt; about Android development (in&#xA;Portuguese). I’ve been working with Android since 2010, except for a brief&#xA;hiatus when I opened my start up on business intelligence with some partners,&#xA;although I never lost complete contact with Android. After failing with the&#xA;start up, I came back to mobile development and now I focus 100% on Android.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Git Workflow</title>
-      <link>https://www.douglasdrumond.tech/post/2013-07-20-my-git-workflow/</link>
+      <link>http://localhost:1313/post/2013-07-20-my-git-workflow/</link>
       <pubDate>Sat, 20 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2013-07-20-my-git-workflow/</guid>
+      <guid>http://localhost:1313/post/2013-07-20-my-git-workflow/</guid>
       <description>&lt;p&gt;Proceeding with my sequence of posts about version control systems, I’ll&#xA;explain my Git workflow. It’s quite simple, after set up, the day to day&#xA;workflow is as follows:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;get the latest information from remote server: &lt;code&gt;git pull --ff-only&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;create a new branch and switch to it: &lt;code&gt;git checkout -b branch_name&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;work, work, work, then commit: &lt;code&gt;git commit&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;go back to master: &lt;code&gt;git checkout master&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;check if there’s something new: &lt;code&gt;git pull --ff-only&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;merge my work back into master: &lt;code&gt;git rebase branch_name&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;upload the modifications to server: &lt;code&gt;git push&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;And since I reached the magic number&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two&#34;&gt;seven&lt;/a&gt;,&#xA;those are the seven steps.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Version Control Systems</title>
-      <link>https://www.douglasdrumond.tech/post/2013-07-17-version-control-system/</link>
+      <link>http://localhost:1313/post/2013-07-17-version-control-system/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2013-07-17-version-control-system/</guid>
+      <guid>http://localhost:1313/post/2013-07-17-version-control-system/</guid>
       <description>&lt;p&gt;A while ago, Fábio Akita from &lt;a href=&#34;http://www.akitaonrails.com&#34;&gt;AkitaOnRails.com&lt;/a&gt;&#xA;launched the campaign “Beginners’s Friday” intended to help the new generation&#xA;of developers coming today. I’m totally buying into this idea and this is the&#xA;first post I’m doing in that direction with version control systems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;version-control-systems&#34;&gt;Version Control Systems&lt;/h2&gt;&#xA;&lt;p&gt;What is a version control system? In the context of software development,&#xA;a version control, revision control or source control system is a software&#xA;designed to control changes to computer programs (as well as documents, sites&#xA;and virtually whatever you want). Gone are the days of copying and pasting&#xA;files and changing the name “index.php,” “index-2.php,” “index-now-works.php,”&#xA;“index-now-it-really-works.php” and so on. In fact, those days should have&#xA;never existed in the first place, since revision control systems are hanging&#xA;around for a really long time (well, they’re older than me, as we’ll see&#xA;below).&lt;/p&gt;</description>
     </item>
     <item>
       <title>DevFestW Campinas</title>
-      <link>https://www.douglasdrumond.tech/post/2013-04-11-devfestw-campinas/</link>
+      <link>http://localhost:1313/post/2013-04-11-devfestw-campinas/</link>
       <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2013-04-11-devfestw-campinas/</guid>
+      <guid>http://localhost:1313/post/2013-04-11-devfestw-campinas/</guid>
       <description>&lt;h2 id=&#34;what-is-devfestw&#34;&gt;What is DevFestW?&lt;/h2&gt;&#xA;&lt;p&gt;Quoting the main &lt;a href=&#34;http://www.devfest.info/about&#34;&gt;site&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;DevFestW is a series of community-led events that have technical sessions&#xA;centered around Google developer technologies and platforms. DevFestW is&#xA;focused specifically on bringing together women in the local developer&#xA;community to teach, learn, code and network.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;devfestw-campinas&#34;&gt;DevFestW Campinas&lt;/h2&gt;&#xA;&lt;p&gt;DevFestWs were supposed to be held in March, but we had to postpone ours to&#xA;yesterday (April 10th) because of some problems with location. Finally, we got&#xA;a lot of support from &lt;a href=&#34;http://www.dextraining.com.br/&#34;&gt;Dextraining&lt;/a&gt; to promote&#xA;the event, from food to location, to video cameras to record the event, so we&#xA;decided to do it even so late.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Waza Opening</title>
-      <link>https://www.douglasdrumond.tech/post/2013-03-01-waza-opening/</link>
+      <link>http://localhost:1313/post/2013-03-01-waza-opening/</link>
       <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2013-03-01-waza-opening/</guid>
+      <guid>http://localhost:1313/post/2013-03-01-waza-opening/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://waza.heroku.com/2013&#34;&gt;Waza&lt;/a&gt; is an event promoted by&#xA;&lt;a href=&#34;http://www.heroku.com&#34;&gt;Heroku&lt;/a&gt;, a PaaS company. In&#xA;&lt;a href=&#34;http://www.ruby-lang.org&#34;&gt;Ruby&lt;/a&gt; language world there is this tendency to name&#xA;things after Japanese words (Ruby itself came from Japan, thanks to Matsumoto&#xA;Yukihiro, a.k.a. Matz), although I have no idea if this influenced Heroku&#xA;somehow. Heroku itself I don’t think it’s a Japanese word (at least I couldn’t&#xA;find it in any dictionary I looked at). On the other hand, waza is a Japanese&#xA;word meanining technique, so it makes perfect sense to name an event focused on&#xA;technical knowledge after this word.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thoughts on DevFest Brasil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-12-02-devfest-brasil/</link>
+      <link>http://localhost:1313/post/2012-12-02-devfest-brasil/</link>
       <pubDate>Sun, 02 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-12-02-devfest-brasil/</guid>
+      <guid>http://localhost:1313/post/2012-12-02-devfest-brasil/</guid>
       <description>&lt;p&gt;Last Friday I went to &lt;a href=&#34;http://www.devfest.com.br&#34;&gt;DevFest Brasil &lt;em&gt;(in&#xA;Portuguese)&lt;/em&gt;&lt;/a&gt;. Since Google won’t promote&#xA;Google Developer Day anymore, the Google Developer Groups (former GTUG,&#xA;Google Technology User Groups) are promoting DevFest. So, these events,&#xA;instead of being backed up by a big company, are from community to&#xA;community. I recognize the hassle that is promoting these, and I think&#xA;the people from GDG-SP (São Paulo), GDG-BH (Belo Horizonte) and GDG-GO&#xA;(Goiás) did a great job nonetheless.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My talk from DevFest Brasil is online</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-30-slides/</link>
+      <link>http://localhost:1313/post/2012-11-30-slides/</link>
       <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-11-30-slides/</guid>
+      <guid>http://localhost:1313/post/2012-11-30-slides/</guid>
       <description>&lt;p&gt;I just uploaded the slides of my talk in DevFest Brasil. See link on this page&#xA;(if you’re on desktop, it should be on the right, if you’re on a smartphone,&#xA;it’s at the bottom). It’s exactly as I presented. Later today or tomorrow I’ll&#xA;add some presenter notes or some screenshots of the hands-on part.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Edit: just see the talks page&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I’ll talk in DevFest Brasil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-24-devfest/</link>
+      <link>http://localhost:1313/post/2012-11-24-devfest/</link>
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-11-24-devfest/</guid>
+      <guid>http://localhost:1313/post/2012-11-24-devfest/</guid>
       <description>&lt;p&gt;This year we won’t have Google Developer Day. Instead, Google&#xA;Developer Groups are organizing their own events called&#xA;&lt;a href=&#34;http://devfest.info&#34;&gt;DevFest.&lt;/a&gt; These are pretty much like Google&#xA;Developer Day with some extras. For instance, in GDDs, we didn’t have&#xA;codelabs with hands on, just 1h (approx) long talks about a variety of&#xA;topics Google related.&lt;/p&gt;&#xA;&lt;p&gt;One other thing that changed are the speakers. On GDD, all were Google&#xA;Employees or invited by Google. On DevFest, the speakers are from&#xA;community. There are some Google employees as well, but anyone could&#xA;submit a talk, so I did it. When I saw the schedule, my talk wasn’t&#xA;there, no big deal, there are a lot of great talks, mine wasn’t chosen,&#xA;no problem. I would go to the event in any way. For my surprise, there&#xA;was an error when publishing the schedule and, in fact, my talk is in.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evernote Hackathon Brazil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-14-evernote-hackathon-brazil/</link>
+      <link>http://localhost:1313/post/2012-11-14-evernote-hackathon-brazil/</link>
       <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-11-14-evernote-hackathon-brazil/</guid>
+      <guid>http://localhost:1313/post/2012-11-14-evernote-hackathon-brazil/</guid>
       <description>&lt;p&gt;Last weekend (Nov 10–11), Evernote held the second edition of Evernote&#xA;Hackathon Brazil. It was my first 24H hackathon and it was very exciting. I had&#xA;participated in two hackathons before, but the doors were shut down at night.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-trip&#34;&gt;The trip&lt;/h2&gt;&#xA;&lt;p&gt;The hackathon was held in &lt;a href=&#34;http://en.wikipedia.org/wiki/Sao_Paulo&#34;&gt;São Paulo&#xA;city&lt;/a&gt; at &lt;a href=&#34;http://wayra.org/en&#34;&gt;Academia&#xA;Wayra&lt;/a&gt;, a startup incubator located in a very cool&#xA;building with a nice view. It was the first time &lt;a href=&#34;http://en.wikipedia.org/wiki/Pinheiros_River&#34;&gt;Pinheiros&#xA;river&lt;/a&gt; looked nice.&#xA;&lt;em&gt;Edited: fixed river name.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrating and pruning repos</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-08-migrating-and-pruning-repos/</link>
+      <link>http://localhost:1313/post/2012-11-08-migrating-and-pruning-repos/</link>
       <pubDate>Thu, 08 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-11-08-migrating-and-pruning-repos/</guid>
+      <guid>http://localhost:1313/post/2012-11-08-migrating-and-pruning-repos/</guid>
       <description>&lt;p&gt;Recently I had to put a folder from my app repository into a separate&#xA;repository on its own. The easiest way was just &lt;code&gt;git init&lt;/code&gt; a new&#xA;repo, copy the directory and &lt;code&gt;git commit&lt;/code&gt; it, but I would lose&#xA;all history up until the move. After fiddling with git and &lt;a href=&#34;http://www.stackoverflow.com/&#34; title=&#34;Stack Overflow&#34;&gt;Stack&#xA;Overflow&lt;/a&gt;, I found the&#xA;solution.&lt;/p&gt;&#xA;&lt;p&gt;Suppose the structure is like this:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;All-in-one repo:&#xA;* server&#xA;    * code.go&#xA;    * code2.go&#xA;* iOS&#xA;    * code.m&#xA;    * code.h&#xA;* Android&#xA;    * src&#xA;        * com&#xA;            * cafelinear&#xA;                * myapp&#xA;                    * Code.java&#xA;                    * Code2.java&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;We want to move the server code into its own repo, so, final result will&#xA;be like this:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Replacing in bash without sed</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-06-bash-replace-without-sed/</link>
+      <link>http://localhost:1313/post/2012-11-06-bash-replace-without-sed/</link>
       <pubDate>Tue, 06 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-11-06-bash-replace-without-sed/</guid>
+      <guid>http://localhost:1313/post/2012-11-06-bash-replace-without-sed/</guid>
       <description>&lt;p&gt;Bash has built-in substitution. For simple tasks it’s easier than piping through sed:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;text&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello world&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;text/hello/ohayou&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;# prints ohayou world&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;Be aware that just the first word is changed:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;text&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello world hello&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;text/hello/ohayou&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;# prints ohayou world hello&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;To change all instances of a world, prepend the search pattern with another slash:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;text&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello world hello&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;text//hello/ohayou&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;# prints ohayou world ohayou&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;Notice there are two slashes before &lt;em&gt;hello&lt;/em&gt;, one as the separator and one prepending it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Eigenclass</title>
-      <link>https://www.douglasdrumond.tech/post/2010-04-03-eigenclass/</link>
+      <link>http://localhost:1313/post/2010-04-03-eigenclass/</link>
       <pubDate>Sat, 03 Apr 2010 17:33:11 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2010-04-03-eigenclass/</guid>
+      <guid>http://localhost:1313/post/2010-04-03-eigenclass/</guid>
       <description>&lt;p&gt;In Ruby, there’s the concept of eigenclasses, or singleton classes. These are&#xA;classes implicitly defined when attaching methods to a single instance.&lt;/p&gt;&#xA;&lt;p&gt;From &lt;a href=&#34;http://en.wikipedia.org/wiki/Ruby_(programming_language)&#34;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Ruby is &lt;a href=&#34;http://en.wikipedia.org/wiki/Object-oriented&#34;&gt;object-oriented&lt;/a&gt;: every&#xA;data type is an object, including classes and types which many other languages&#xA;designate as primitives (such as&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Integer_(computer_science)&#34;&gt;integers&lt;/a&gt;, booleans,&#xA;and &amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Pointer_(computing)#Null_pointer&#34;&gt;nil&lt;/a&gt;&amp;rdquo;).&#xA;Every &lt;a href=&#34;http://en.wikipedia.org/wiki/Function_(programming)&#34;&gt;function&lt;/a&gt; is&#xA;a &lt;a href=&#34;http://en.wikipedia.org/wiki/Method_(programming)&#34;&gt;method&lt;/a&gt;. Named values&#xA;(variables) always designate references to objects, not the objects&#xA;themselves. Ruby supports&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)&#34;&gt;inheritance&lt;/a&gt;&#xA;with &lt;a href=&#34;http://en.wikipedia.org/wiki/Dynamic_dispatch&#34;&gt;dynamic dispatch&lt;/a&gt;,&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Mixin&#34;&gt;mixins&lt;/a&gt; and singleton methods (belonging&#xA;to, and defined for, a single&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Instance_(computer_science)&#34;&gt;instance&lt;/a&gt; rather&#xA;than being defined on the class).&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Coffee Song</title>
-      <link>https://www.douglasdrumond.tech/post/2010-02-28-the-coffee-song/</link>
+      <link>http://localhost:1313/post/2010-02-28-the-coffee-song/</link>
       <pubDate>Sun, 28 Feb 2010 15:30:54 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2010-02-28-the-coffee-song/</guid>
+      <guid>http://localhost:1313/post/2010-02-28-the-coffee-song/</guid>
       <description>&lt;p&gt;Frank Steinhoff suggested this Sinatra’s song. It’s about coffee and Brazil and it would have arise in a coffee talk at IMECC’s coffee room.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Way down among brazilians&lt;br&gt;&#xA;Coffee beans grow by the billions&lt;br&gt;&#xA;So they’ve got to find those extra cups to fill&lt;br&gt;&#xA;They’ve got an awful lot of coffee in Brazil&lt;br&gt;&#xA;You can’t get cherry soda’cause they’ve got to sell that quota&lt;br&gt;&#xA;And the way things are I’ll bet they never will&lt;br&gt;&#xA;They’ve got a zillion tons of coffee in Brazil&lt;/p&gt;</description>
     </item>
     <item>
       <title>A romance of many dimensions</title>
-      <link>https://www.douglasdrumond.tech/post/2010-02-28-a-romance-of-many-dimensions/</link>
+      <link>http://localhost:1313/post/2010-02-28-a-romance-of-many-dimensions/</link>
       <pubDate>Sun, 28 Feb 2010 15:22:37 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2010-02-28-a-romance-of-many-dimensions/</guid>
+      <guid>http://localhost:1313/post/2010-02-28-a-romance-of-many-dimensions/</guid>
       <description>&lt;p&gt;&lt;em&gt;Editor’s note:This is a guest post from Luciana Takata.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Last week I read for the second time Flatland − a romance of many dimensions&#xA;(Edwin A. Abbot, 1884). No matter how many times I read this book I guess I’ll&#xA;never stop finding it interesting.&lt;/p&gt;&#xA;&lt;p&gt;In Flatland, its inhabitants − triangles, squares, pentagons and other&#xA;two-dimensional geometrical figures − can only move to right, left, forward,&#xA;backward or its composed directions. Up or down simply don’t exist. That’s what&#xA;a square, inhabitant of Flatland, was used to. Its beliefs (and life)&#xA;completely change when a sphere comes out of (apparently) nowhere and presents&#xA;to the ignorant square the third dimension and throw it into the unimaginable&#xA;space of three dimensions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Problem solving, artificial intelligence and computational linear algebra</title>
-      <link>https://www.douglasdrumond.tech/post/2010-02-25-problem-solving-artificial-intelligence-and-linear-algebra/</link>
+      <link>http://localhost:1313/post/2010-02-25-problem-solving-artificial-intelligence-and-linear-algebra/</link>
       <pubDate>Thu, 25 Feb 2010 07:23:28 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2010-02-25-problem-solving-artificial-intelligence-and-linear-algebra/</guid>
-      <description>&lt;p&gt;When students come to computer science, it’s hard to motivate them to learn&#xA;fundamental mathematics subjects such as linear algebra and numerical calculus.&#xA;In this post I intend to spark this motivation through AI and sketch a method&#xA;(and some variations) to solve optimization problems.&lt;/p&gt;&#xA;&lt;p&gt;It’s hard to define AI. We know what &lt;em&gt;artificial&lt;/em&gt; means, but what about&#xA;&lt;em&gt;intelligence&lt;/em&gt;? Russel and Norvig &lt;a href=&#34;https://www.douglasdrumond.tech/post/2010-02-25-problem-solving-artificial-intelligence-and-linear-algebra/#russel&#34;&gt;[1]&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;present us four approaches to AI: systems that think like humans, systems that&#xA;think rationally, systems that act like humans and systems that act rationally.&#xA;Let’s focus on last one, systems that act rationally.  What that means? It&#xA;means a rational agent acts so as to achieve the best outcome, i.e., find the&#xA;optimal solution.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2010-02-25-problem-solving-artificial-intelligence-and-linear-algebra/</guid>
+      <description>&lt;p&gt;When students come to computer science, it’s hard to motivate them to learn&#xA;fundamental mathematics subjects such as linear algebra and numerical calculus.&#xA;In this post I intend to spark this motivation through AI and sketch a method&#xA;(and some variations) to solve optimization problems.&lt;/p&gt;&#xA;&lt;p&gt;It’s hard to define AI. We know what &lt;em&gt;artificial&lt;/em&gt; means, but what about&#xA;&lt;em&gt;intelligence&lt;/em&gt;? Russel and Norvig &lt;a href=&#34;http://localhost:1313/post/2010-02-25-problem-solving-artificial-intelligence-and-linear-algebra/#russel&#34;&gt;[1]&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;present us four approaches to AI: systems that think like humans, systems that&#xA;think rationally, systems that act like humans and systems that act rationally.&#xA;Let’s focus on last one, systems that act rationally.  What that means? It&#xA;means a rational agent acts so as to achieve the best outcome, i.e., find the&#xA;optimal solution.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Engineering Paradise</title>
-      <link>https://www.douglasdrumond.tech/post/2010-02-23-engineering-paradise/</link>
+      <link>http://localhost:1313/post/2010-02-23-engineering-paradise/</link>
       <pubDate>Tue, 23 Feb 2010 02:23:01 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2010-02-23-engineering-paradise/</guid>
+      <guid>http://localhost:1313/post/2010-02-23-engineering-paradise/</guid>
       <description>&lt;p&gt;&lt;em&gt;Edit: this is another restored old post.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is old, but I think it’s so funny and propelling to study I feel I must share it.&lt;/p&gt;&#xA;&lt;p&gt;This video was made by a colleague, John Cohn, at IBM as a contest for choosing&#xA;best video to encourage young people to go into engineering and computer&#xA;science. He made it for fun, since he couldn’t take part at contest as he was&#xA;organizing it, but he felt it would be good to create something to use as&#xA;example. Since engineering and computer science are deeply related to math, it&#xA;fits in here as well. He’s an &lt;!-- raw HTML omitted --&gt;“IBM Fellow, Mad Scientist and cast member&#xA;of Discovery Channel’s post-apocalyptic survival show ‘The Colony’”&lt;!-- raw HTML omitted --&gt;. And&#xA;he has great taste for shirts :)&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://www.douglasdrumond.tech/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h2 id=&#34;this-blog&#34;&gt;This blog&lt;/h2&gt;&#xA;&lt;p&gt;When I was a Math student, every day at 3pm my friends and I used to sit at the&#xA;coffee room in Unicamp Math Institute (IMECC, in Portuguese it means Institute&#xA;for Math, Statistics and Scientific Computation) to drink coffee, discuss&#xA;Mathematics and whatever came to mind. Usually the topic was related to Linear&#xA;Algebra, sometimes to Higher Algebra, Analysis and, depending on who was there,&#xA;Computer Science.&lt;/p&gt;</description>
     </item>
   </channel>

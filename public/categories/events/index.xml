@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Douglas Drumond Kayama</title>
-    <link>https://www.douglasdrumond.tech/categories/events/</link>
+    <link>http://localhost:1313/categories/events/</link>
     <description>Recent content in Events on Douglas Drumond Kayama</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <lastBuildDate>Mon, 16 Mar 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.douglasdrumond.tech/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GDG Talks #1</title>
-      <link>https://www.douglasdrumond.tech/post/2015-03-16-gdg-talks/</link>
+      <link>http://localhost:1313/post/2015-03-16-gdg-talks/</link>
       <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2015-03-16-gdg-talks/</guid>
+      <guid>http://localhost:1313/post/2015-03-16-gdg-talks/</guid>
       <description>&lt;p&gt;Usually every month we have an informal meeting at GDG Campinas, where we gather&#xA;and discuss whatever comes to mind (most of the time it’s Android, the&#xA;preferred topic for most of the attendees), but this month we decided to do&#xA;something different.&lt;/p&gt;&#xA;&lt;p&gt;Organized by &lt;a href=&#34;https://twitter.com/karuanbertoluci&#34;&gt;Karuan Bertoluci&lt;/a&gt;, this&#xA;month meeting was a series of three talks hosted at&#xA;&lt;a href=&#34;http://www.ciandt.com/us-en/&#34;&gt;Ci&amp;amp;T&lt;/a&gt;, which provided the venue and some&#xA;beverage and food.&lt;/p&gt;&#xA;&lt;p&gt;After Karuan &lt;a href=&#34;https://www.youtube.com/watch?v=RRUbb2xtmv8&#34;&gt;opened&lt;/a&gt; the event,&#xA;I gave the first talk on Android Wear. You can watch it &lt;a href=&#34;https://www.youtube.com/watch?v=GWjVfn5zdPM&#34;&gt;on&#xA;YouTube&lt;/a&gt; and download the slides&#xA;from &lt;a href=&#34;https://speakerdeck.com/douglasdrumond/android-wear&#34;&gt;Speaker Deck&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DevFestW Campinas</title>
-      <link>https://www.douglasdrumond.tech/post/2013-04-11-devfestw-campinas/</link>
+      <link>http://localhost:1313/post/2013-04-11-devfestw-campinas/</link>
       <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2013-04-11-devfestw-campinas/</guid>
+      <guid>http://localhost:1313/post/2013-04-11-devfestw-campinas/</guid>
       <description>&lt;h2 id=&#34;what-is-devfestw&#34;&gt;What is DevFestW?&lt;/h2&gt;&#xA;&lt;p&gt;Quoting the main &lt;a href=&#34;http://www.devfest.info/about&#34;&gt;site&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;DevFestW is a series of community-led events that have technical sessions&#xA;centered around Google developer technologies and platforms. DevFestW is&#xA;focused specifically on bringing together women in the local developer&#xA;community to teach, learn, code and network.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;devfestw-campinas&#34;&gt;DevFestW Campinas&lt;/h2&gt;&#xA;&lt;p&gt;DevFestWs were supposed to be held in March, but we had to postpone ours to&#xA;yesterday (April 10th) because of some problems with location. Finally, we got&#xA;a lot of support from &lt;a href=&#34;http://www.dextraining.com.br/&#34;&gt;Dextraining&lt;/a&gt; to promote&#xA;the event, from food to location, to video cameras to record the event, so we&#xA;decided to do it even so late.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Waza Opening</title>
-      <link>https://www.douglasdrumond.tech/post/2013-03-01-waza-opening/</link>
+      <link>http://localhost:1313/post/2013-03-01-waza-opening/</link>
       <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2013-03-01-waza-opening/</guid>
+      <guid>http://localhost:1313/post/2013-03-01-waza-opening/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://waza.heroku.com/2013&#34;&gt;Waza&lt;/a&gt; is an event promoted by&#xA;&lt;a href=&#34;http://www.heroku.com&#34;&gt;Heroku&lt;/a&gt;, a PaaS company. In&#xA;&lt;a href=&#34;http://www.ruby-lang.org&#34;&gt;Ruby&lt;/a&gt; language world there is this tendency to name&#xA;things after Japanese words (Ruby itself came from Japan, thanks to Matsumoto&#xA;Yukihiro, a.k.a. Matz), although I have no idea if this influenced Heroku&#xA;somehow. Heroku itself I don’t think it’s a Japanese word (at least I couldn’t&#xA;find it in any dictionary I looked at). On the other hand, waza is a Japanese&#xA;word meanining technique, so it makes perfect sense to name an event focused on&#xA;technical knowledge after this word.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thoughts on DevFest Brasil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-12-02-devfest-brasil/</link>
+      <link>http://localhost:1313/post/2012-12-02-devfest-brasil/</link>
       <pubDate>Sun, 02 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-12-02-devfest-brasil/</guid>
+      <guid>http://localhost:1313/post/2012-12-02-devfest-brasil/</guid>
       <description>&lt;p&gt;Last Friday I went to &lt;a href=&#34;http://www.devfest.com.br&#34;&gt;DevFest Brasil &lt;em&gt;(in&#xA;Portuguese)&lt;/em&gt;&lt;/a&gt;. Since Google won’t promote&#xA;Google Developer Day anymore, the Google Developer Groups (former GTUG,&#xA;Google Technology User Groups) are promoting DevFest. So, these events,&#xA;instead of being backed up by a big company, are from community to&#xA;community. I recognize the hassle that is promoting these, and I think&#xA;the people from GDG-SP (São Paulo), GDG-BH (Belo Horizonte) and GDG-GO&#xA;(Goiás) did a great job nonetheless.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My talk from DevFest Brasil is online</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-30-slides/</link>
+      <link>http://localhost:1313/post/2012-11-30-slides/</link>
       <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-11-30-slides/</guid>
+      <guid>http://localhost:1313/post/2012-11-30-slides/</guid>
       <description>&lt;p&gt;I just uploaded the slides of my talk in DevFest Brasil. See link on this page&#xA;(if you’re on desktop, it should be on the right, if you’re on a smartphone,&#xA;it’s at the bottom). It’s exactly as I presented. Later today or tomorrow I’ll&#xA;add some presenter notes or some screenshots of the hands-on part.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Edit: just see the talks page&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I’ll talk in DevFest Brasil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-24-devfest/</link>
+      <link>http://localhost:1313/post/2012-11-24-devfest/</link>
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-11-24-devfest/</guid>
+      <guid>http://localhost:1313/post/2012-11-24-devfest/</guid>
       <description>&lt;p&gt;This year we won’t have Google Developer Day. Instead, Google&#xA;Developer Groups are organizing their own events called&#xA;&lt;a href=&#34;http://devfest.info&#34;&gt;DevFest.&lt;/a&gt; These are pretty much like Google&#xA;Developer Day with some extras. For instance, in GDDs, we didn’t have&#xA;codelabs with hands on, just 1h (approx) long talks about a variety of&#xA;topics Google related.&lt;/p&gt;&#xA;&lt;p&gt;One other thing that changed are the speakers. On GDD, all were Google&#xA;Employees or invited by Google. On DevFest, the speakers are from&#xA;community. There are some Google employees as well, but anyone could&#xA;submit a talk, so I did it. When I saw the schedule, my talk wasn’t&#xA;there, no big deal, there are a lot of great talks, mine wasn’t chosen,&#xA;no problem. I would go to the event in any way. For my surprise, there&#xA;was an error when publishing the schedule and, in fact, my talk is in.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evernote Hackathon Brazil</title>
-      <link>https://www.douglasdrumond.tech/post/2012-11-14-evernote-hackathon-brazil/</link>
+      <link>http://localhost:1313/post/2012-11-14-evernote-hackathon-brazil/</link>
       <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/post/2012-11-14-evernote-hackathon-brazil/</guid>
+      <guid>http://localhost:1313/post/2012-11-14-evernote-hackathon-brazil/</guid>
       <description>&lt;p&gt;Last weekend (Nov 10–11), Evernote held the second edition of Evernote&#xA;Hackathon Brazil. It was my first 24H hackathon and it was very exciting. I had&#xA;participated in two hackathons before, but the doors were shut down at night.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-trip&#34;&gt;The trip&lt;/h2&gt;&#xA;&lt;p&gt;The hackathon was held in &lt;a href=&#34;http://en.wikipedia.org/wiki/Sao_Paulo&#34;&gt;São Paulo&#xA;city&lt;/a&gt; at &lt;a href=&#34;http://wayra.org/en&#34;&gt;Academia&#xA;Wayra&lt;/a&gt;, a startup incubator located in a very cool&#xA;building with a nice view. It was the first time &lt;a href=&#34;http://en.wikipedia.org/wiki/Pinheiros_River&#34;&gt;Pinheiros&#xA;river&lt;/a&gt; looked nice.&#xA;&lt;em&gt;Edited: fixed river name.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>

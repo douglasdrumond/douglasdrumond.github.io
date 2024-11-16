@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Douglas Drumond Kayama</title>
-    <link>https://www.douglasdrumond.tech/pt/categories/</link>
+    <link>http://localhost:1313/pt/categories/</link>
     <description>Recent content in Categories on Douglas Drumond Kayama</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
     <lastBuildDate>Sun, 28 Apr 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.douglasdrumond.tech/pt/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pt/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Events</title>
-      <link>https://www.douglasdrumond.tech/pt/categories/events/</link>
+      <link>http://localhost:1313/pt/categories/events/</link>
       <pubDate>Sun, 28 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://www.douglasdrumond.tech/pt/categories/events/</guid>
+      <guid>http://localhost:1313/pt/categories/events/</guid>
       <description></description>
     </item>
   </channel>
