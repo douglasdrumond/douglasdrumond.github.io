@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-GB" dir="ltr">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -11,12 +11,12 @@
     
     
     
-      <meta name="robots" content="noindex, nofollow">
+      <meta name="robots" content="index, follow">
     
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
 
 
 
@@ -38,10 +38,10 @@
     
 
     
-      <link rel="canonical" href="http://localhost:1313/post/">
+      <link rel="canonical" href="https://www.douglasdrumond.tech/post/">
     
 
-    <meta property="og:url" content="http://localhost:1313/post/">
+    <meta property="og:url" content="https://www.douglasdrumond.tech/post/">
   <meta property="og:site_name" content="Douglas Drumond Kayama">
   <meta property="og:title" content="Posts">
   <meta property="og:locale" content="en_GB">
@@ -53,8 +53,10 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
 
+      
+    
 	
-  </head><body class="ma0 avenir bg-near-white development">
+  </head><body class="ma0 avenir bg-near-white production">
 
     
 
@@ -114,6 +116,40 @@
       
     </section>
     <aside class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        July 20, 2013
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="/post/2013-07-20-my-git-workflow/" class="link black dim">
+        My Git Workflow
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Proceeding with my sequence of posts about version control systems, I’ll
+explain my Git workflow. It’s quite simple, after set up, the day to day
+workflow is as follows:</p>
+<ol>
+<li>get the latest information from remote server: <code>git pull --ff-only</code></li>
+<li>create a new branch and switch to it: <code>git checkout -b branch_name</code></li>
+<li>work, work, work, then commit: <code>git commit</code></li>
+<li>go back to master: <code>git checkout master</code></li>
+<li>check if there’s something new: <code>git pull --ff-only</code></li>
+<li>merge my work back into master: <code>git rebase branch_name</code></li>
+<li>upload the modifications to server: <code>git push</code></li>
+</ol>
+<p>And since I reached the magic number
+<a href="http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">seven</a>,
+those are the seven steps.</p>
+    </div>
+  <a href="/post/2013-07-20-my-git-workflow/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+
+        </div>
       
         <div class="relative w-100 w-30-l mb4 bg-white">
             <div class="mb3 pa4 mid-gray overflow-hidden">
@@ -393,44 +429,6 @@ be like this:</p>
 
         </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white">
-            <div class="mb3 pa4 mid-gray overflow-hidden">
-    
-      <div class="f6">
-        April 3, 2010
-      </div>
-    
-    <h1 class="f3 near-black">
-      <a href="/post/2010-04-03-eigenclass/" class="link black dim">
-        Eigenclass
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>In Ruby, there’s the concept of eigenclasses, or singleton classes. These are
-classes implicitly defined when attaching methods to a single instance.</p>
-<p>From <a href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Wikipedia</a>:</p>
-<blockquote>
-<p>Ruby is <a href="http://en.wikipedia.org/wiki/Object-oriented">object-oriented</a>: every
-data type is an object, including classes and types which many other languages
-designate as primitives (such as
-<a href="http://en.wikipedia.org/wiki/Integer_(computer_science)">integers</a>, booleans,
-and &ldquo;<a href="http://en.wikipedia.org/wiki/Pointer_(computing)#Null_pointer">nil</a>&rdquo;).
-Every <a href="http://en.wikipedia.org/wiki/Function_(programming)">function</a> is
-a <a href="http://en.wikipedia.org/wiki/Method_(programming)">method</a>. Named values
-(variables) always designate references to objects, not the objects
-themselves. Ruby supports
-<a href="http://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)">inheritance</a>
-with <a href="http://en.wikipedia.org/wiki/Dynamic_dispatch">dynamic dispatch</a>,
-<a href="http://en.wikipedia.org/wiki/Mixin">mixins</a> and singleton methods (belonging
-to, and defined for, a single
-<a href="http://en.wikipedia.org/wiki/Instance_(computer_science)">instance</a> rather
-than being defined on the class).</p>
-    </div>
-  <a href="/post/2010-04-03-eigenclass/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-  </div>
-
-        </div>
-      
     </aside>
     
     <ul class="pagination pagination-default">
@@ -467,7 +465,7 @@ than being defined on the class).</p>
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.douglasdrumond.tech/" >
     &copy;  Douglas Drumond Kayama 2024 
   </a>
     <div><div class="ananke-socials"></div>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Douglas Drumond Kayama</title>
-    <link>http://localhost:1313/pt/categories/events/</link>
+    <link>https://www.douglasdrumond.tech/pt/categories/events/</link>
     <description>Recent content in Events on Douglas Drumond Kayama</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
     <lastBuildDate>Sun, 28 Apr 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/pt/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.douglasdrumond.tech/pt/categories/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FLISOL Campinas - Uploaded talks</title>
-      <link>http://localhost:1313/pt/post/2013-04-28-flisol-campinas/</link>
+      <link>https://www.douglasdrumond.tech/pt/post/2013-04-28-flisol-campinas/</link>
       <pubDate>Sun, 28 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pt/post/2013-04-28-flisol-campinas/</guid>
+      <guid>https://www.douglasdrumond.tech/pt/post/2013-04-28-flisol-campinas/</guid>
       <description>&lt;p&gt;Ontem apresentei 4 palestras no FLISOL Campinas. Subi 3 palestras online, uma&#xA;em HTML5 aqui nesse mesmo site, as outras no SlideShare.&lt;/p&gt;&#xA;&lt;h2 id=&#34;palestras-apresentadas&#34;&gt;Palestras apresentadas&lt;/h2&gt;&#xA;&lt;h3 id=&#34;android-faixa-brancahttpsspeakerdeckcomdouglasdrumondflisol-android-faixa-branca-iniciando-no-android&#34;&gt;&lt;a href=&#34;https://speakerdeck.com/douglasdrumond/flisol-android-faixa-branca-iniciando-no-android&#34;&gt;Android Faixa Branca&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Essa foi uma palestra de introdução ao Android, apresentando conceitos básicos&#xA;e um exemplo de aplicativo.&lt;/p&gt;&#xA;&lt;h3 id=&#34;embelezando-o-androidhttpsspeakerdeckcomdouglasdrumondflisol-embelezando-o-android&#34;&gt;&lt;a href=&#34;https://speakerdeck.com/douglasdrumond/flisol-embelezando-o-android&#34;&gt;Embelezando o Android&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Palestra com exemplos de técnicas de interface no Android. Mostra um exemplo de&#xA;criação de botões em XML, background e um exemplo de componente (SlidingMenu).&#xA;Não é uma palestra sobre design ou voltada para designers, é voltada para&#xA;programadores implementarem as ideias já vindas dos designers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Code Jam, Topcoder e outras competições</title>
-      <link>http://localhost:1313/pt/post/2013-04-01-google-code-jam-topcoder/</link>
+      <link>https://www.douglasdrumond.tech/pt/post/2013-04-01-google-code-jam-topcoder/</link>
       <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pt/post/2013-04-01-google-code-jam-topcoder/</guid>
+      <guid>https://www.douglasdrumond.tech/pt/post/2013-04-01-google-code-jam-topcoder/</guid>
       <description>&lt;h2 id=&#34;motivação&#34;&gt;Motivação&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://code.google.com/codejam&#34;&gt;Google Code Jam&lt;/a&gt; completa 10 anos em 2013.&#xA;Numa das listas que participo, surgiram algumas dúvidas sobre o Google Code Jam&#xA;e competições de programação em geral. Depois de escrever uma resposta&#xA;completa, eu havia pensado em transformar em post para manter a referência&#xA;online e, coincidentemente, me sugeriram isso na lista também. Portanto, segue&#xA;quase sem edição, o e-mail enviado.&lt;/p&gt;&#xA;&lt;h2 id=&#34;como-funciona&#34;&gt;Como funciona&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://code.google.com/codejam&#34;&gt;Google Code Jam&lt;/a&gt;,&#xA;&lt;a href=&#34;http://olimpiada.ic.unicamp.br/&#34;&gt;OBI&lt;/a&gt;, &lt;a href=&#34;http://www.ioinformatics.org/&#34;&gt;IOI&lt;/a&gt;,&#xA;&lt;a href=&#34;http://maratona.ime.usp.br/&#34;&gt;Maratona de Programação&lt;/a&gt;,&#xA;&lt;a href=&#34;http://community.topcoder.com/tc&#34;&gt;TopCoder&lt;/a&gt; seguem o mesmo estilo.&#xA;É apresentado um problema, geralmente com uma história para descontrair,&#xA;a descrição da entrada e o formato da saída. O problema geralmente requer&#xA;alguma criatividade para resolver e a dificuldade não está no uso de&#xA;ferramentas, mas na lógica do algoritmo a implementar. O que eu quero dizer com&#xA;isso é que basta saber a sintaxe de uma linguagem, não precisa conhecer todas&#xA;as bibliotecas e frameworks. Eventualmente conhecer uma biblioteca de estrutura&#xA;de dados é útil. Por exemplo, melhor usar a STL do que implementar hash na mão.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Vim `:g` and :`v` | Douglas Drumond Kayama</title>
+    <title>`:read` the output of a command into the current buffer | Douglas Drumond Kayama</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="If you want to execute a command on all lines matching a pattern, you
-can use the Ex command :g. For example, if you want to delete all
-blank lines, you can do
-:g/^\s*$/d
-It will get all lines that matches this: from the beginning (^), it may
-contain 0 or more whitespace (\s*) until the end of line ($). In other
-words, if the line is empty or contain only whitespace.">
+    <meta name="description" content="If you want to use the output of a command inside your file, you don&rsquo;t need
+to exit Vim, run the command, copy the output, return to Vim and paste the
+contents. You can use :read (or abbreviated to :r) and run a command
+with !. For example, :r !ls -a will insert the output of ls -a at
+the current cursor position.
+You can also insert the content of another file with :r, except this time
+you don&rsquo;t use !, just the file name. For example, :r second_file will
+insert the content of second_file at the current cursor position.">
     <meta name="generator" content="Hugo 0.136.5">
     
     
@@ -39,14 +40,14 @@ words, if the line is empty or contain only whitespace.">
     
 
     
-      <link rel="canonical" href="https://www.douglasdrumond.tech/post/2024-11-04-vim-g-and-v/">
+      <link rel="canonical" href="https://www.douglasdrumond.tech/post/2024-11-16-vim-read-command-output/">
     
 
-    <meta property="og:url" content="https://www.douglasdrumond.tech/post/2024-11-04-vim-g-and-v/">
+    <meta property="og:url" content="https://www.douglasdrumond.tech/post/2024-11-16-vim-read-command-output/">
   <meta property="og:site_name" content="Douglas Drumond Kayama">
-  <meta property="og:title" content="Vim `:g` and :`v`">
-  <meta property="og:description" content="If you want to execute a command on all lines matching a pattern, you can use the Ex command :g. For example, if you want to delete all blank lines, you can do
-:g/^\s*$/d It will get all lines that matches this: from the beginning (^), it may contain 0 or more whitespace (\s*) until the end of line ($). In other words, if the line is empty or contain only whitespace.">
+  <meta property="og:title" content="`:read` the output of a command into the current buffer">
+  <meta property="og:description" content="If you want to use the output of a command inside your file, you don’t need to exit Vim, run the command, copy the output, return to Vim and paste the contents. You can use :read (or abbreviated to :r) and run a command with !. For example, :r !ls -a will insert the output of ls -a at the current cursor position.
+You can also insert the content of another file with :r, except this time you don’t use !, just the file name. For example, :r second_file will insert the content of second_file at the current cursor position.">
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -58,17 +59,17 @@ words, if the line is empty or contain only whitespace.">
     <meta property="article:tag" content="Tips">
     <meta property="article:tag" content="TIL">
 
-  <meta itemprop="name" content="Vim `:g` and :`v`">
-  <meta itemprop="description" content="If you want to execute a command on all lines matching a pattern, you can use the Ex command :g. For example, if you want to delete all blank lines, you can do
-:g/^\s*$/d It will get all lines that matches this: from the beginning (^), it may contain 0 or more whitespace (\s*) until the end of line ($). In other words, if the line is empty or contain only whitespace.">
+  <meta itemprop="name" content="`:read` the output of a command into the current buffer">
+  <meta itemprop="description" content="If you want to use the output of a command inside your file, you don’t need to exit Vim, run the command, copy the output, return to Vim and paste the contents. You can use :read (or abbreviated to :r) and run a command with !. For example, :r !ls -a will insert the output of ls -a at the current cursor position.
+You can also insert the content of another file with :r, except this time you don’t use !, just the file name. For example, :r second_file will insert the content of second_file at the current cursor position.">
   <meta itemprop="datePublished" content="2024-11-04T12:09:56-03:00">
   <meta itemprop="dateModified" content="2024-11-04T12:09:56-03:00">
-  <meta itemprop="wordCount" content="142">
+  <meta itemprop="wordCount" content="100">
   <meta itemprop="keywords" content="Vim,Neovim,Vi,Tips,TIL">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Vim `:g` and :`v`">
-  <meta name="twitter:description" content="If you want to execute a command on all lines matching a pattern, you can use the Ex command :g. For example, if you want to delete all blank lines, you can do
-:g/^\s*$/d It will get all lines that matches this: from the beginning (^), it may contain 0 or more whitespace (\s*) until the end of line ($). In other words, if the line is empty or contain only whitespace.">
+  <meta name="twitter:title" content="`:read` the output of a command into the current buffer">
+  <meta name="twitter:description" content="If you want to use the output of a command inside your file, you don’t need to exit Vim, run the command, copy the output, return to Vim and paste the contents. You can use :read (or abbreviated to :r) and run a command with !. For example, :r !ls -a will insert the output of ls -a at the current cursor position.
+You can also insert the content of another file with :r, except this time you don’t use !, just the file name. For example, :r second_file will insert the content of second_file at the current cursor position.">
 
       
     
@@ -113,7 +114,7 @@ words, if the line is empty or contain only whitespace.">
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Vim `:g` and :`v`</div>
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">`:read` the output of a command into the current buffer</div>
           
         
       </div>
@@ -131,7 +132,7 @@ words, if the line is empty or contain only whitespace.">
           
         Posts
       </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">Vim `:g` and :`v`</h1>
+<h1 class="f1 athelas mt3 mb1">`:read` the output of a command into the current buffer</h1>
       
       
       
@@ -141,29 +142,14 @@ words, if the line is empty or contain only whitespace.">
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>If you want to execute a command on all lines matching a pattern, you
-can use the Ex command <code>:g</code>. For example, if you want to delete all
-blank lines, you can do</p>
-<pre tabindex="0"><code>:g/^\s*$/d
-</code></pre><p>It will get all lines that matches this: from the beginning (<code>^</code>), it may
-contain 0 or more whitespace (<code>\s*</code>) until the end of line (<code>$</code>). In other
-words, if the line is empty or contain only whitespace.</p>
-<p>For all lines matching that criterium, delete it (<code>d</code>).</p>
-<p>You can also execute commands on all lines <strong>not</strong> matching the pattern.
-Instead of <code>g</code>, use <code>v</code>:</p>
-<pre tabindex="0"><code>:v/^[a-z]\+:/d
-</code></pre><p>That will delete all lines not starting with a lowercase word followed by
-a colon.</p>
-<p>Imagine this file:</p>
-<pre tabindex="0"><code>title: Vim search
-tags: [&#34;vim&#34;, &#34;regex&#34;]
-date: 2024-11-04
-
-Some text.
-
-More text.
-</code></pre><p>All lines, except the first three, will be removed.</p>
-<p><em>Photo by the author</em></p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>If you want to use the output of a command inside your file, you don&rsquo;t need
+to exit Vim, run the command, copy the output, return to Vim and paste the
+contents. You can use <code>:read</code> (or abbreviated to <code>:r</code>) and run a command
+with <code>!</code>. For example, <code>:r !ls -a</code> will insert the output of <code>ls -a</code> at
+the current cursor position.</p>
+<p>You can also insert the content of another file with <code>:r</code>, except this time
+you don&rsquo;t use <code>!</code>, just the file name. For example, <code>:r second_file</code> will
+insert the content of <code>second_file</code> at the current cursor position.</p>
 <ul class="pa0">
   
    <li class="list di">
@@ -235,7 +221,7 @@ More text.
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2024-11-16-vim-read-command-output/">`:read` the output of a command into the current buffer</a>
+          <a href="/post/2024-11-04-vim-g-and-v/">Vim `:g` and :`v`</a>
         </li>
 	    
 	     <li  class="mb2">
