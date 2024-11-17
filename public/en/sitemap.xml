@@ -2,17 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/2024-11-16-vim-read-command-output/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/2024-11-04-g-capital/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/2024-11-04-g-ctrl-a/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+    <loc>http://localhost:1313/post/2024-11-17-spell-check-in-vim/</loc>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -24,14 +18,11 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/2024-11-04-g-line-movement/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/neovim/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -44,7 +35,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -56,13 +47,31 @@
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/2024-11-04-vim-norm-command/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/TIL/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tips/</loc>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vi/</loc>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vim/</loc>
+    <lastmod>2024-11-17T10:09:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2024-11-16-vim-read-command-output/</loc>
+    <lastmod>2024-11-16T12:09:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2024-11-04-g-capital/</loc>
+    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2024-11-04-g-ctrl-a/</loc>
+    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2024-11-04-g-line-movement/</loc>
+    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2024-11-04-vim-norm-command/</loc>
     <lastmod>2024-11-04T12:09:56-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/2024-11-04-gv/</loc>
@@ -75,12 +84,6 @@
     <lastmod>2024-11-04T12:09:56-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/2024-11-04-o-visual-mode/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vi/</loc>
-    <lastmod>2024-11-04T12:09:56-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vim/</loc>
     <lastmod>2024-11-04T12:09:56-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/2024-11-04-vim-g-and-v/</loc>

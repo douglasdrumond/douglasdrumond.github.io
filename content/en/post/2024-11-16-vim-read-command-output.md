@@ -1,6 +1,6 @@
 ---
 title: "`:read` the output of a command into the current buffer"
-date: 2024-11-04T12:09:56-03:00
+date: 2024-11-16T12:09:56-03:00
 tags: ["vim", "neovim", "vi", "tips", "TIL"]
 featured_image: /assets/article_images/2024-11-04-some-vim-tips/wq-tattoo.webp
 description: ""

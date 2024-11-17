@@ -50,8 +50,8 @@
 
   <meta itemprop="name" content="Douglas Drumond Kayama">
   <meta itemprop="description" content="f: Coffee → (Writings, Software)">
-  <meta itemprop="datePublished" content="2024-11-04T12:09:56-03:00">
-  <meta itemprop="dateModified" content="2024-11-04T12:09:56-03:00">
+  <meta itemprop="datePublished" content="2024-11-17T10:09:56-03:00">
+  <meta itemprop="dateModified" content="2024-11-17T10:09:56-03:00">
   <meta itemprop="wordCount" content="10">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Douglas Drumond Kayama">
@@ -155,6 +155,45 @@
       
           
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <a href="/post/2024-11-17-spell-check-in-vim/" class="db grow">
+            <img src="http://localhost:1313/assets/article_images/2024-11-04-some-vim-tips/wq-tattoo.webp" class="img" alt="image from Checking spelling">
+          </a>
+        </div>
+      
+      <div class="blah w-100 w-60-ns pl3-ns">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/post/2024-11-17-spell-check-in-vim/" class="color-inherit dim link">
+            Checking spelling
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>Vim has a built-in spell check that you can enable with <code>:set spell</code>. You can
+also set the language with <code>:set spelllang=</code> followed by the two-letter code of
+the language and optionally a dash and the region (e.g., <code>:set spelllang=en</code> or
+<code>:set spelllang=en-GB</code>).</p>
+<p>After enabling the spell checker, you can move between different mistakes with
+<code>]s</code> and <code>[s</code>.</p>
+<p>I knew about the spell check, I knew Vim highlighted spelling mistakes, and I
+knew how to move between the mistakes. I usually fix them manually and I never
+bothered to learn how to make Vim fix them for me. Until today.</p>
+        </div>
+          <a href="/post/2024-11-17-spell-check-in-vim/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+            </div>
+          
+            <div class="relative w-100 mb4">
+              
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+          
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <a href="/post/2024-11-16-vim-read-command-output/" class="db grow">
             <img src="http://localhost:1313/assets/article_images/2024-11-04-some-vim-tips/wq-tattoo.webp" class="img" alt="image from `:read` the output of a command into the current buffer">
           </a>
@@ -222,49 +261,18 @@ the case. You can repeat the last character to affect the whole line (<code>guu<
 
             </div>
           
-            <div class="relative w-100 mb4">
-              
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="/post/2024-11-04-g-ctrl-a/" class="db grow">
-            <img src="http://localhost:1313/assets/article_images/2024-11-04-some-vim-tips/wq-tattoo.webp" class="img" alt="image from Counting with `g` followed by increment/decrement">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/post/2024-11-04-g-ctrl-a/" class="color-inherit dim link">
-            Counting with `g` followed by increment/decrement
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>In Vim, you can type <code>ctrl-a</code> or <code>ctrl-x</code> to increment or decrement the next
-number in the line. For example, suppose you have the following line:</p>
-<pre tabindex="0"><code>1. Do something
-</code></pre><p>If you put the cursor on number one and type <code>ctrl-a</code> repeated times, you notice
-the number will increase to 2, 3, etc. Similarly, if you type <code>ctrl-x</code>, it will decrease
-going into negative numbers if you do it enough times.</p>
-<p>Let&rsquo;s say you want to create a numbered list. You have a list of people:</p>
-        </div>
-          <a href="/post/2024-11-04-g-ctrl-a/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-            </div>
-          
         </section>
 
         
         <section class="w-100">
           <h1 class="f3">More</h1>
           
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/post/2024-11-04-g-ctrl-a/" class="link black dim">
+                Counting with `g` followed by increment/decrement
+              </a>
+            </h2>
           
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/post/2024-11-04-g-line-movement/" class="link black dim">
@@ -281,12 +289,6 @@ going into negative numbers if you do it enough times.</p>
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/post/2024-11-04-gv/" class="link black dim">
                 Use `gv` to reselect
-              </a>
-            </h2>
-          
-            <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/post/2024-11-04-vim-ctrl-v/" class="link black dim">
-                Using `ctrl-v` to type control characters
               </a>
             </h2>
           

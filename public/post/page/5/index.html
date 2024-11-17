@@ -48,8 +48,8 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Posts">
-  <meta itemprop="datePublished" content="2024-11-04T12:09:56-03:00">
-  <meta itemprop="dateModified" content="2024-11-04T12:09:56-03:00">
+  <meta itemprop="datePublished" content="2024-11-17T10:09:56-03:00">
+  <meta itemprop="dateModified" content="2024-11-17T10:09:56-03:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
 
@@ -114,6 +114,35 @@
       
     </section>
     <aside class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        November 6, 2012
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="/post/2012-11-06-bash-replace-without-sed/" class="link black dim">
+        Replacing in bash without sed
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Bash has built-in substitution. For simple tasks it’s easier than piping through sed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hello world&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">${</span>text/hello/ohayou<span style="color:#e6db74">}</span>   <span style="color:#75715e"># prints ohayou world</span></span></span></code></pre></div>
+<p>Be aware that just the first word is changed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hello world hello&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">${</span>text/hello/ohayou<span style="color:#e6db74">}</span>   <span style="color:#75715e"># prints ohayou world hello</span></span></span></code></pre></div>
+<p>To change all instances of a world, prepend the search pattern with another slash:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hello world hello&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">${</span>text//hello/ohayou<span style="color:#e6db74">}</span>   <span style="color:#75715e"># prints ohayou world ohayou</span></span></span></code></pre></div>
+<p>Notice there are two slashes before <em>hello</em>, one as the separator and one prepending it.</p>
+    </div>
+  <a href="/post/2012-11-06-bash-replace-without-sed/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+
+        </div>
       
         <div class="relative w-100 w-30-l mb4 bg-white">
             <div class="mb3 pa4 mid-gray overflow-hidden">

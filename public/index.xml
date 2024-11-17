@@ -6,12 +6,19 @@
     <description>Recent content on Douglas Drumond Kayama</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
-    <lastBuildDate>Mon, 04 Nov 2024 12:09:56 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2024 10:09:56 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checking spelling</title>
+      <link>http://localhost:1313/post/2024-11-17-spell-check-in-vim/</link>
+      <pubDate>Sun, 17 Nov 2024 10:09:56 -0300</pubDate>
+      <guid>http://localhost:1313/post/2024-11-17-spell-check-in-vim/</guid>
+      <description>&lt;p&gt;Vim has a built-in spell check that you can enable with &lt;code&gt;:set spell&lt;/code&gt;. You can&#xA;also set the language with &lt;code&gt;:set spelllang=&lt;/code&gt; followed by the two-letter code of&#xA;the language and optionally a dash and the region (e.g., &lt;code&gt;:set spelllang=en&lt;/code&gt; or&#xA;&lt;code&gt;:set spelllang=en-GB&lt;/code&gt;).&lt;/p&gt;&#xA;&lt;p&gt;After enabling the spell checker, you can move between different mistakes with&#xA;&lt;code&gt;]s&lt;/code&gt; and &lt;code&gt;[s&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I knew about the spell check, I knew Vim highlighted spelling mistakes, and I&#xA;knew how to move between the mistakes. I usually fix them manually and I never&#xA;bothered to learn how to make Vim fix them for me. Until today.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>`:read` the output of a command into the current buffer</title>
       <link>http://localhost:1313/post/2024-11-16-vim-read-command-output/</link>
-      <pubDate>Mon, 04 Nov 2024 12:09:56 -0300</pubDate>
+      <pubDate>Sat, 16 Nov 2024 12:09:56 -0300</pubDate>
       <guid>http://localhost:1313/post/2024-11-16-vim-read-command-output/</guid>
       <description>&lt;p&gt;If you want to use the output of a command inside your file, you don&amp;rsquo;t need&#xA;to exit Vim, run the command, copy the output, return to Vim and paste the&#xA;contents. You can use &lt;code&gt;:read&lt;/code&gt; (or abbreviated to &lt;code&gt;:r&lt;/code&gt;) and run a command&#xA;with &lt;code&gt;!&lt;/code&gt;. For example, &lt;code&gt;:r !ls -a&lt;/code&gt; will insert the output of &lt;code&gt;ls -a&lt;/code&gt; at&#xA;the current cursor position.&lt;/p&gt;&#xA;&lt;p&gt;You can also insert the content of another file with &lt;code&gt;:r&lt;/code&gt;, except this time&#xA;you don&amp;rsquo;t use &lt;code&gt;!&lt;/code&gt;, just the file name. For example, &lt;code&gt;:r second_file&lt;/code&gt; will&#xA;insert the content of &lt;code&gt;second_file&lt;/code&gt; at the current cursor position.&lt;/p&gt;</description>
     </item>

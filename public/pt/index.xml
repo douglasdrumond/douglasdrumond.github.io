@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 16 Nov 2024 10:48:56 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/pt/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Youtube channel</title>
+      <title>YouTube channel</title>
       <link>http://localhost:1313/pt/post/2024-11-16-youtube-channel/</link>
       <pubDate>Sat, 16 Nov 2024 10:48:56 -0300</pubDate>
       <guid>http://localhost:1313/pt/post/2024-11-16-youtube-channel/</guid>
-      <description>&lt;p&gt;Há alguns dias, iniciei um canal no YouTube com o nome Café Linear. O link&#xA;para o canal é &lt;a href=&#34;https://www.youtube.com/@cafelinear&#34;&gt;https://www.youtube.com/@cafelinear&lt;/a&gt;. Inscreva-se, ative o&#xA;sino e comente nos vídeos de seu interesse.&#xA;A origem desse nome está explicada em &lt;a href=&#34;http://localhost:1313/pt/sobre/&#34;&gt;Sobre&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;O propósito do canal é falar sobre Ciência da Computação com uma abordagem mais&#xA;acadêmica. Isso não significa que será um canal puramente teórico, a prática é&#xA;essencial para computação. Porém, a ideia é evitar ensinar as bibliotecas e&#xA;arcabouços (&lt;em&gt;frameworks&lt;/em&gt;) do momento e focar mais nos fundamentos de Computação,&#xA;Matemática ou Estatística. Também pode aparecer discussões de artigos, métodos&#xA;de estudo, etc. Quando aparece código, o objetivo é usá-lo para ilustrar&#xA;algoritmos ou conceitos, mas não discutir como fazer tal coisa em React ou&#xA;Vue.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Há alguns dias, iniciei um canal no YouTube com o nome Café Linear. O link&#xA;para o canal é &lt;a href=&#34;https://www.youtube.com/@cafelinear&#34;&gt;https://www.youtube.com/@cafelinear&lt;/a&gt;. Inscreva-se, ative o&#xA;sino e comente nos vídeos de seu interesse.&#xA;A origem desse nome está explicada em &lt;a href=&#34;http://localhost:1313/pt/sobre/&#34;&gt;Sobre&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;O propósito do canal é falar sobre Ciência da Computação com uma abordagem mais&#xA;acadêmica. Isso não significa que será um canal puramente teórico, a prática é&#xA;essencial para computação. Porém, a ideia é evitar ensinar as bibliotecas e&#xA;arcabouços (&lt;em&gt;frameworks&lt;/em&gt;) do momento e focar mais os fundamentos de Computação,&#xA;Matemática ou Estatística. Também podem aparecer discussões de artigos, métodos&#xA;de estudo, etc. Quando aparece código, o objetivo é usá-lo para ilustrar&#xA;algoritmos ou conceitos, mas não discutir como fazer tal coisa em React ou&#xA;Vue.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zettelkasten</title>
