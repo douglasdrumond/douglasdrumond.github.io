@@ -49,10 +49,11 @@ Quando você lê sobre Zettelkasten online, pode ficar com impressão que é um 
 
 ## Conclusão
 
-Uma pergunta que pode ter passado pela sua mente: por que passar por todo esse trabalho com fichas quando seria mais simples em um software e ainda teria a função de busca? Primeiro, preferência. Algumas pessoas gostam de estudar com caneta e papel. A segunda é retenção. Quando escrevemos no papel, a retenção é maior do que quando digitamos. O importante é encontrar um método que funcione para você.
+Uma pergunta que pode ter passado pela sua mente: por que passar por todo esse trabalho com fichas quando seria mais simples em um software e ainda teria a função de busca? Primeiro, preferência. Algumas pessoas gostam de estudar com caneta e papel. ~~A segunda é retenção. Quando escrevemos no papel, a retenção é maior do que quando digitamos.~~ _[Editado (2025-01-08): Eu não acredito mais nisso. Os estudos que mostravam esse resultado são muito artificiais para uma conclusão efetiva e outros estudos apontam que a revisão/recuperação de informação é mais importante para retenção. Veja a aula [^2] e estudos mencionados (aula em português, estudos em inglês).]_ O importante é encontrar um método que funcione para você.
 
 Um bom método deve atender às suas preferências e melhorar seu aprendizado. Alguns acham que estudar com fichas físicas é agradável e benéfico para a memória. Essa abordagem permite que você se envolva mais profundamente com o material, resumindo e refletindo sobre o que aprendeu. Enquanto as ferramentas digitais oferecem conveniência, a experiência tátil de registrar informações no papel pode melhorar sua compreensão e retenção. Escolha um método que esteja alinhado com seu estilo de aprendizado e objetivos.
 
 _Foto por [Niklas Luhmann Archiv](https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_1_NB_7-7g9b_V) licenciada sob Creative Commons: CC-BY-NC-SA-4.0_
 
-[^1]: Zettelkasten. (25 de março de 2024). Em Wikipedia. https://en.wikipedia.org/wiki/Zettelkasten
+[^1]: Zettelkasten. Em Wikipedia. https://en.wikipedia.org/wiki/Zettelkasten Acessado em 25 de março de 2024
+[^2]: Ekuni, Roberta. (19 September 2024). AULA AO VIVO - Escrever à mão ou digitar: Como aprendemos melhor? Em YouTube. https://www.youtube.com/watch?v=SdX7MLi8T5o Acessado em 19 de setembro de 2024 e 8 de janeiro de 2025.

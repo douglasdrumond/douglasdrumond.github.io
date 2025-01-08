@@ -49,10 +49,11 @@ When reading about Zettelkasten online, you may have the impression that it's ea
 
 ## Conclusion
 
-A question that might have crossed your mind: why go through all this trouble with cards when it would be simpler in software and still has the search function? First, preference. Some people like to study with pen and paper. The second is retention. When we write on paper, retention is higher than when we type. The important thing is to find a method that works for you.
+A question that might have crossed your mind: why go through all this trouble with cards when it would be simpler in software and still has the search function? First, preference. Some people like to study with pen and paper. ~~The second is retention. When we write on paper, retention is higher than when we type.~~ _[Edit (2025-01-08): I no longer believe that. The studies are too artificial for a proper conclusion, and some studies point at review/retrieval as the source of retention. See the studies mentioned in lecture [^2] (video in Portuguese, studies in English).]_ The important thing is to find a method that works for you.
 
 A good method should suit your preferences and enhance your learning. Some find studying with physical cards enjoyable and beneficial for memory recall. This approach allows you to engage with the material deeper by summarising and reflecting on your learning. While digital tools offer convenience, the tactile experience of committing information to paper can improve your understanding and retention. Choose a method that aligns with your learning style and goals.
 
 _Photo by [Niklas Luhmann Archiv](https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_1_NB_7-7g9b_V) licensed under Creative Commons: CC-BY-NC-SA-4.0_
 
-[^1]: Zettelkasten. (2024, March 25). In Wikipedia. https://en.wikipedia.org/wiki/Zettelkasten 
+[^1]: Zettelkasten. (25 March 2024). In Wikipedia. https://en.wikipedia.org/wiki/Zettelkasten 
+[^2]: Ekuni, Roberta. (19 September 2024). AULA AO VIVO - Escrever à mão ou digitar: Como aprendemos melhor? _[LIVE CLASS - Writing by hand or typing: How we better learn?]_. In YouTube. https://www.youtube.com/watch?v=SdX7MLi8T5o Accessed 19 September 2024 and 8 January 2025.
