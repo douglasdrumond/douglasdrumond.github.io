@@ -21,8 +21,8 @@ defaultContentLanguage = "en"
         weight = 2
 
 [params]
-    body_classes = "courier bg-near-white"
-    post_content_classes = "courier"
+    body_classes = "julia bg-near-white"
+    post_content_classes = "julia"
 
 [[params.ananke_socials]]
 name = "mastodon"
