@@ -20,10 +20,6 @@ defaultContentLanguage = "en"
         languageDirection = "ltr"
         weight = 2
 
-[params]
-    body_classes = "courier bg-near-white"
-    post_content_classes = "courier"
-
 [[params.ananke_socials]]
 name = "mastodon"
 url = "https://mastodon.acm.org/@douglas"
