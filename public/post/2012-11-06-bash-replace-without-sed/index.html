@@ -78,7 +78,7 @@ text=&#34;hello world hello&#34; echo ${text/hello/ohayou} # prints ohayou world
 text=&#34;hello world hello&#34; echo ${text//hello/ohayou} # prints ohayou world ohayou Notice there are two slashes before hello, one as the separator and one prepending it.">
 
 	
-  </head><body class="ma0 julia bg-near-white development">
+  </head><body class="ma0 courier bg-near-white development">
 
     
    
@@ -150,7 +150,7 @@ text=&#34;hello world hello&#34; echo ${text//hello/ohayou} # prints ohayou worl
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy julia f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Bash has built-in substitution. For simple tasks it’s easier than piping through sed:</p>
+    <div class="nested-copy-line-height lh-copy courier f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Bash has built-in substitution. For simple tasks it’s easier than piping through sed:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hello world&#34;</span>
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">${</span>text/hello/ohayou<span style="color:#e6db74">}</span>   <span style="color:#75715e"># prints ohayou world</span></span></span></code></pre></div>
 <p>Be aware that just the first word is changed:</p>
