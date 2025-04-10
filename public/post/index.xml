@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Douglas Drumond Kayama</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
-    <lastBuildDate>Sun, 17 Nov 2024 10:09:56 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 05:38:36 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English learning YouTube channels</title>
+      <link>http://localhost:1313/post/2025-04-10-english-learning/</link>
+      <pubDate>Thu, 10 Apr 2025 05:38:36 -0300</pubDate>
+      <guid>http://localhost:1313/post/2025-04-10-english-learning/</guid>
+      <description>&lt;p&gt;I was talking to a few friends about my current English learning situation and shared with them some of the sources I’m using to study. I’m trying to improve my English pronunciation and the accent I chose to learn is the RP accent&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Sometimes, I take private classes with a teacher using the platform &lt;a href=&#34;https://www.italki.com&#34;&gt;italki&lt;/a&gt; [sic], but I also like to watch YouTube videos and that is the reason of this text.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Checking spelling</title>
       <link>http://localhost:1313/post/2024-11-17-spell-check-in-vim/</link>

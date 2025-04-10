@@ -48,8 +48,8 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Posts">
-  <meta itemprop="datePublished" content="2024-11-17T10:09:56-03:00">
-  <meta itemprop="dateModified" content="2024-11-17T10:09:56-03:00">
+  <meta itemprop="datePublished" content="2025-04-10T05:38:36-03:00">
+  <meta itemprop="dateModified" content="2025-04-10T05:38:36-03:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
 
@@ -114,6 +114,39 @@
       
     </section>
     <aside class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        February 27, 2014
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="/post/2014-02-27-understanding-aosp/" class="link black dim">
+        Understanding Android Open Source Project
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>A while ago someone asked on
+<a href="http://www.quora.com/Android-OS/What-are-some-good-ways-to-understand-the-Android-Open-Source-Project-source-code">Quora</a>
+about some good ways to understand the AOSP. Although I don’t work with Android
+internals anymore, it was fun looking back into AOSP and finding some sources
+(no pun intended). Here’s my answer (edited for this blog):</p>
+<p>Obviously, first go to <a href="http://source.android.com/">AOSP site</a> and follow the
+instructions to download the source.</p>
+<p>Although outdated, take a look at <a href="http://www.kandroid.org/online-pdk/guide/index.html">Android Platform Developer’s
+Guide</a> (it’s a copy of the
+old PDK, removed from Android site now). You can also check the source for
+older tags, such as gingerbread, probably under docs there are instructions on
+how to build the documentation. But don’t blindly follow them. Sometimes I find
+it easier starting from where things started instead of diving into what’s the
+current state.</p>
+    </div>
+  <a href="/post/2014-02-27-understanding-aosp/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+
+        </div>
       
         <div class="relative w-100 w-30-l mb4 bg-white">
             <div class="mb3 pa4 mid-gray overflow-hidden">
@@ -383,49 +416,6 @@ river</a> looked nice.
 <em>Edited: fixed river name.</em></p>
     </div>
   <a href="/post/2012-11-14-evernote-hackathon-brazil/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-  </div>
-
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-            <div class="mb3 pa4 mid-gray overflow-hidden">
-    
-      <div class="f6">
-        November 8, 2012
-      </div>
-    
-    <h1 class="f3 near-black">
-      <a href="/post/2012-11-08-migrating-and-pruning-repos/" class="link black dim">
-        Migrating and pruning repos
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>Recently I had to put a folder from my app repository into a separate
-repository on its own. The easiest way was just <code>git init</code> a new
-repo, copy the directory and <code>git commit</code> it, but I would lose
-all history up until the move. After fiddling with git and <a href="http://www.stackoverflow.com/" title="Stack Overflow">Stack
-Overflow</a>, I found the
-solution.</p>
-<p>Suppose the structure is like this:</p>
-<pre><code>All-in-one repo:
-* server
-    * code.go
-    * code2.go
-* iOS
-    * code.m
-    * code.h
-* Android
-    * src
-        * com
-            * cafelinear
-                * myapp
-                    * Code.java
-                    * Code2.java
-</code></pre>
-<p>We want to move the server code into its own repo, so, final result will
-be like this:</p>
-    </div>
-  <a href="/post/2012-11-08-migrating-and-pruning-repos/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 
         </div>
