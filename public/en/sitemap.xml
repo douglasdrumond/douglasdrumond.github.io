@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-10T05:38:36-03:00</lastmod>
+    <lastmod>2025-04-19T00:54:39-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -13,6 +13,41 @@
                 rel="alternate"
                 hreflang="en-GB"
                 href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/Literature/</loc>
+    <lastmod>2025-04-19T00:54:39-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-04-19T00:54:39-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/post/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/post/2025-04-19-reading-sherlock-holmes/</loc>
+    <lastmod>2025-04-19T00:54:39-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/Sherlock-Holmes/</loc>
+    <lastmod>2025-04-19T00:54:39-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-19T00:54:39-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/English/</loc>
@@ -29,32 +64,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/Learning/</loc>
     <lastmod>2025-04-10T05:38:36-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-04-10T05:38:36-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="http://localhost:1313/pt/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-GB"
-                href="http://localhost:1313/post/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-10T05:38:36-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="http://localhost:1313/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-GB"
-                href="http://localhost:1313/tags/"
-                />
   </url><url>
     <loc>http://localhost:1313/post/2024-11-17-spell-check-in-vim/</loc>
     <lastmod>2024-11-17T10:09:56-03:00</lastmod>
